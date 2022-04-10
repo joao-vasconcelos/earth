@@ -1,0 +1,14 @@
+:root {
+  /* Horizontal Width */
+  --max-width: 1200px;
+
+  /* Horizontal Width */
+  --horizontal-spacing: 50px;
+}
+
+main {
+  max-width: var(--max-width);
+  margin: auto;
+  padding-left: var(--horizontal-spacing);
+  padding-right: var(--horizontal-spacing);
+}

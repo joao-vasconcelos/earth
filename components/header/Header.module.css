@@ -1,0 +1,95 @@
+/* */
+/* HEADER CONTAINER */
+
+header.container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 0;
+  z-index: 9999;
+  background-color: white;
+  border-bottom: 1px solid var(--system-light);
+  box-shadow: var(--box-shadow);
+}
+
+header.container main {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+/* */
+/* LOGO */
+
+.logo a {
+  display: block;
+  font-family: var(--font-family-monospace);
+  font-weight: bold;
+  font-size: 18pt;
+  text-align: left;
+}
+
+/* */
+/* NAVIGATION */
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.navigation a {
+  font-size: 15pt;
+  color: black;
+}
+
+.navigation a:hover {
+  text-decoration: underline;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 900px /* var(--mobile) */) {
+  .dishes {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* TV STYLES */
+@media only screen and (min-width: 1920px /* var(--tv) */) {
+  .dishes {
+    padding: 30px;
+  }
+  .date {
+    gap: 12px;
+  }
+  .date .weekday {
+    font-size: 40px;
+  }
+  .date .monthday {
+    font-size: 55px;
+  }
+  .specialDayIcon {
+    display: none;
+  }
+  .specialDayLabel div {
+    font-size: 40px;
+    padding: 10px 20px;
+  }
+  .dishes {
+    gap: 50px;
+    padding-bottom: 40px;
+  }
+}

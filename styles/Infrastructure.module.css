@@ -1,0 +1,38 @@
+.intro {
+  padding: 80px 0;
+}
+
+.intro h1 {
+  font-weight: var(--font-weight-bold);
+  font-size: 40px;
+  color: var(--palette-blue);
+  margin-bottom: 25px;
+}
+
+.intro p {
+  margin-bottom: 10px;
+  max-width: 900px;
+}
+
+section.videoSection {
+  padding: 50px 0;
+}
+
+section.videoSection .videoInfo {
+  max-width: 600px;
+}
+
+section.videoSection h2 {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+section.videoSection .credits {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+section.videoSection .source {
+  margin-top: 15px;
+  font-size: 15px;
+}

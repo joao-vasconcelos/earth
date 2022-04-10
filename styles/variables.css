@@ -1,0 +1,71 @@
+:root {
+  /* COLORS */
+  /* Colors are handled by Sketch */
+
+  /* font-family */
+  --font-family: open-sans, sans-serif;
+  --font-family-monospace: 'Menlo', monospace;
+
+  /* font-weight */
+  --font-weight: 400;
+  --font-weight-medium: 600;
+  --font-weight-bold: 700;
+
+  /* box-shadow */
+  --box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+
+  /* border-radius */
+  --border-radius: 7px;
+  --border-radius-large: 20px;
+
+  /* Ratios */
+  --visual-square: 9/8; /* Visual Square */
+
+  /* Transition */
+  --transition: all 200ms ease-in-out;
+
+  /* MEDIA QUERIES */
+  --mobile: 900px; /* If lower than this apply mobile styles */
+  --tv: 3000px; /* If higher than this apply TV styles */
+}
+
+theme-light {
+  display: inherit;
+}
+
+theme-dark {
+  display: none;
+}
+
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* COLORS */
+    /* - THEME */
+    --theme-fill: rgb(50, 150, 255);
+    --theme-border: rgb(0, 102, 255);
+
+    /* - GRAYS */
+    --gray-0: rgb(35, 35, 35);
+    --gray-1: rgb(20, 20, 20);
+    --gray-2: rgb(45, 45, 45);
+    --gray-3: rgb(65, 65, 65);
+    --gray-4: rgb(80, 80, 80);
+    --gray-5: rgb(120, 120, 120);
+    --gray-6: rgb(150, 150, 150);
+    --gray-7: rgb(200, 200, 200);
+
+    /* - DISH TYPES */
+    --dish-vegan: rgb(60, 220, 70);
+    --dish-fish: rgb(0, 195, 255);
+    --dish-meat: rgb(220, 120, 0);
+  }
+
+  theme-light {
+    display: none;
+  }
+
+  theme-dark {
+    display: inherit;
+  }
+}

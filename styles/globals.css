@@ -2,13 +2,36 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  margin-top: 25px;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
 
 a {
-  color: inherit;
+  color: var(--system-link);
+  font-weight: var(--font-weight-medium);
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 18px;
+  font-weight: var(--font-weight-medium);
+  color: var(--system-text);
+  margin-top: 5px;
 }
 
 * {

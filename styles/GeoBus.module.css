@@ -1,0 +1,20 @@
+.container {
+  padding: 0;
+}
+
+.initialBanner {
+  background-color: rgba(15, 155, 70, 0.05);
+  padding: 60px;
+  text-align: center;
+}
+
+.initialBanner h1 {
+  font-weight: var(--font-weight-bold);
+  font-size: 40px;
+  color: var(--palette-green);
+}
+
+.redirecting {
+  padding: 150px 60px;
+  text-align: center;
+}

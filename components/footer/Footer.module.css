@@ -1,0 +1,103 @@
+/* */
+/* HEADER CONTAINER */
+
+footer.container {
+  padding: 50px 0;
+  background-color: var(--system-background);
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.intro h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--palette-blue);
+  margin-bottom: 15px;
+}
+
+.contacts {
+  margin-top: 50px;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.contactMethod {
+  padding: 30px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  border-radius: var(--border-radius-large);
+}
+
+.contactMethod .title {
+  font-size: 25px;
+  font-weight: var(--font-weight-medium);
+  color: var(--system-text);
+}
+
+.contactMethod .message {
+  font-size: 18px;
+  color: var(--system-text);
+  margin-top: 5px;
+}
+
+.contactMethod .message a {
+  color: var(--system-link);
+  font-weight: var(--font-weight-medium);
+}
+
+.contactMethod .disclaimer {
+  font-size: 12px;
+  color: var(--system-border);
+  margin-top: 7px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 900px /* var(--mobile) */) {
+  .dishes {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* TV STYLES */
+@media only screen and (min-width: 1920px /* var(--tv) */) {
+  .dishes {
+    padding: 30px;
+  }
+  .date {
+    gap: 12px;
+  }
+  .date .weekday {
+    font-size: 40px;
+  }
+  .date .monthday {
+    font-size: 55px;
+  }
+  .specialDayIcon {
+    display: none;
+  }
+  .specialDayLabel div {
+    font-size: 40px;
+    padding: 10px 20px;
+  }
+  .dishes {
+    gap: 50px;
+    padding-bottom: 40px;
+  }
+}
