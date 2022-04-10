@@ -37,9 +37,14 @@ export default function Infrastructure() {
           <p className={styles.credits}>
             by <strong>Mark Wagenbuur</strong>
           </p>
-          <p className={styles.source}>
-            <a>► Read Full Article</a>
-          </p>
+          <a
+            className={styles.source}
+            href='https://bicycledutch.wordpress.com/2011/04/07/state-of-the-art-bikeway-design-or-is-it/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            ► Read Full Article
+          </a>
         </div>
       </section>
 
@@ -51,9 +56,14 @@ export default function Infrastructure() {
           <p className={styles.credits}>
             by <strong>Mark Wagenbuur</strong>
           </p>
-          <p className={styles.source}>
-            <a>► Read Full Article</a>
-          </p>
+          <a
+            className={styles.source}
+            href='https://bicycledutch.wordpress.com/2016/06/21/traffic-lights-in-s-hertogenbosch-an-interview/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            ► Read Full Article
+          </a>
         </div>
       </section>
 
@@ -65,9 +75,14 @@ export default function Infrastructure() {
           <p className={styles.credits}>
             by <strong>Mark Wagenbuur</strong>
           </p>
-          <p className={styles.source}>
-            <a>► Read Full Article</a>
-          </p>
+          <a
+            className={styles.source}
+            href='https://bicycledutch.wordpress.com/2014/02/23/junction-design-in-the-netherlands/'
+            target='_blank'
+            rel='noreferrer'
+          >
+            ► Read Full Article
+          </a>
         </div>
       </section>
     </main>

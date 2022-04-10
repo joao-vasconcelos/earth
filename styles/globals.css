@@ -29,7 +29,7 @@ a:hover {
 
 p {
   font-size: 18px;
-  font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight);
   color: var(--system-text);
   margin-top: 5px;
 }
