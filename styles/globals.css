@@ -1,22 +1,11 @@
-html,
+/* Fonts and spacing for fixed header */
 body {
-  padding: 0;
-  margin: 0;
-  margin-top: 25px;
+  margin-top: 50px;
   font-family: var(--font-family);
   font-weight: var(--font-weight);
 }
 
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-}
-
+/* Links */
 a {
   color: var(--system-link);
   font-weight: var(--font-weight-medium);
@@ -27,13 +16,18 @@ a:hover {
   text-decoration: underline;
 }
 
+/* Titles and Paragraphs */
+h1,
+h2 {
+  font-size: 40px;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: 25px;
+}
+
 p {
   font-size: 18px;
   font-weight: var(--font-weight);
   color: var(--system-text);
   margin-top: 5px;
-}
-
-* {
-  box-sizing: border-box;
+  margin-bottom: 10px;
 }

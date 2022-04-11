@@ -2,6 +2,7 @@ import { SWRConfig } from 'swr';
 import fetch from '../services/fetch.js';
 import BrowserConfig from '../services/BrowserConfig';
 
+import '../styles/reset.css';
 import '../styles/globals.css';
 import '../styles/variables.css';
 import '../styles/colors.css';

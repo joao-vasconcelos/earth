@@ -1,5 +1,5 @@
 import YoutubeEmbed from '../../services/youtube/YoutubeEmbed';
-import styles from '../../styles/Infrastructure.module.css';
+import styles from './Infrastructure.module.css';
 
 export default function Infrastructure() {
   return (

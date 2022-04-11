@@ -3,14 +3,10 @@
 }
 
 .intro h1 {
-  font-weight: var(--font-weight-bold);
-  font-size: 40px;
   color: var(--palette-blue);
-  margin-bottom: 25px;
 }
 
 .intro p {
-  margin-bottom: 10px;
   max-width: 900px;
 }
 

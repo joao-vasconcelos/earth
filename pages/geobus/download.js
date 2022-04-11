@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import styles from '../../styles/GeoBus.module.css';
+import styles from './GeoBus.module.css';
 
 export default function GeoBus() {
   useEffect(() => {

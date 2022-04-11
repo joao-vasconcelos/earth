@@ -6,17 +6,8 @@ footer.container {
   background-color: var(--system-background);
 }
 
-.intro {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
 .intro h2 {
-  font-size: 40px;
-  font-weight: 600;
   color: var(--palette-blue);
-  margin-bottom: 15px;
 }
 
 .contacts {
