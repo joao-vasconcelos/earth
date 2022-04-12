@@ -12,7 +12,7 @@ header.container {
   box-shadow: var(--box-shadow);
 }
 
-header.container main {
+header.container container {
   display: grid;
   gap: 40px;
   grid-template-columns: repeat(3, 1fr);

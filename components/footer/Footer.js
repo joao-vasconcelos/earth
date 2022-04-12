@@ -8,14 +8,16 @@ export default function Header() {
 
   return (
     <footer className={styles.container}>
-      <main>
-        <div className={styles.intro}>
+      <section className={styles.intro}>
+        <container>
           <h2>{"Let's work together."}</h2>
           <p>{'I would love to receive your feedback on my projects.'}</p>
           <p>{"If you'd like to help with code, hit me up on Github."}</p>
           <p>{"I'm also very available on Twitter."}</p>
-        </div>
-        <div className={styles.contacts}>
+        </container>
+      </section>
+      <section className={styles.contacts}>
+        <container>
           <div className={styles.contactMethod}>
             <IconEmail />
             <p className={styles.title}>Email</p>
@@ -47,8 +49,8 @@ export default function Header() {
             </p>
             <p className={styles.disclaimer}>Send me a DM.</p>
           </div>
-        </div>
-      </main>
+        </container>
+      </section>
     </footer>
   );
 }

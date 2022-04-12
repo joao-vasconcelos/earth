@@ -4,7 +4,8 @@
   --horizontal-spacing: 50px;
 }
 
-main {
+container {
+  display: block;
   max-width: var(--max-width);
   margin: auto;
   padding-left: var(--horizontal-spacing);

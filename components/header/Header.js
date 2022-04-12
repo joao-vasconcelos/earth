@@ -10,7 +10,7 @@ export default function Header() {
 
   return (
     <header className={styles.container}>
-      <main>
+      <container>
         <div className={styles.logo}>
           <Link href='/'>
             <a style={{ color: logoColor }}>joão.earth</a>
@@ -24,7 +24,7 @@ export default function Header() {
             <a>Infrastructure</a>
           </Link>
         </nav>
-      </main>
+      </container>
     </header>
   );
 }

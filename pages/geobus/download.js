@@ -8,9 +8,11 @@ export default function GeoBus() {
 
   return (
     <div>
-      <div className={styles.redirecting}>
-        <h1>Redirecting to the App Store...</h1>
-      </div>
+      <section className={styles.redirecting}>
+        <container>
+          <h1>Redirecting to the App Store...</h1>
+        </container>
+      </section>
     </div>
   );
 }
