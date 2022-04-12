@@ -8,9 +8,9 @@ export default function Document() {
         {/* <link rel='stylesheet' href='https://export.sketch.com/shares/90bb7071-06f8-48c3-ac16-cbd122004688/tokens/css' /> */}
         <link rel='stylesheet' href='https://use.typekit.net/gtf6avi.css' />
         {/*  */}
-        <meta name='apple-mobile-web-app-title' content='Register' />
-        <meta name='application-name' content='Register' />
-        <meta name='description' content='CHEF POINT Register Terminal' />
+        <meta name='apple-mobile-web-app-title' content='Earth' />
+        <meta name='application-name' content='Earth' />
+        <meta name='description' content='João › Earth' />
         <meta name='msapplication-TileColor' content='#ffffff' />
         <meta name='theme-color' content='#ffffff' />
         <link rel='icon' href='/favicon.ico' />
