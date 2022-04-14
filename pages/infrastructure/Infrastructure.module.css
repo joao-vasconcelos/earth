@@ -17,7 +17,6 @@ section.videoSection .videoInfo {
 section.videoSection h2 {
   margin-top: 50px;
   margin-bottom: 25px;
-  color: var(--system-dark);
 }
 
 section.videoSection .credits {

@@ -7,7 +7,6 @@ section.intro {
 
 section.intro h1 {
   max-width: 400px;
-  color: var(--system-dark);
 }
 
 section.items container {
@@ -37,7 +36,6 @@ section.items container a.work h2 {
 
 section.items container a.work h3 {
   font-size: 25px;
-  color: var(--system-text);
   margin-bottom: 20px;
 }
 
