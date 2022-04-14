@@ -20,6 +20,7 @@ a {
   color: var(--system-link);
   font-weight: var(--font-weight-medium);
   text-decoration: none;
+  font-size: 18px;
 }
 
 a:hover {
@@ -33,6 +34,7 @@ h2 {
   font-weight: var(--font-weight-bold);
   color: var(--system-dark);
   margin-bottom: 25px;
+  line-height: 1.2;
 }
 
 h3,
@@ -45,8 +47,25 @@ h6 {
 p {
   font-size: 18px;
   font-weight: var(--font-weight);
-  line-height: 1.7;
+  line-height: 1.6;
   color: var(--system-text);
   margin-top: 5px;
   margin-bottom: 10px;
+}
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 900px /* var(--mobile) */) {
+  section {
+    padding: 50px 0;
+  }
+
+  h1,
+  h2 {
+    font-size: 35px;
+  }
+
+  p,
+  a {
+    font-size: 20px;
+  }
 }

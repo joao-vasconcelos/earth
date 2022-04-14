@@ -1,7 +1,7 @@
 /* */
 /* HEADER CONTAINER */
 
-header.container {
+header.header {
   position: fixed;
   top: 0;
   width: 100%;
@@ -10,24 +10,38 @@ header.container {
   background-color: var(--system-light);
   border-bottom: 1px solid var(--system-border);
   box-shadow: var(--box-shadow);
+  overflow-x: scroll;
 }
 
-header.container container {
+header.header container {
   display: grid;
   gap: 40px;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
 }
 
+header.header container *:last-child {
+  padding-right: 30px;
+}
+
+@media only screen and (max-width: 900px /* var(--mobile) */) {
+  header.header container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
 /* */
 /* LOGO */
 
-.logo a {
+.logo a,
+.logo a:hover {
   display: block;
   font-family: var(--font-family-monospace);
   font-weight: bold;
   font-size: 18pt;
   text-align: left;
+  text-decoration: none;
 }
 
 /* */

@@ -11,3 +11,12 @@ container {
   padding-left: var(--horizontal-spacing);
   padding-right: var(--horizontal-spacing);
 }
+
+/* MOBILE STYLES */
+@media only screen and (max-width: 900px /* var(--mobile) */) {
+  :root {
+    /* Horizontal Width */
+    --max-width: 1200px;
+    --horizontal-spacing: 40px;
+  }
+}

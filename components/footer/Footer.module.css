@@ -52,6 +52,13 @@ footer.footer {
   margin-top: 7px;
 }
 
+/* MOBILE STYLES */
+@media only screen and (max-width: 900px /* var(--mobile) */) {
+  .contacts {
+    grid-template-columns: 1fr;
+  }
+}
+
 /*  */
 /*  */
 /*  */

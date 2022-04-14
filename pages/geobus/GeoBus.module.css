@@ -1,7 +1,7 @@
 /* */
 /* DOWNLOAD PAGE */
 section.redirecting {
-  padding: 150px 60px;
+  padding: 150px 0;
   text-align: center;
 }
 
@@ -9,7 +9,7 @@ section.redirecting {
 /* INTRO STATEMENT */
 section.intro {
   background-color: var(--palette-green-alpha);
-  padding: 60px;
+  padding: 60px 0;
   text-align: center;
 }
 
@@ -49,6 +49,13 @@ section.app container .info p {
   margin-bottom: 12px;
 }
 
+@media only screen and (max-width: 900px /* var(--mobile) */) {
+  section.app container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 /* */
 /* SCREENSHOTS */
 section.screenshots {
@@ -72,6 +79,12 @@ section.screenshots container .screenshot span {
 section.screenshots container .screenshot .screenshotImg {
   border-radius: 10px;
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 900px /* var(--mobile) */) {
+  section.screenshots container {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* */
@@ -102,4 +115,10 @@ section.info container .appstore span {
 section.info container .appstore .appstoreImg {
   border-radius: 10px;
   box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 900px /* var(--mobile) */) {
+  section.info container {
+    grid-template-columns: 1fr;
+  }
 }

@@ -9,7 +9,7 @@ export default function Header() {
   useEffect(() => setLogoColor(randomColor()), []);
 
   return (
-    <header className={styles.container}>
+    <header className={styles.header}>
       <container>
         <div className={styles.logo}>
           <Link href='/'>
@@ -24,6 +24,7 @@ export default function Header() {
             <a>Infrastructure</a>
           </Link>
         </nav>
+        {/* <div className={styles.right}>Right</div> */}
       </container>
     </header>
   );
