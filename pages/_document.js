@@ -4,21 +4,22 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        {/*  */}
-        {/* <link rel='stylesheet' href='https://export.sketch.com/shares/90bb7071-06f8-48c3-ac16-cbd122004688/tokens/css' /> */}
+        {/* Fonts */}
         <link rel='stylesheet' href='https://use.typekit.net/gtf6avi.css' />
-        {/*  */}
-        <meta name='apple-mobile-web-app-title' content='Earth' />
-        <meta name='application-name' content='Earth' />
-        <meta name='description' content='João › Earth' />
+        {/* App Name */}
+        <meta name='apple-mobile-web-app-title' content='João.Earth' />
+        <meta name='application-name' content='João.Earth' />
+        <meta name='description' content='João.Earth' />
+        {/* Favicons */}
+        <link rel='apple-touch-icon' sizes='180x180' href='/favicons/apple-touch-icon.png' />
+        <link rel='icon' type='image/png' sizes='32x32' href='/favicons/favicon-32x32.png' />
+        <link rel='icon' type='image/png' sizes='16x16' href='/favicons/favicon-16x16.png' />
+        <link rel='manifest' href='/favicons/site.webmanifest' />
+        <link rel='mask-icon' href='/favicons/safari-pinned-tab.svg' color='#32d278' />
+        <link rel='shortcut icon' href='/favicons/favicon.ico' />
         <meta name='msapplication-TileColor' content='#ffffff' />
+        <meta name='msapplication-config' content='/favicons/browserconfig.xml' />
         <meta name='theme-color' content='#ffffff' />
-        <link rel='icon' href='/favicon.ico' />
-        <link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />
-        <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png' />
-        <link rel='icon' type='image/png' sizes='16x16' href='/favicon-16x16.png' />
-        <link rel='manifest' href='/site.webmanifest' />
-        <link rel='mask-icon' href='/safari-pinned-tab.svg' color='#ff0000' />
         <meta name='HandheldFriendly' content='true' />
       </Head>
       <body>
