@@ -7,8 +7,8 @@ header.container {
   width: 100%;
   padding: 15px 0;
   z-index: 9999;
-  background-color: white;
-  border-bottom: 1px solid var(--system-light);
+  background-color: var(--system-light);
+  border-bottom: 1px solid var(--system-border);
   box-shadow: var(--box-shadow);
 }
 
@@ -43,7 +43,7 @@ header.container container {
 
 .navigation a {
   font-size: 15pt;
-  color: black;
+  color: var(--system-dark);
 }
 
 .navigation a:hover {

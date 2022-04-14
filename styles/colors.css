@@ -1,10 +1,35 @@
 :root {
   --palette-blue: rgba(15, 110, 195, 1);
+  --palette-blue-alpha: rgba(15, 155, 70, 0.05);
+
   --palette-green: rgba(15, 155, 70, 1);
+  --palette-green-alpha: rgba(15, 155, 70, 0.05);
+
+  --system-light: rgba(255, 255, 255, 1);
+  --system-dark: rgba(0, 0, 0, 1);
+
   --system-background: rgba(250, 250, 250, 1);
-  --system-border: rgba(85, 95, 105, 1);
-  --system-muted: rgba(105, 125, 145, 1);
-  --system-light: rgba(205, 210, 215, 1);
-  --system-link: rgba(15, 110, 195, 1);
+  --system-border: rgba(205, 215, 205, 1);
+
   --system-text: rgba(30, 30, 35, 1);
+  --system-muted: rgba(105, 125, 145, 1);
+  --system-link: rgba(15, 110, 195, 1);
+}
+
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --palette-blue: rgb(15, 125, 225);
+    --palette-green: rgba(15, 155, 70, 1);
+
+    --system-light: rgb(30, 30, 30);
+    --system-dark: rgba(210, 210, 225, 1);
+
+    --system-background: rgb(25, 25, 25);
+    --system-border: rgb(50, 60, 60);
+
+    --system-text: rgba(210, 210, 225, 1);
+    --system-muted: rgb(100, 105, 115);
+    --system-link: rgb(15, 125, 225);
+  }
 }

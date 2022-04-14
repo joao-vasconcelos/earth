@@ -7,17 +7,16 @@ export default function Header() {
   //
 
   return (
-    <footer className={styles.container}>
-      <section className={styles.intro}>
-        <container>
+    <footer className={styles.footer}>
+      <section>
+        <container className={styles.intro}>
           <h2>{"Let's work together."}</h2>
           <p>{'I would love to receive your feedback on my projects.'}</p>
           <p>{"If you'd like to help with code, hit me up on Github."}</p>
           <p>{"I'm also very available on Twitter."}</p>
         </container>
-      </section>
-      <section className={styles.contacts}>
-        <container>
+
+        <container className={styles.contacts}>
           <div className={styles.contactMethod}>
             <IconEmail />
             <p className={styles.title}>Email</p>

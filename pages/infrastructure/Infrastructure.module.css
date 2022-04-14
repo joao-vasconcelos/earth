@@ -1,5 +1,4 @@
 section.intro {
-  padding: 80px 0;
   background-color: var(--system-background);
 }
 
@@ -11,10 +10,6 @@ section.intro {
   max-width: 900px;
 }
 
-section.videoSection {
-  padding: 80px 0;
-}
-
 section.videoSection .videoInfo {
   max-width: 600px;
 }
@@ -22,6 +17,7 @@ section.videoSection .videoInfo {
 section.videoSection h2 {
   margin-top: 50px;
   margin-bottom: 25px;
+  color: var(--system-dark);
 }
 
 section.videoSection .credits {

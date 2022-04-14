@@ -1,20 +1,22 @@
-.intro {
-  padding-top: 80px;
+/* */
+/* INDEX */
+
+section.intro {
+  background-color: var(--system-background);
 }
 
-.intro h1 {
+section.intro h1 {
   max-width: 400px;
+  color: var(--system-dark);
 }
 
-section.worksContainer {
-  padding: 80px 0;
+section.items container {
   display: grid;
   grid-template-columns: 1fr;
   gap: 50px;
 }
 
-section.worksContainer a.work {
-  margin: 0 -35px;
+section.items container a.work {
   padding: 25px 35px;
   color: inherit;
   background-color: var(--system-background);
@@ -23,55 +25,53 @@ section.worksContainer a.work {
   transition: all 300ms ease;
 }
 
-section.worksContainer a.work:hover {
+section.items container a.work:hover {
   text-decoration: none;
-  background-color: #f8ffed;
+  background-color: var(--palette-green-alpha);
 }
 
-section.worksContainer a.work h2 {
+section.items container a.work h2 {
   color: #2f750f;
   margin-bottom: 15px;
 }
 
-section.worksContainer a.work h3 {
+section.items container a.work h3 {
   font-size: 25px;
+  color: var(--system-text);
   margin-bottom: 20px;
 }
 
-section.worksContainer a.work .credits {
+section.items container a.work .credits {
   margin-top: 15px;
   font-size: 15px;
   color: var(--system-muted);
 }
 
-/* VIDEO PAGE */
-.videoPlayer {
-  padding: 80px 0;
-}
+/* */
+/* FLIPPED CLASSROOMS */
 
-.videoPlayer video {
-  width: 100%;
-}
-
-section.videoInfoContainer {
+section.flippedClassroom {
   display: grid;
   grid-template-columns: 1fr;
+  justify-content: start;
   gap: 30px;
-  margin-bottom: 80px;
 }
 
-.videoInfoItem .title,
-.videoInfoItem .credits,
-.videoInfoItem .disclaimer,
-.videoInfoItem .download {
+section.flippedClassroom container.player video {
+  width: 100%;
+  border: 1px solid var(--system-border);
+}
+
+section.flippedClassroom container.info p,
+section.flippedClassroom container.info a {
   display: block;
   font-size: 15px;
   font-weight: var(--font-weight);
   margin: 10px 0;
 }
 
-.videoInfoItem .title,
-.videoInfoItem .credits {
+section.flippedClassroom container.info .title,
+section.flippedClassroom container.info .credits {
   font-size: 15px;
   font-weight: var(--font-weight-medium);
   margin: 5px 0;

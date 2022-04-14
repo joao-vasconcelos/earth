@@ -2,24 +2,25 @@ import styles from './Saaft.module.css';
 
 export default function Saaft() {
   return (
-    <main className={styles.container}>
-      <div className={styles.videoPlayer}>
-        <video controls poster='https://perennial.joao.earth/earth/isa/saaft/fc3/saaft-fc3-silvopasture-in-the-caatinga-biome-of-brazil-cover.png'>
-          <source
-            src='https://perennial.joao.earth/earth/isa/saaft/fc3/saaft-fc3-silvopasture-in-the-caatinga-biome-of-brazil.mp4'
-            type='video/mp4'
-          />
-          Your browser does not support the video tag.
-        </video>
-      </div>
+    <main>
+      <section className={styles.flippedClassroom}>
+        <container className={styles.player}>
+          <video controls poster='https://perennial.joao.earth/earth/isa/saaft/fc3/saaft-fc3-silvopasture-in-the-caatinga-biome-of-brazil-cover.png'>
+            <source
+              src='https://perennial.joao.earth/earth/isa/saaft/fc3/saaft-fc3-silvopasture-in-the-caatinga-biome-of-brazil.mp4'
+              type='video/mp4'
+            />
+            Your browser does not support the video tag.
+          </video>
+        </container>
 
-      <section className={styles.videoInfoContainer}>
-        <div className={styles.videoInfoItem}>
+        <container className={styles.info}>
           <p className={styles.title}>Silvopasture in the Caatinga Biome of Brazil</p>
           <p className={styles.credits}>Márcia Figueira + João de Vasconcelos</p>
           <p className={styles.disclaimer}>May 2020 • Sistemas Agrícolas e Agro-Florestais Tropicais</p>
-        </div>
-        <div className={styles.videoInfoItem}>
+        </container>
+
+        <container className={styles.info}>
           <p className={styles.title}>Pinheiro, F., et al.</p>
           <p className={styles.credits}>
             Silvopasture in the Caatinga biome of Brazil: A review of its ecology, management, and development opportunities
@@ -34,8 +35,9 @@ export default function Saaft() {
           >
             ⬇︎ Download Article
           </a>
-        </div>
-        <div className={styles.videoInfoItem}>
+        </container>
+
+        <container className={styles.info}>
           <p className={styles.title}>Pezzopane, R., et al.</p>
           <p className={styles.credits}>Microclimate and soil moisture in a silvopastoral system in southeastern Brazil</p>
           <p className={styles.disclaimer}>Agrometeorology (2014), http://dx.doi.org/10.1590/1678-4499.0334</p>
@@ -48,7 +50,7 @@ export default function Saaft() {
           >
             ⬇︎ Download Article
           </a>
-        </div>
+        </container>
       </section>
     </main>
   );

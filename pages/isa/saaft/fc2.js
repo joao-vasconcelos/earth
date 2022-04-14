@@ -2,21 +2,22 @@ import styles from './Saaft.module.css';
 
 export default function Saaft() {
   return (
-    <main className={styles.container}>
-      <div className={styles.videoPlayer}>
-        <video controls poster='https://perennial.joao.earth/earth/isa/saaft/fc2/saaft-fc2-asia-and-south-america-cover.png'>
-          <source src='https://perennial.joao.earth/earth/isa/saaft/fc2/saaft-fc2-asia-and-south-america.mp4' type='video/mp4' />
-          Your browser does not support the video tag.
-        </video>
-      </div>
+    <main>
+      <section className={styles.flippedClassroom}>
+        <container className={styles.player}>
+          <video controls poster='https://perennial.joao.earth/earth/isa/saaft/fc2/saaft-fc2-asia-and-south-america-cover.png'>
+            <source src='https://perennial.joao.earth/earth/isa/saaft/fc2/saaft-fc2-asia-and-south-america.mp4' type='video/mp4' />
+            Your browser does not support the video tag.
+          </video>
+        </container>
 
-      <section className={styles.videoInfoContainer}>
-        <div className={styles.videoInfoItem}>
+        <container className={styles.info}>
           <p className={styles.title}>Asia and South America</p>
           <p className={styles.credits}>Márcia Figueira + João de Vasconcelos</p>
           <p className={styles.disclaimer}>March 2020 • Sistemas Agrícolas e Agro-Florestais Tropicais</p>
-        </div>
-        <div className={styles.videoInfoItem}>
+        </container>
+
+        <container className={styles.info}>
           <p className={styles.title}>Aravindakshan, S., et al.</p>
           <p className={styles.credits}>
             Multi-level socioecological drivers of agrarian change: Longitudinal evidence from mixed rice-livestock-aquaculture farming systems of
@@ -32,8 +33,9 @@ export default function Saaft() {
           >
             ⬇︎ Download Article
           </a>
-        </div>
-        <div className={styles.videoInfoItem}>
+        </container>
+
+        <container className={styles.info}>
           <p className={styles.title}>Baldi, G., et al.</p>
           <p className={styles.credits}>
             Cultivating the dry forests of South America: Diversity of land users and imprints on ecosystem functioning
@@ -48,7 +50,7 @@ export default function Saaft() {
           >
             ⬇︎ Download Article
           </a>
-        </div>
+        </container>
       </section>
     </main>
   );

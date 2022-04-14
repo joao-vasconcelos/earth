@@ -1,16 +1,15 @@
 /* */
 /* HEADER CONTAINER */
 
-footer.container {
-  padding: 80px 0;
+footer.footer {
   background-color: var(--system-background);
 }
 
-section.intro h2 {
+.intro h2 {
   color: var(--palette-blue);
 }
 
-section.contacts container {
+.contacts {
   margin-top: 50px;
   display: grid;
   gap: 40px;
@@ -19,11 +18,15 @@ section.contacts container {
 
 .contactMethod {
   padding: 30px;
-  background-color: white;
+  background-color: var(--system-light);
   display: flex;
   flex-direction: column;
   gap: 5px;
   border-radius: var(--border-radius-large);
+}
+
+.contactMethod path {
+  fill: var(--system-text);
 }
 
 .contactMethod .title {
@@ -45,7 +48,7 @@ section.contacts container {
 
 .contactMethod .disclaimer {
   font-size: 12px;
-  color: var(--system-border);
+  color: var(--system-muted);
   margin-top: 7px;
 }
 
