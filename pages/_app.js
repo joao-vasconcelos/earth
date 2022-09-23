@@ -1,7 +1,7 @@
 import BrowserConfig from '../services/BrowserConfig';
 import Header from '../components/header/Header.js';
 import Footer from '../components/footer/Footer.js';
-import { usePostHog } from '../services/Posthog';
+import { usePostHog } from '../services/posthog';
 
 import '../styles/reset.css';
 import '../styles/globals.css';
