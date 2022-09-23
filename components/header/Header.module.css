@@ -20,9 +20,9 @@ header.header container {
   align-items: center;
 }
 
-header.header container *:last-child {
+/* header.header container *:last-child {
   padding-right: 30px;
-}
+} */
 
 @media only screen and (max-width: 900px /* var(--mobile) */) {
   header.header container {
@@ -64,46 +64,20 @@ header.header container *:last-child {
   text-decoration: underline;
 }
 
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
+/* */
+/* NAVIGATION */
 
-/* MOBILE STYLES */
-@media only screen and (max-width: 900px /* var(--mobile) */) {
-  .dishes {
-    grid-template-columns: 1fr;
-  }
+.right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-/* TV STYLES */
-@media only screen and (min-width: 1920px /* var(--tv) */) {
-  .dishes {
-    padding: 30px;
-  }
-  .date {
-    gap: 12px;
-  }
-  .date .weekday {
-    font-size: 40px;
-  }
-  .date .monthday {
-    font-size: 55px;
-  }
-  .specialDayIcon {
-    display: none;
-  }
-  .specialDayLabel div {
-    font-size: 40px;
-    padding: 10px 20px;
-  }
-  .dishes {
-    gap: 50px;
-    padding-bottom: 40px;
-  }
+.right a {
+  display: flex;
+}
+
+.right path {
+  fill: var(--system-text);
 }
