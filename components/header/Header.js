@@ -2,6 +2,7 @@ import Link from 'next/link';
 import styles from './Header.module.css';
 import randomColor from '../../services/randomColor';
 import { useEffect, useState } from 'react';
+import IconPerson from '../icons/IconPerson';
 
 export default function Header() {
   //
@@ -23,8 +24,17 @@ export default function Header() {
           <Link href='/infrastructure'>
             <a>Infrastructure</a>
           </Link>
+          <Link href='/work'>
+            <a>Work</a>
+          </Link>
         </nav>
-        {/* <div className={styles.right}>Right</div> */}
+        <div className={styles.right}>
+          <Link href='/me'>
+            <a>
+              <IconPerson />
+            </a>
+          </Link>
+        </div>
       </container>
     </header>
   );
