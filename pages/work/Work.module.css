@@ -1,0 +1,29 @@
+/* */
+/* INTRO STATEMENT */
+section.intro {
+  background-color: var(--palette-yellow);
+  padding: 150px 0;
+  text-align: center;
+}
+
+section.intro h1 {
+  font-family: 'jaf-lapture';
+  font-weight: 700;
+  color: var(--system-text);
+  font-size: 80px;
+  text-align: right;
+  line-height: 1;
+  margin: 0;
+}
+
+/* */
+/* PROJECTS LIST */
+section.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+@media only screen and (max-width: 900px /* var(--mobile) */) {
+  /*  */
+}
