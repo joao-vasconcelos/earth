@@ -29,7 +29,7 @@ const Container = styled('div', {
   width: '100%',
   maxWidth: '1200px',
   '@media only screen and (max-width: 900px)': {
-    //
+    padding: '0 25px',
   },
 });
 
