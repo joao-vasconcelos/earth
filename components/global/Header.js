@@ -1,7 +1,5 @@
 import Link from 'next/link';
-import styles from './Header.module.css';
 import randomColor from '../../services/randomColor';
-import IconPerson from '../icons/IconPerson';
 import IconHamburger from '../icons/IconHamburger';
 import IconX from '../icons/IconX';
 import { useEffect, useState } from 'react';
@@ -68,7 +66,7 @@ const Navigation = styled('div', {
 
 const NavigationDesktop = styled(Navigation, {
   flexDirection: 'row',
-  gap: '30px',
+  gap: '40px',
   '& a': {
     color: 'var(--system-text)',
   },
@@ -81,18 +79,22 @@ const NavigationMobile = styled(Navigation, {
   display: 'none',
   flexDirection: 'column',
   textAlign: 'right',
-  padding: '35px 50px 10px 35px',
-  gap: '15px',
+  paddingTop: '15px',
   background: 'var(--system-light)',
   '& a': {
     color: 'var(--system-text)',
-    backgroundColor: 'var(--system-background)',
-    padding: '10px 35px',
-    borderRadius: '9999px',
+    width: '100%',
+    padding: '15px',
+    borderTopWidth: '1px',
+    borderTopStyle: 'solid',
+    borderTopColor: 'var(--system-border)',
     textAlign: 'center',
     '&:hover': {
       textDecoration: 'none',
     },
+  },
+  '& a:last-child': {
+    paddingBottom: '5px',
   },
   '@media only screen and (max-width: 900px)': {
     display: 'flex',
@@ -107,7 +109,6 @@ export default function AppHeader() {
     { title: 'Work', path: 'work' },
     { title: 'About Me', path: 'me' },
   ];
-
   //
 
   const [logoColor, setLogoColor] = useState();
@@ -145,37 +146,6 @@ export default function AppHeader() {
           ))}
         </NavigationMobile>
       )}
-    </Header>
-  );
-
-  return (
-    <Header>
-      <Container>
-        <Logo>
-          <Link href='/'>
-            <a style={{ color: logoColor }}>joão.earth</a>
-          </Link>
-        </Logo>
-
-        <nav className={styles.navigation}>
-          <Link href='/geobus'>
-            <a>GeoBus</a>
-          </Link>
-          <Link href='/infrastructure'>
-            <a>Infrastructure</a>
-          </Link>
-          <Link href='/work'>
-            <a>Work</a>
-          </Link>
-        </nav>
-        <div className={styles.right}>
-          <Link href='/me'>
-            <a>
-              <IconPerson />
-            </a>
-          </Link>
-        </div>
-      </Container>
     </Header>
   );
 }
