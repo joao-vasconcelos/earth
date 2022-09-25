@@ -28,7 +28,7 @@ export default function Work() {
     <main>
       <Intro>
         <Container>
-          <h1>It&apos;s very easy to be different, but very difficult to be better.</h1>
+          <h1>It is very easy to be different, but very difficult to be better.</h1>
           <h3>Jonathan Ive</h3>
           <p>O design de processos integra</p>
         </Container>
