@@ -1,12 +1,15 @@
 :root {
   --palette-blue: rgba(15, 110, 195, 1);
-  --palette-blue-alpha: rgba(15, 155, 70, 0.05);
+  --palette-blue-alpha: rgba(15, 110, 195, 0.15);
 
   --palette-green: rgba(15, 155, 70, 1);
   --palette-green-alpha: rgba(15, 155, 70, 0.05);
 
   --palette-yellow: rgba(255, 232, 0, 1);
   --palette-yellow-alpha: rgba(255, 232, 0, 0.05);
+
+  --palette-orange: #ff8246;
+  --palette-orange-alpha: rgba(255, 232, 0, 0.05);
 
   --system-light: rgba(255, 255, 255, 1);
   --system-dark: rgba(0, 0, 0, 1);
@@ -28,10 +31,13 @@
     --palette-yellow: rgb(0, 91, 170);
     --palette-yellow-alpha: rgba(255, 232, 0, 0.05);
 
+    --palette-orange: #ff8246;
+    --palette-orange-alpha: rgba(255, 232, 0, 0.05);
+
     --system-light: rgb(30, 30, 30);
     --system-dark: rgba(210, 210, 225, 1);
 
-    --system-background: rgb(23, 23, 23);
+    --system-background: rgb(20, 20, 20);
     --system-border: rgb(50, 60, 60);
 
     --system-text: rgba(210, 210, 225, 1);

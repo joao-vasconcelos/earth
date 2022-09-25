@@ -1,18 +1,15 @@
 /* Fonts and spacing for fixed header */
+
 body {
   margin-top: 50px;
   font-family: var(--font-family);
   font-weight: var(--font-weight);
-  background-color: var(--system-light);
+  background: var(--system-light);
 }
-
-section {
-  padding: 80px 0;
-}
-
-container {
-  display: block;
-  width: 100%;
+@media (prefers-color-scheme: dark) {
+  body {
+    background: var(--system-light);
+  }
 }
 
 /* Links */
@@ -55,10 +52,6 @@ p {
 
 /* MOBILE STYLES */
 @media only screen and (max-width: 900px /* var(--mobile) */) {
-  section {
-    padding: 50px 0;
-  }
-
   h1,
   h2 {
     font-size: 35px;
