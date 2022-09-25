@@ -130,7 +130,7 @@ export default function AppHeader() {
         </Logo>
         <NavigationDesktop>
           {pages.map((page, index) => (
-            <Link key={index} href={page.path}>
+            <Link key={index} href={`/${page.path}`}>
               <a>{page.title}</a>
             </Link>
           ))}
@@ -140,7 +140,7 @@ export default function AppHeader() {
       {isOpen && (
         <NavigationMobile>
           {pages.map((page, index) => (
-            <Link key={index} href={page.path}>
+            <Link key={index} href={`/${page.path}`}>
               <a onClick={() => setIsOpen(false)}>{page.title}</a>
             </Link>
           ))}

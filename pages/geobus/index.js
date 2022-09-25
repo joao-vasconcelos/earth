@@ -82,9 +82,13 @@ const Badge = styled('span', {
   '& svg': {
     width: '12px',
   },
+  '& path': {
+    transition: 'all 500ms cubic-bezier(0.45, 0.55, 0.1, 1)',
+  },
   '& span': {
     fontWeight: 'bold',
     fontSize: '14px',
+    transition: 'all 500ms cubic-bezier(0.45, 0.55, 0.1, 1)',
   },
 });
 

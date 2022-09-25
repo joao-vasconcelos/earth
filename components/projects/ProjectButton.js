@@ -1,5 +1,7 @@
 import Link from 'next/link';
+import { Container } from '../global/Layout';
 import { styled } from '@stitches/react';
+import ProjectTags from './ProjectTags';
 
 /* */
 /* STYLES */
@@ -17,31 +19,13 @@ const Project = styled('div', {
   },
 });
 
-const Container = styled('container', {
-  display: 'flex',
-  flexDirection: 'column',
-  gap: '5px',
-});
-
 const Title = styled('p', {
   fontSize: '26px',
   fontWeight: 700,
   textAlign: 'left',
-  lineHeight: 1,
+  lineHeight: 1.2,
   color: 'inherit',
-  // fontFamily: "'rustica'",
-  // textTransform: 'uppercase',
-});
-
-const Tags = styled('p', {
-  fontSize: '15px',
-  fontWeight: 500,
-  textAlign: 'left',
-  lineHeight: 1,
-  letterSpacing: '0px',
-  textTransform: 'none',
-  opacity: 0.8,
-  color: 'inherit',
+  marginBottom: '20px',
 });
 
 export default function ProjectButton({ id, title, tags, accent }) {
@@ -51,14 +35,13 @@ export default function ProjectButton({ id, title, tags, accent }) {
     <Link href={`/work/${id}`}>
       <Project
         css={{
-          '&:hover': {
-            background: accent,
-          },
+          color: 'white',
+          background: accent,
         }}
       >
         <Container>
           <Title>{title}</Title>
-          <Tags>{tags}</Tags>
+          <ProjectTags tags={tags} alwaysLight />
         </Container>
       </Project>
     </Link>

@@ -55,6 +55,7 @@ const ContactMessage = styled('p', {
 const ContactDisclaimer = styled('p', {
   fontSize: '12px',
   color: 'var(--system-muted)',
+  margin: '0',
   marginTop: '7px',
 });
 

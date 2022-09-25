@@ -1,12 +1,12 @@
 import { styled } from '@stitches/react';
+import { Section, Container } from '../global/Layout';
+import ProjectTags from './ProjectTags';
 
-const Section = styled('section', {
+const Intro = styled(Section, {
   backgroundColor: 'var(--system-background)',
 });
 
-const Container = styled('container', {
-  display: 'flex',
-  flexDirection: 'column',
+const IntroContainer = styled(Container, {
   gap: '10px',
 });
 
@@ -18,15 +18,6 @@ const Title = styled('p', {
   lineHeight: 1,
 });
 
-const Tags = styled('p', {
-  fontSize: '17px',
-  fontWeight: 500,
-  textAlign: 'left',
-  lineHeight: 1,
-  textTransform: 'none',
-  color: 'var(--system-text)',
-});
-
 const Description = styled('p', {
   fontSize: '17px',
   textAlign: 'left',
@@ -35,14 +26,14 @@ const Description = styled('p', {
   maxWidth: '600px',
 });
 
-export default function ProjectIntro({ title, tags, description, accent }) {
+export default function ProjectIntro({ title, tags, description }) {
   return (
-    <Section>
-      <Container>
+    <Intro>
+      <IntroContainer>
         <Title>{title}</Title>
-        <Tags>{tags}</Tags>
+        <ProjectTags tags={tags} />
         <Description>{description}</Description>
-      </Container>
-    </Section>
+      </IntroContainer>
+    </Intro>
   );
 }

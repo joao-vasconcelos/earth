@@ -25,6 +25,11 @@ const TwoColumns = styled(Container, {
     fontSize: '22px',
     maxWidth: '900px',
   },
+  '@media only screen and (max-width: 900px)': {
+    flexDirection: 'column',
+    justifyContent: 'center',
+    textAlign: 'center',
+  },
 });
 
 const ProfilePic = styled(Image, {
