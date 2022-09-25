@@ -6,9 +6,8 @@ export default function ProjectALH() {
     <main>
       <ProjectIntro
         title='Aroeira Lisbon Hotel'
-        tags='Brand Identity • Digital Communication • Strategy'
-        description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius.'
-        accent=''
+        tags={['Web Development']}
+        description='Design e programação de website integrando tecnologias de aproximação ao cliente ágeis e de baixo custo.'
       />
       <section></section>
     </main>

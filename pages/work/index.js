@@ -1,5 +1,4 @@
 import ProjectButton from '../../components/projects/ProjectButton';
-import styles from './Work.module.css';
 import { Section, Container } from '../../components/global/Layout';
 import { styled } from '@stitches/react';
 
@@ -38,39 +37,24 @@ export default function Work() {
         <ProjectButton
           id='spg'
           title='Sociedade Portuguesa de Ginecologia'
-          tags='Brand Identity • Digital Communication • Strategy'
+          tags={['Strategy', 'Brand Design', 'Platform Development']}
           accent='rgb(203, 0, 90)'
         />
         <ProjectButton
           id='chefpoint'
           title='Chef Point'
-          tags='Brand Identity • Digital Communication • Strategy'
+          tags={['UI/UX Design', 'Platform Development']}
           accent='#e42528'
         />
-        <ProjectButton
-          id='alh'
-          title='Aroeira Lisbon Hotel'
-          tags='Brand Identity • Digital Communication • Strategy'
-          accent='#0a2341'
-        />
+        <ProjectButton id='alh' title='Aroeira Lisbon Hotel' tags={['Web Development']} accent='#0a2341' />
         <ProjectButton
           id='jodel'
           title='Jodel'
-          tags='Brand Identity • Digital Communication • Strategy'
+          tags={['Strategy', 'Brand Design', 'Web Development']}
           accent='rgb(255, 135, 0)'
         />
-        <ProjectButton
-          id='jfld'
-          title='Jean-François Le Dû'
-          tags='Brand Identity • Digital Communication • Strategy'
-          accent='rgb(166, 0, 232)'
-        />
-        <ProjectButton
-          id='lrf'
-          title='Leal Rios Foundation'
-          tags='Brand Identity • Digital Communication • Strategy'
-          accent='rgb(71, 69, 85)'
-        />
+        <ProjectButton id='jfld' title='Jean-François Le Dû' tags={['Web Development']} accent='rgb(166, 0, 232)' />
+        <ProjectButton id='lrf' title='Leal Rios Foundation' tags={['Web Development']} accent='rgb(71, 69, 85)' />
       </ProjectsList>
     </main>
   );

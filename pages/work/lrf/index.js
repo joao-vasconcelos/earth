@@ -6,9 +6,8 @@ export default function SPG() {
     <main>
       <ProjectIntro
         title='Leal Rios Foundation'
-        tags='Brand Identity • Digital Communication • Strategy'
-        description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius.'
-        accent=''
+        tags={['Web Development']}
+        description='Desenvolvimento de novo website que acompanha tecnologicamente a evolução da Fundação.'
       />
       <section></section>
     </main>

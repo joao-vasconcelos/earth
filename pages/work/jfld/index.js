@@ -6,9 +6,8 @@ export default function ProjectJFLD() {
     <main>
       <ProjectIntro
         title='Jean-François Le Dû'
-        tags='Brand Identity • Digital Communication • Strategy'
-        description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius.'
-        accent=''
+        tags={['Web Development']}
+        description='O desafio foi transpôr para o meio digital uma atividade clássica e iminentemente presencial. Através do desenvolvimento de uma plataforma e conteúdos vídeo foi possível construir uma partilha entre pessoas com interesses comuns.'
       />
       <section></section>
     </main>
