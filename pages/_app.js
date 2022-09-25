@@ -1,6 +1,6 @@
 import BrowserConfig from '../services/BrowserConfig';
-import Header from '../components/header/Header.js';
-import Footer from '../components/footer/Footer.js';
+import Header from '../components/global/Header';
+import Footer from '../components/global/Footer';
 import { usePostHog } from '../services/Posthog';
 
 import '../styles/reset.css';
