@@ -11,9 +11,9 @@ const Wrapper = styled('div', {
   },
 });
 
-export default function FullWidthImage({ src, alt }) {
+export default function FullWidthImage({ src, alt, maxWidth }) {
   return (
-    <Wrapper>
+    <Wrapper css={{ maxWidth: maxWidth }}>
       <Image src={src} alt={alt} />
     </Wrapper>
   );
