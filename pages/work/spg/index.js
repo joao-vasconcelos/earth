@@ -11,16 +11,12 @@ import SPGNewsletter1 from './assets/spg-newsletter-1.png';
 import SPGInstagram1 from './assets/spg-instagram-1.png';
 import SPGLinkedIn1 from './assets/spg-linkedin-1.png';
 import SPGFacebook1 from './assets/spg-facebook-1.png';
+import SPGNuclei1 from './assets/spg-nuclei-1.png';
+import Columns from '../../../components/global/Columns';
 import { Container, Section } from '../../../components/global/Layout';
 import ProjectIntro from '../../../components/projects/ProjectIntro';
 import ProjectText from '../../../components/projects/ProjectText';
 import FullWidthImage from '../../../components/global/FullWidthImage';
-
-const TwoColumns = styled('div', {
-  display: 'grid',
-  gridTemplateColumns: 'repeat(2, 1fr)',
-  gap: 30,
-});
 
 export default function ProjectSPG() {
   return (
@@ -30,6 +26,7 @@ export default function ProjectSPG() {
         tags={['Strategy', 'Brand Design', 'Platform Development']}
         description='Bringing a clinical community together around the sharing of scientific knowledge.'
       />
+
       <Section>
         <Container>
           <ProjectText>
@@ -39,18 +36,37 @@ export default function ProjectSPG() {
               common entity.
             </p>
           </ProjectText>
-          <TwoColumns css={{ marginTop: 50, alignItems: 'flex-end', justifyItems: 'center' }}>
+          <Columns cols={2} vAlign='bottom' hAlign='left' css={{ marginTop: 50 }}>
             <Image src={SPGLogo} width={300} alt='SPG Logo' />
             <ProjectText>
               <p>
-                — Leveling of the graphic elements in the symbol, treatment of the typographic elements of the logo and
+                Leveling of the graphic elements in the symbol, treatment of the typographic elements of the logo and
                 definition of the chromatic universe of SPG.
               </p>
             </ProjectText>
-          </TwoColumns>
+          </Columns>
+          <Columns
+            cols={1}
+            vAlign='bottom'
+            hAlign='left'
+            css={{ marginTop: 70, paddingTop: 40, borderTop: '1px solid var(--system-border)' }}
+          >
+            <FullWidthImage src={SPGNuclei1} alt='SPG Logo' />
+          </Columns>
+          <Columns cols={2} vAlign='top' hAlign='left'>
+            <div></div>
+            <ProjectText>
+              <p>
+                Simplification and enhancement of the identity of each section to better convey ownership by SPG. While
+                the sub-organisms are specialized in specific areas and behave autonomously, they always work within the
+                context of SPG.
+              </p>
+            </ProjectText>
+          </Columns>
         </Container>
       </Section>
-      <Section css={{ backgroundColor: 'var(--system-background)', paddingBottom: '20px' }}>
+
+      <Section css={{ backgroundColor: 'var(--system-background)' }}>
         <Container>
           <ProjectText>
             <strong>Academia SPG</strong>
@@ -60,15 +76,14 @@ export default function ProjectSPG() {
               podcasts, webinars, among others.
             </p>
           </ProjectText>
+          <Columns cols={1} vAlign='top' hAlign='left' css={{ marginTop: 50 }}>
+            <FullWidthImage src={SPGWebsite1} alt={'Website1'} />
+            <FullWidthImage src={SPGWebsite2} alt={'Website1'} />
+          </Columns>
         </Container>
       </Section>
-      <Section css={{ backgroundColor: 'var(--system-background)', paddingTop: '20px' }}>
-        <Container>
-          <FullWidthImage src={SPGWebsite1} alt={'Website1'} />
-          <FullWidthImage src={SPGWebsite2} alt={'Website1'} />
-        </Container>
-      </Section>
-      <Section css={{ paddingBottom: '20px' }}>
+
+      <Section>
         <Container>
           <ProjectText>
             <strong>Search by Scientific Topics</strong>
@@ -78,15 +93,13 @@ export default function ProjectSPG() {
               accurate results with each new visit.
             </p>
           </ProjectText>
-        </Container>
-      </Section>
-      <Section css={{ paddingTop: '20px' }}>
-        <Container>
-          <FullWidthImage src={SPGWebsite3} alt={'Website1'} />
+          <Columns cols={1} vAlign='top' hAlign='left' css={{ marginTop: 50 }}>
+            <FullWidthImage src={SPGWebsite3} alt={'Website1'} />
+          </Columns>
         </Container>
       </Section>
 
-      <Section css={{ backgroundColor: 'var(--system-background)', paddingBottom: '20px' }}>
+      <Section css={{ backgroundColor: 'var(--system-background)' }}>
         <Container>
           <ProjectText>
             <strong>Digital Platform</strong>
@@ -96,17 +109,15 @@ export default function ProjectSPG() {
               various formats.
             </p>
           </ProjectText>
-        </Container>
-      </Section>
-      <Section css={{ backgroundColor: 'var(--system-background)', padding: '20px 0' }}>
-        <Container>
-          <FullWidthImage src={SPGWebsite4} alt={'Website1'} />
-          <FullWidthImage src={SPGWebsite5} alt={'Website1'} />
-          <FullWidthImage src={SPGWebsite6} alt={'Website1'} />
+          <Columns cols={1} vAlign='top' hAlign='left' css={{ marginTop: 50 }}>
+            <FullWidthImage src={SPGWebsite4} alt={'Website1'} />
+            <FullWidthImage src={SPGWebsite5} alt={'Website1'} />
+            <FullWidthImage src={SPGWebsite6} alt={'Website1'} />
+          </Columns>
         </Container>
       </Section>
 
-      <Section css={{ paddingBottom: '20px' }}>
+      <Section>
         <Container>
           <ProjectText>
             <strong>Social Networks and Newsletter</strong>
@@ -115,18 +126,14 @@ export default function ProjectSPG() {
               Instagram. Monthly newsletter sent to the entire medical community.
             </p>
           </ProjectText>
-        </Container>
-      </Section>
-      <Section css={{ padding: '20px 0' }}>
-        <Container>
-          <TwoColumns css={{ marginTop: 50, alignItems: 'flex-end', justifyItems: 'center' }}>
+          <Columns cols={2} vAlign='top' hAlign='center' css={{ marginTop: 50 }}>
             <FullWidthImage src={SPGNewsletter1} alt={'Website1'} />
-            <div>
-              <FullWidthImage src={SPGInstagram1} alt={'Website1'} />
+            <Columns cols={1} vAlign='top' hAlign='center' css={{ marginTop: 20 }}>
+              <FullWidthImage src={SPGInstagram1} alt={'Website1'} maxWidth={300} />
               <FullWidthImage src={SPGFacebook1} alt={'Website1'} />
               <FullWidthImage src={SPGLinkedIn1} alt={'Website1'} />
-            </div>
-          </TwoColumns>
+            </Columns>
+          </Columns>
         </Container>
       </Section>
     </main>
