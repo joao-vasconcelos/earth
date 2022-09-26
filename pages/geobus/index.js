@@ -3,10 +3,10 @@ import { Section, Container } from '../../components/global/Layout';
 import { styled } from '@stitches/react';
 import IconStar from '../../components/icons/IconStar';
 import IconDownToLineArrow from '../../components/icons/IconDownToLineArrow';
-import GeoBusAppIcon from '../../public/images/geobus-icon-1024.png';
-import GeoBusScreenshot1 from '../../public/images/geobus-screenshot-1.png';
-import GeoBusScreenshot2 from '../../public/images/geobus-screenshot-2.png';
-import GeoBusScreenshot3 from '../../public/images/geobus-screenshot-3.png';
+import GeoBusAppIcon from './assets/geobus-icon-1024.png';
+import GeoBusScreenshot1 from './assets/geobus-screenshot-1.png';
+import GeoBusScreenshot2 from './assets/geobus-screenshot-2.png';
+import GeoBusScreenshot3 from './assets/geobus-screenshot-3.png';
 
 const Intro = styled(Section, {
   backgroundColor: 'var(--palette-green-alpha)',

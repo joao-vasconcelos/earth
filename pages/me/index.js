@@ -1,9 +1,8 @@
-import JoaoProfilePic from '../../public/images/joao.jpg';
 import Image from 'next/future/image';
-import { Section, Container } from '../../components/global/Layout';
 import { styled } from '@stitches/react';
-import LinkedInLogo from './LinkedInLogo.svg';
-import Link from 'next/link';
+import { Section, Container } from '../../components/global/Layout';
+import JoaoProfilePic from './assets/joao.jpg';
+import LinkedInLogo from './assets/LinkedInLogo.svg';
 
 const Intro = styled(Section, {
   backgroundColor: 'var(--palette-blue-alpha)',
