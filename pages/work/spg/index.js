@@ -1,4 +1,3 @@
-import { styled } from '@stitches/react';
 import Image from 'next/future/image';
 import SPGLogo from './assets/spg-logo.svg';
 import SPGWebsite1 from './assets/spg-website-1.png';
