@@ -5,9 +5,9 @@ export default function ProjectChefPoint() {
   return (
     <main>
       <ProjectIntro
-        title='Chef Point'
+        title='Register'
         tags={['UI/UX Design', 'Platform Development']}
-        description='Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis harum quisquam eius.'
+        description='Design and development of a dedicated suite of apps to manage and simplify the operation of a fast-paced cafeteria business.'
         accent=''
       />
       <section></section>

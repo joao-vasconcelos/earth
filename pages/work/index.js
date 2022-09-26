@@ -41,8 +41,8 @@ export default function Work() {
           accent='rgb(203, 0, 90)'
         />
         <ProjectButton
-          id='chefpoint'
-          title='Chef Point'
+          id='register'
+          title='Register'
           tags={['UI/UX Design', 'Platform Development']}
           accent='#e42528'
         />

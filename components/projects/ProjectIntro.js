@@ -7,11 +7,11 @@ const Intro = styled(Section, {
 });
 
 const IntroContainer = styled(Container, {
-  gap: '10px',
+  gap: 10,
 });
 
 const Title = styled('p', {
-  fontSize: '30px',
+  fontSize: 30,
   color: 'var(--system-text)',
   fontWeight: 700,
   textAlign: 'left',
@@ -19,11 +19,12 @@ const Title = styled('p', {
 });
 
 const Description = styled('p', {
-  fontSize: '17px',
+  fontSize: 17,
   textAlign: 'left',
   lineHeight: 1.6,
   color: 'var(--system-text)',
-  maxWidth: '600px',
+  maxWidth: 450,
+  marginTop: 20,
 });
 
 export default function ProjectIntro({ title, tags, description }) {

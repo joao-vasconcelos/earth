@@ -7,7 +7,7 @@ export default function ProjectALH() {
       <ProjectIntro
         title='Aroeira Lisbon Hotel'
         tags={['Web Development']}
-        description='Design e programação de website integrando tecnologias de aproximação ao cliente ágeis e de baixo custo.'
+        description='Design and programming of website integrating agile and low-cost closer-to-customer technologies.'
       />
       <section></section>
     </main>

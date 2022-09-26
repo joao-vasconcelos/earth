@@ -7,7 +7,7 @@ export default function ProjectJFLD() {
       <ProjectIntro
         title='Jean-François Le Dû'
         tags={['Web Development']}
-        description='O desafio foi transpôr para o meio digital uma atividade clássica e iminentemente presencial. Através do desenvolvimento de uma plataforma e conteúdos vídeo foi possível construir uma partilha entre pessoas com interesses comuns.'
+        description='The challenge was to transpose a classic and imminently face-to-face activity to the digital medium. Through the development of an online platform and video content, a place where people with common interests could share meaningful experiences was born.'
       />
       <section></section>
     </main>

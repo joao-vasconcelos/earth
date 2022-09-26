@@ -7,7 +7,7 @@ export default function ProjectJodel() {
       <ProjectIntro
         title='Jodel'
         tags={['Strategy', 'Brand Design', 'Web Development']}
-        description='Reposicionar a maior empresa portuguesa de detergentes tendo como foco a revalorização de todo o seu know-how e capacidade produtiva, preparando-a para uma maior aposta na internacionalização.'
+        description='Repositioning the largest Portuguese detergent company by focusing on the revaluation of all its know-how and production capacity, preparing it for a greater bet on internationalization.'
       />
       <section></section>
     </main>

@@ -5,13 +5,14 @@ const Wrapper = styled('div', {
   flexDirection: 'column',
   gap: 5,
   maxWidth: '450px',
+  color: 'var(--system-text)',
   '& strong': {
-    fontSize: 17,
+    fontSize: 15,
     fontWeight: 'bold',
   },
   '& p': {
     margin: 0,
-    fontSize: '17px',
+    fontSize: 15,
     fontWeight: 'normal',
   },
 });

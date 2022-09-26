@@ -7,7 +7,7 @@ export default function SPG() {
       <ProjectIntro
         title='Leal Rios Foundation'
         tags={['Web Development']}
-        description='Desenvolvimento de novo website que acompanha tecnologicamente a evolução da Fundação.'
+        description='Development of a new website that technologically follows the evolution of the Foundation.'
       />
       <section></section>
     </main>
