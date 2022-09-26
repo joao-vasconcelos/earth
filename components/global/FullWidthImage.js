@@ -2,8 +2,8 @@ import { styled } from '@stitches/react';
 import Image from 'next/future/image';
 
 const Wrapper = styled('div', {
-  width: 'calc(100% + 74px)',
-  marginLeft: -37,
+  width: '108%',
+  marginLeft: '-4%',
   '& img': {
     objectFit: 'contain',
     width: '100%',

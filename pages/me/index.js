@@ -63,10 +63,10 @@ export default function Infrastructure() {
             <p>
               What’s so great about design is that it is a process. It forces you to position yourself in the user’s
               shoes and think like him, to live its struggle. Only then it is possible to understand the solution to be
-              built. Colours, fonts and tech stacks are secondary to the design process. I think people focus too much
-              on what a tool does and not so much on the problem it solves, the purpose it serves. I build good tools
-              because I focus on this aspect and never forget about it, and decisions come naturally this way. My talent
-              is combining design and technology to build things people like to use.
+              built. I think people focus too much on what a tool does and not so much on the problem it solves, the
+              purpose it serves. I build good tools because I focus on this aspect and never forget about it, and
+              decisions come naturally this way. My talent is combining design and technology to build things people
+              like to use.
             </p>
           </div>
         </TwoColumns>
