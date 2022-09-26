@@ -29,7 +29,12 @@ export default function Work() {
         <Container>
           <h1>It is very easy to be different, but very difficult to be better.</h1>
           <h3>Jonathan Ive</h3>
-          <p>O design de processos integra</p>
+          <p>
+            Building better tools is what wakes me up in the morning. It all starts by defining the problem to be
+            solved, and thinking about it from the user&apos;s perspective. Only by focusing hard on this approach it is
+            possible to be confident in one&apos;s decisions. The following examples combine design, technology and a
+            lot of dedication to create intuitive tools that simplify it&apos;s users lives.
+          </p>
         </Container>
       </Intro>
 
