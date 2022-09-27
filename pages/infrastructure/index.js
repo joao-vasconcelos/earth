@@ -1,17 +1,53 @@
 import YoutubeEmbed from '../../services/youtube/YoutubeEmbed';
-import styles from './Infrastructure.module.css';
+import { Section, Container } from '../../components/global/Layout';
+import { styled } from '@stitches/react';
+
+const Intro = styled(Section, {
+  backgroundColor: 'var(--system-background)',
+  '& h1': {
+    color: 'var(--palette-blue)',
+    maxWidth: '700px',
+  },
+  '& p': {
+    maxWidth: '900px',
+  },
+});
+
+const VideoSection = styled(Section, {
+  backgroundColor: 'var(--system-light)',
+  '& h1': {
+    color: 'var(--palette-blue)',
+  },
+  '& p': {
+    maxWidth: '900px',
+  },
+});
+
+const VideoInfo = styled('div', {
+  maxWidth: '600px',
+  marginTop: '30px',
+  '& h2': {
+    marginBottom: '25px',
+  },
+  '& a': {
+    display: 'block',
+    marginTop: '15px',
+    fontSize: '15px',
+    fontWeight: 'var(--font-weight)',
+  },
+});
 
 export default function Infrastructure() {
   return (
     <main>
-      <section className={styles.intro}>
-        <container>
+      <Intro>
+        <Container>
           <h1>How to design cities</h1>
           <p>The Dutch are very practical when it comes to designing their cities.</p>
           <p>
-            It is a misconception that the Netherlands has great bike usage because it is flat — it is because it has great infrastructure. Cities
-            around the world must learn from the best, starting with these three examples of thoughtful design & engineering, and integration of the
-            various components that make a city.
+            It is a misconception that the Netherlands has great bike usage because it is flat — it is because it has
+            great infrastructure. Cities around the world must learn from the best, starting with these three examples
+            of thoughtful design & engineering, and integration of the various components that make a city.
           </p>
           <p>Roads are the arteries of the city, and the Netherlands’ have never been healthier.</p>
           <p>
@@ -25,74 +61,71 @@ export default function Infrastructure() {
             </a>
             .
           </p>
-        </container>
-      </section>
+        </Container>
+      </Intro>
 
-      <section className={styles.videoSection}>
-        <container>
+      <VideoSection>
+        <Container>
           <YoutubeEmbed embedId='FlApbxLz6pA' />
-          <div className={styles.videoInfo}>
+          <VideoInfo>
             <h2>#1 — Junction design the Dutch way</h2>
-            <p className={styles.description}>
-              The Dutch build cycle paths right on their junctions. So they must have wider streets, right? Wrong! This video shows how it is done, no
-              extra space needed.
+            <p>
+              The Dutch build cycle paths right on their junctions. So they must have wider streets, right? Wrong! This
+              video shows how it is done, no extra space needed.
             </p>
-            <p className={styles.credits}>
+            <p>
               by <strong>Mark Wagenbuur</strong>
             </p>
             <a
-              className={styles.source}
               href='https://bicycledutch.wordpress.com/2011/04/07/state-of-the-art-bikeway-design-or-is-it/'
               target='_blank'
               rel='noreferrer'
             >
               ► Read Full Article
             </a>
-          </div>
-        </container>
-      </section>
+          </VideoInfo>
+        </Container>
+      </VideoSection>
 
-      <section className={styles.videoSection}>
-        <container>
+      <Section>
+        <Container>
           <YoutubeEmbed embedId='-GcocOUVRa4' />
-          <div className={styles.videoInfo}>
+          <VideoInfo>
             <h2>#2 — Traffic lights in ‘s-Hertogenbosch</h2>
-            <p className={styles.description}>A short overview of how traffic signals work in ‘s-Hertogenbosch.</p>
-            <p className={styles.credits}>
+            <p>A short overview of how traffic signals work in ‘s-Hertogenbosch.</p>
+            <p>
               by <strong>Mark Wagenbuur</strong>
             </p>
             <a
-              className={styles.source}
               href='https://bicycledutch.wordpress.com/2016/06/21/traffic-lights-in-s-hertogenbosch-an-interview/'
               target='_blank'
               rel='noreferrer'
             >
               ► Read Full Article
             </a>
-          </div>
-        </container>
-      </section>
+          </VideoInfo>
+        </Container>
+      </Section>
 
-      <section className={styles.videoSection}>
-        <container>
+      <Section>
+        <Container>
           <YoutubeEmbed embedId='XpQMgbDJPok' />
-          <div className={styles.videoInfo}>
+          <VideoInfo>
             <h2>#3 — Junction design in the Netherlands</h2>
-            <p className={styles.description}>The Dutch design junctions in such a way that you can safely cycle or walk across them.</p>
-            <p className={styles.credits}>
+            <p>The Dutch design junctions in such a way that you can safely cycle or walk across them.</p>
+            <p>
               by <strong>Mark Wagenbuur</strong>
             </p>
             <a
-              className={styles.source}
               href='https://bicycledutch.wordpress.com/2014/02/23/junction-design-in-the-netherlands/'
               target='_blank'
               rel='noreferrer'
             >
               ► Read Full Article
             </a>
-          </div>
-        </container>
-      </section>
+          </VideoInfo>
+        </Container>
+      </Section>
     </main>
   );
 }
