@@ -45,19 +45,19 @@ export default function Work() {
           tags={['Strategy', 'Brand Design', 'Platform Development']}
           accent='rgb(203, 0, 90)'
         />
-        <ProjectButton
+        {/* <ProjectButton
           id='register'
           title='Register'
           tags={['UI/UX Design', 'Platform Development']}
           accent='#e42528'
-        />
-        <ProjectButton id='alh' title='Aroeira Lisbon Hotel' tags={['Web Development']} accent='#0a2341' />
-        <ProjectButton
+        /> */}
+        {/* <ProjectButton id='alh' title='Aroeira Lisbon Hotel' tags={['Web Development']} accent='#0a2341' /> */}
+        {/* <ProjectButton
           id='jodel'
           title='Jodel'
           tags={['Strategy', 'Brand Design', 'Web Development']}
           accent='rgb(255, 135, 0)'
-        />
+        /> */}
         <ProjectButton id='jfld' title='Jean-François Le Dû' tags={['Web Development']} accent='rgb(166, 0, 232)' />
         <ProjectButton id='lrf' title='Leal Rios Foundation' tags={['Web Development']} accent='rgb(71, 69, 85)' />
       </ProjectsList>

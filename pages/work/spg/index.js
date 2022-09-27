@@ -1,5 +1,10 @@
 import Image from 'next/future/image';
 import SPGLogo from './assets/spg-logo.svg';
+import SPGSeccao1 from './assets/spg-seccao-1.svg';
+import SPGSeccao2 from './assets/spg-seccao-2.svg';
+import SPGSeccao3 from './assets/spg-seccao-3.svg';
+import SPGSeccao4 from './assets/spg-seccao-4.svg';
+import SPGSeccao5 from './assets/spg-seccao-5.svg';
 import SPGWebsite1 from './assets/spg-website-1.png';
 import SPGWebsite2 from './assets/spg-website-2.png';
 import SPGWebsite3 from './assets/spg-website-3.png';
@@ -45,12 +50,16 @@ export default function ProjectSPG() {
             </ProjectText>
           </Columns>
           <Columns
-            cols={1}
-            vAlign='bottom'
-            hAlign='left'
+            cols={5}
+            vAlign='top'
+            hAlign='center'
             css={{ marginTop: 70, paddingTop: 40, borderTop: '1px solid var(--system-border)' }}
           >
-            <FullWidthImage src={SPGNuclei1} alt='SPG Logo' />
+            <FullWidthImage src={SPGSeccao1} alt='SPG Logo' />
+            <FullWidthImage src={SPGSeccao2} alt='SPG Logo' />
+            <FullWidthImage src={SPGSeccao3} alt='SPG Logo' />
+            <FullWidthImage src={SPGSeccao4} alt='SPG Logo' />
+            <FullWidthImage src={SPGSeccao5} alt='SPG Logo' />
           </Columns>
           <Columns cols={2} vAlign='top' hAlign='left'>
             <div></div>

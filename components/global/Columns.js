@@ -20,6 +20,20 @@ const Wrapper = styled('div', {
           gridTemplateColumns: '1fr',
         },
       },
+      4: {
+        gridTemplateColumns: 'repeat(4, 1fr)',
+        '@media only screen and (max-width: 900px)': {
+          gridTemplateColumns: '2fr',
+        },
+      },
+      5: {
+        gap: 120,
+        gridTemplateColumns: 'repeat(5, 1fr)',
+        '@media only screen and (max-width: 900px)': {
+          gap: 50,
+          gridTemplateColumns: 'repeat(3, 1fr)',
+        },
+      },
     },
     vAlign: {
       top: {
