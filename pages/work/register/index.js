@@ -13,7 +13,7 @@ const Video = styled('video', {
   width: '100%',
 });
 
-export default function ProjectChefPoint() {
+export default function ProjectRegister() {
   return (
     <main>
       <ProjectIntro
