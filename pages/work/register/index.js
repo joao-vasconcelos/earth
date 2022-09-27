@@ -25,7 +25,11 @@ export default function ProjectRegister() {
 
       <Section css={{ background: '#ffffff', padding: 1 }}>
         <Container>
-          <Video autoPlay muted>
+          <Video
+            autoPlay
+            muted
+            poster='https://perennial.ams3.digitaloceanspaces.com/earth/work/register/register-animation-1.png'
+          >
             <source
               src='https://perennial.ams3.digitaloceanspaces.com/earth/work/register/register-animation-1.mp4'
               type='video/mp4'
