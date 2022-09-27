@@ -51,7 +51,7 @@ export default function Work() {
           tags={['UI/UX Design', 'Platform Development']}
           accent='#e42528'
         /> */}
-        {/* <ProjectButton id='alh' title='Aroeira Lisbon Hotel' tags={['Web Development']} accent='#0a2341' /> */}
+        <ProjectButton id='alh' title='Aroeira Lisbon Hotel' tags={['Web Development']} accent='#0a2341' />
         <ProjectButton
           id='jodel'
           title='Jodel'
