@@ -189,7 +189,7 @@ export default function GeoBus() {
           <GeoBusIcon src={GeoBusAppIcon} alt='GeoBus Icon' priority />
           <GeoBusSummary>
             <h1>GeoBus</h1>
-            <p>Locate Lisbon buses on the map in real time.</p>
+            <p>Mapping Lisbon buses in real time.</p>
             <BadgesContainer>
               <BadgeUsage>
                 <IconStar />
@@ -224,7 +224,7 @@ export default function GeoBus() {
               <strong>Features:</strong>
               <br />• Real time location of all vehicles on the map;
               <br />• See complete routes (and alternative paths);
-              <br />• Estimated travel times for each stop;
+              <br />• Estimated waiting times for each stop;
               <br />• Add routes to your favorites.
             </p>
             <p>

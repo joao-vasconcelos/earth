@@ -70,12 +70,12 @@ export default function Infrastructure() {
               <strong>I am an Engineer.</strong>
             </p>
             <p>
-              What&apos;s so great about design is that it is a process. It forces you to position yourself in the
-              user&apos;s shoes and think like him, to live its struggle. Only then it is possible to understand the
-              solution to be built. I think people focus too much on what a tool does and not so much on the problem it
-              solves, the purpose it serves. I build good tools because I focus on this aspect and never forget about
-              it, and decisions come naturally this way. My talent is combining design and technology to build things
-              people like to use.
+              What&apos;s so great about design is that it is a process. It forces you to position yourself in the users
+              shoes and think like them, to live their struggle. Only then it is possible to understand the solution to
+              be built. I think people focus too much on what a tool does and not so much on the problem it solves, the
+              purpose it serves. I build good tools because I focus on this aspect and never forget about it, and
+              decisions come naturally this way. My talent is combining design and technology to build things people
+              like to use.
             </p>
           </div>
         </Container>
