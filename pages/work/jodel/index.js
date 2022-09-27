@@ -5,6 +5,8 @@ import JodelDesignation from './assets/jodel-designation.svg';
 import JodelPositioning from './assets/jodel-positioning.svg';
 import JodelLogo from './assets/jodel-logo.png';
 import JodelCertifications from './assets/jodel-certifications.svg';
+import JodelWebsite1 from './assets/jodel-website-1.png';
+import JodelWebsite2 from './assets/jodel-website-2.png';
 
 import { Container, Section } from '../../../components/global/Layout';
 import ProjectIntro from '../../../components/projects/ProjectIntro';
@@ -81,10 +83,11 @@ export default function ProjectJodel() {
               customers of any size.
             </p>
           </ProjectText>
+          <Image src={JodelCertifications} width={150} alt='SPG Logo' style={{ marginTop: 50 }} />
         </Container>
       </Section>
 
-      <Section>
+      <Section css={{ paddingBottom: 50 }}>
         <Container>
           <ProjectText>
             <strong>Website</strong>
@@ -93,6 +96,16 @@ export default function ProjectJodel() {
               small screens.
             </p>
           </ProjectText>
+        </Container>
+      </Section>
+      <Section css={{ padding: 0, background: '#cceff6' }}>
+        <Container>
+          <FullWidthImage src={JodelWebsite1} alt={'Website1'} />
+        </Container>
+      </Section>
+      <Section>
+        <Container>
+          <FullWidthImage src={JodelWebsite2} alt={'Website1'} />
         </Container>
       </Section>
     </main>

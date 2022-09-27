@@ -2,6 +2,7 @@ import { styled } from '@stitches/react';
 import Image from 'next/future/image';
 
 const Wrapper = styled('div', {
+  display: 'flex',
   width: '108%',
   marginLeft: '-4%',
   '& img': {
