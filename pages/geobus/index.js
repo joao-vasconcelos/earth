@@ -7,6 +7,7 @@ import GeoBusAppIcon from './assets/geobus-icon-1024.png';
 import GeoBusScreenshot1 from './assets/geobus-screenshot-1.png';
 import GeoBusScreenshot2 from './assets/geobus-screenshot-2.png';
 import GeoBusScreenshot3 from './assets/geobus-screenshot-3.png';
+import AppstoreImage from './assets/appstore-button.png';
 
 const Intro = styled(Section, {
   backgroundColor: 'var(--palette-green-alpha)',
@@ -95,6 +96,7 @@ const Badge = styled('span', {
 const BadgeUsage = styled(Badge, {
   backgroundColor: 'var(--palette-orange-alpha)',
   borderColor: 'var(--palette-orange)',
+  cursor: 'default',
   '& path': {
     fill: 'var(--palette-orange)',
   },
@@ -191,7 +193,7 @@ export default function GeoBus() {
             <BadgesContainer>
               <BadgeUsage>
                 <IconStar />
-                <span>More than 500 Users</span>
+                <span>More than 400 Users</span>
               </BadgeUsage>
               <BadgeDownload onClick={() => openInNewTab('/geobus/download')}>
                 <IconDownToLineArrow />
@@ -237,7 +239,7 @@ export default function GeoBus() {
             <p>All data is kindly provided by Carris itself, and is updated every 30 seconds.</p>
           </Description>
           <a href={'/geobus/download'} target={'_blank'} rel='noreferrer'>
-            <AppstoreButton src='/images/appstore-button.png' alt='GeoBus Icon' width={315} height={95} priority />
+            <AppstoreButton src={AppstoreImage} alt='GeoBus Icon' width={315} height={95} priority />
           </a>
         </Container>
       </GeoBusInfo>
