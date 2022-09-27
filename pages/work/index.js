@@ -52,6 +52,12 @@ export default function Work() {
           accent='#e42528'
         />
         <ProjectButton
+          id='geobus'
+          title='GeoBus'
+          tags={['UI/UX Design', 'App Development']}
+          accent='rgb(255, 160, 0)'
+        />
+        <ProjectButton
           id='jodel'
           title='Jodel'
           tags={['Strategy', 'Brand Design', 'Web Development']}

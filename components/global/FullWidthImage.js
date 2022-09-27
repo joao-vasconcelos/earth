@@ -3,18 +3,31 @@ import Image from 'next/future/image';
 
 const Wrapper = styled('div', {
   display: 'flex',
-  width: '108%',
-  marginLeft: '-4%',
   '& img': {
     objectFit: 'contain',
     width: '100%',
     height: 'auto',
   },
+  variants: {
+    withMargin: {
+      true: {
+        width: '108%',
+        marginLeft: '-4%',
+      },
+      false: {
+        width: '100%',
+        margin: 0,
+      },
+    },
+  },
+  defaultVariants: {
+    withMargin: true,
+  },
 });
 
-export default function FullWidthImage({ src, alt, maxWidth }) {
+export default function FullWidthImage({ src, alt, withMargin, maxWidth }) {
   return (
-    <Wrapper css={{ maxWidth: maxWidth }}>
+    <Wrapper withMargin={withMargin} css={{ maxWidth: maxWidth }}>
       <Image src={src} alt={alt} priority />
     </Wrapper>
   );
