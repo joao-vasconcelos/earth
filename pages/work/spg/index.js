@@ -26,7 +26,7 @@ export default function ProjectSPG() {
     <main>
       <ProjectIntro
         title='Sociedade Portuguesa de Ginecologia'
-        tags={['Strategy', 'Brand Design', 'Platform Development']}
+        tags={['Strategy', 'Brand Design', 'UI/UX Design', 'Platform Development']}
         description='Bringing a clinical community together around the sharing of scientific knowledge.'
       />
 

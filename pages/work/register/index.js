@@ -17,7 +17,7 @@ export default function ProjectChefPoint() {
   return (
     <main>
       <ProjectIntro
-        title='Register'
+        title='POS Register'
         tags={['UI/UX Design', 'Platform Development']}
         description='Design and development of a dedicated suite of apps to manage and simplify the operation of a fast-paced cafeteria business.'
         accent=''
