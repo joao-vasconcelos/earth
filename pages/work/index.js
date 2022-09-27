@@ -45,12 +45,12 @@ export default function Work() {
           tags={['Strategy', 'Brand Design', 'Platform Development']}
           accent='rgb(203, 0, 90)'
         />
-        {/* <ProjectButton
+        <ProjectButton
           id='register'
           title='Register'
           tags={['UI/UX Design', 'Platform Development']}
           accent='#e42528'
-        /> */}
+        />
         <ProjectButton id='alh' title='Aroeira Lisbon Hotel' tags={['Web Development']} accent='#0a2341' />
         <ProjectButton
           id='jodel'
