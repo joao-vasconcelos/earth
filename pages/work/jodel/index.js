@@ -1,5 +1,10 @@
 import { styled } from '@stitches/react';
 import Image from 'next/future/image';
+import Columns from '../../../components/global/Columns';
+import JodelDesignation from './assets/jodel-designation.svg';
+import JodelPositioning from './assets/jodel-positioning.svg';
+import JodelLogo from './assets/jodel-logo.png';
+import JodelCertifications from './assets/jodel-certifications.svg';
 
 import { Container, Section } from '../../../components/global/Layout';
 import ProjectIntro from '../../../components/projects/ProjectIntro';
@@ -37,6 +42,33 @@ export default function ProjectJodel() {
               it&apos;s unique ability to answer to the contemporary demands of the national and international markets.
             </p>
           </ProjectText>
+          <Columns cols={2} vAlign='bottom' hAlign='left' css={{ marginTop: 80 }}>
+            <Image src={JodelDesignation} width={220} alt='SPG Logo' />
+            <ProjectText>
+              <p>
+                Leveling of the graphic elements in the symbol, treatment of the typographic elements of the logo and
+                definition of the chromatic universe of SPG.
+              </p>
+            </ProjectText>
+          </Columns>
+          <Columns cols={2} vAlign='bottom' hAlign='left' css={{ marginTop: 80 }}>
+            <Image src={JodelPositioning} width={250} alt='SPG Logo' />
+            <ProjectText>
+              <p>
+                Leveling of the graphic elements in the symbol, treatment of the typographic elements of the logo and
+                definition of the chromatic universe of SPG.
+              </p>
+            </ProjectText>
+          </Columns>
+          <Columns cols={2} vAlign='bottom' hAlign='left' css={{ marginTop: 100 }}>
+            <Image src={JodelLogo} width={350} alt='SPG Logo' />
+            <ProjectText>
+              <p>
+                Leveling of the graphic elements in the symbol, treatment of the typographic elements of the logo and
+                definition of the chromatic universe of SPG.
+              </p>
+            </ProjectText>
+          </Columns>
         </Container>
       </Section>
 

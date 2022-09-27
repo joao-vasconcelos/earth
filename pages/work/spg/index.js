@@ -15,7 +15,6 @@ import SPGNewsletter1 from './assets/spg-newsletter-1.png';
 import SPGInstagram1 from './assets/spg-instagram-1.png';
 import SPGLinkedIn1 from './assets/spg-linkedin-1.png';
 import SPGFacebook1 from './assets/spg-facebook-1.png';
-import SPGNuclei1 from './assets/spg-nuclei-1.png';
 import Columns from '../../../components/global/Columns';
 import { Container, Section } from '../../../components/global/Layout';
 import ProjectIntro from '../../../components/projects/ProjectIntro';
