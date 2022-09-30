@@ -42,10 +42,9 @@ export default function ProjectRegister() {
         <Container>
           <ProjectText>
             <p>
-              <strong>Register was built out of frustation</strong> due to the lack of good solutions in the portuguese
-              POS market. All studied options were confusing, lacked essential functionalities and it was clear that
-              they missed on the practicality of the operation. Were these companies using the software they were
-              building?
+              <strong>Register was built out of frustation</strong> from the lack of good solutions in the portuguese
+              POS market. All studied options were confusing, lacked essential functionality and missed on the
+              practicality of the operation. Were these companies using the software they were building?
             </p>
           </ProjectText>
           <Columns cols={1} vAlign='top' hAlign='center'>
@@ -53,9 +52,9 @@ export default function ProjectRegister() {
           </Columns>
           <ProjectText>
             <p>
-              All elements were designed to be very obvious and unobstructive. THe most important metric for a cafeteria
-              cashier is speed, closely followed by accuracy. Register optmizes for both by offering large buttons that
-              minimize errors and keep the line moving.
+              All elements were designed to be very obvious and unobstructive. The most important metric for a cafeteria
+              cashier is accuracy, closely followed by speed. Register optimizes for both by offering a clean interface
+              with large buttons that minimizes errors and keeps the line moving.
             </p>
           </ProjectText>
         </Container>
@@ -65,9 +64,9 @@ export default function ProjectRegister() {
         <Container>
           <ProjectText>
             <p>
-              <strong>Security</strong> was a key aspect considered, here solved by proving each employee with a
-              specific 4 digit code. Only entering the code is enough to unlock the register and associate all sales to
-              the respective name, allowing for fast staff changes due to unexpected situations.
+              <strong>Security</strong> was a key aspect considered, here solved by providing each employee with an
+              unique 4 digit code. Only entering the code is enough to unlock the register and associate all sales to
+              the respective worker, allowing for fast staff changes due to unexpected situations.
             </p>
           </ProjectText>
           <Columns cols={1} vAlign='top' hAlign='center'>
@@ -81,7 +80,7 @@ export default function ProjectRegister() {
           <ProjectText>
             <p>
               <strong>Overview</strong> is where allowed employees can check the progress of the day. It is possible to
-              change date and view each transaction in detail.
+              change the date and view each transaction in detail.
             </p>
           </ProjectText>
           <Columns cols={1} vAlign='top' hAlign='center'>
@@ -98,7 +97,7 @@ export default function ProjectRegister() {
             </p>
             <p>
               The whole system was built in NextJS, and is currently hosted on Vercel. There is also a companion
-              dashboard product to allow the remote management of the operation.
+              dashboard application allowing the remote management of the whole operation.
             </p>
           </ProjectText>
           <Columns cols={1} vAlign='top' hAlign='center'>
