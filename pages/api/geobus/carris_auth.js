@@ -5,7 +5,11 @@
 /* * */
 
 export default async function carrisApiCredentials(req, res) {
-  const fbUrl = `https://firebaseremoteconfig.googleapis.com/v1/projects/carris-planeador-de-viagem/namespaces/firebase:fetch?key=${carris.api_key}`
+  const carris = {
+    api_key: '',
+    ios_app_id: ''
+  }
+  const fbrcUrl = `https://firebaseremoteconfig.googleapis.com/v1/projects/carris-planeador-de-viagem/namespaces/firebase:fetch?key=${carris.api_key}`
   let opt = {
     method: 'POST',
     body: JSON.stringify({
@@ -13,7 +17,7 @@ export default async function carrisApiCredentials(req, res) {
       app_id: carris.ios_app_id
     })
   }
-  const fbRes = await fetch(url, opt);
+  const fbrcRes = await fetch(url, opt);
   const json = await fbRes.json();
   return new Promise((resolve, reject) => {
     res.statusCode = 200;
