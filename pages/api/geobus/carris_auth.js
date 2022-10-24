@@ -19,7 +19,7 @@ export default async function carrisApiCredentials(req, res) {
     res.statusCode = 200;
     res.send({
       endpoint: 'gateway.carris.pt',
-      token: json.entries.json.entries.apikey_ios,
+      token: json.entries.apikey_ios,
       type: 'apikey',
     });
     resolve();
