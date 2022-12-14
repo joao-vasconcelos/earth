@@ -1,5 +1,5 @@
 import { styled } from '@stitches/react';
-import Image from 'next/future/image';
+import Image from 'next/image';
 
 const Wrapper = styled('div', {
   display: 'flex',

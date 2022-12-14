@@ -1,4 +1,4 @@
-import Image from 'next/future/image';
+import Image from 'next/image';
 import SPGLogo from './assets/spg-logo.svg';
 import SPGSeccao1 from './assets/spg-seccao-1.svg';
 import SPGSeccao2 from './assets/spg-seccao-2.svg';

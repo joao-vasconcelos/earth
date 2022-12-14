@@ -1,10 +1,8 @@
-import { styled } from '@stitches/react';
 import ProjectIntro from '../../../components/projects/ProjectIntro';
 import JFLDWebsite1 from './assets/jfld-website-1.png';
 import JFLDWebsite2 from './assets/jfld-website-2.png';
 import { Container, Section } from '../../../components/global/Layout';
 import FullWidthImage from '../../../components/global/FullWidthImage';
-import ProjectText from '../../../components/projects/ProjectText';
 
 export default function ProjectJFLD() {
   return (

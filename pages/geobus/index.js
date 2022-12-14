@@ -1,4 +1,4 @@
-import Image from 'next/future/image';
+import Image from 'next/image';
 import { Section, Container } from '../../components/global/Layout';
 import { styled } from '@stitches/react';
 import IconStar from '../../components/icons/IconStar';
