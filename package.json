@@ -1,5 +1,5 @@
 {
-  "version": "2022.12.4",
+  "version": "2022.12.5",
   "private": true,
   "scripts": {
     "dev": "next dev",
