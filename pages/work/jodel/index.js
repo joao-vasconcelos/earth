@@ -1,5 +1,4 @@
-import { styled } from '@stitches/react';
-import Image from 'next/future/image';
+import Image from 'next/image';
 import Columns from '../../../components/global/Columns';
 import JodelDesignation from './assets/jodel-designation.svg';
 import JodelPositioning from './assets/jodel-positioning.svg';

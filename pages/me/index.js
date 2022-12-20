@@ -1,4 +1,4 @@
-import Image from 'next/future/image';
+import Image from 'next/image';
 import { styled } from '@stitches/react';
 import { Section, Container } from '../../components/global/Layout';
 import JoaoProfilePic from './assets/joao.jpg';

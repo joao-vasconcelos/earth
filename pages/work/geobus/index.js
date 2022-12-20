@@ -1,4 +1,3 @@
-import { styled } from '@stitches/react';
 import Columns from '../../../components/global/Columns';
 import { Container, Section } from '../../../components/global/Layout';
 import ProjectIntro from '../../../components/projects/ProjectIntro';
