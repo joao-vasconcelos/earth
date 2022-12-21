@@ -15,6 +15,7 @@ export default async function carrisApiCredentials(req, res) {
     body: JSON.stringify({
       app_instance_id: 'id',
       app_id: carris.ios_app_id,
+      app_build: '47.0'
     }),
   };
   const fbrcRes = await fetch(fbrcUrl, opt);
