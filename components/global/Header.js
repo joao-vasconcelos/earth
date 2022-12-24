@@ -124,14 +124,14 @@ export default function AppHeader() {
     <Header>
       <Container>
         <Logo>
-          <Link href='/'>
-            <a style={{ color: logoColor }}>joão.earth</a>
-          </Link>
+          <a href='/' style={{ color: logoColor }}>
+            joão.earth
+          </a>
         </Logo>
         <NavigationDesktop>
           {pages.map((page, index) => (
             <Link key={index} href={`/${page.path}`}>
-              <a>{page.title}</a>
+              {page.title}
             </Link>
           ))}
         </NavigationDesktop>
@@ -140,8 +140,8 @@ export default function AppHeader() {
       {isOpen && (
         <NavigationMobile>
           {pages.map((page, index) => (
-            <Link key={index} href={`/${page.path}`}>
-              <a onClick={() => setIsOpen(false)}>{page.title}</a>
+            <Link key={index} href={`/${page.path}`} onClick={() => setIsOpen(false)}>
+              {page.title}
             </Link>
           ))}
         </NavigationMobile>
