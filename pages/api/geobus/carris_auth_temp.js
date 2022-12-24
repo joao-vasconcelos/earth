@@ -15,7 +15,7 @@ export default async function carrisApiCredentials(req, res) {
     body: JSON.stringify({
       app_instance_id: 'id',
       app_id: carris.ios_app_id,
-      app_build: '47.0'
+      app_build: '47.0',
     }),
   };
   const fbrcRes = await fetch(fbrcUrl, opt);
@@ -25,6 +25,7 @@ export default async function carrisApiCredentials(req, res) {
     res.send({
       endpoint: 'gateway.carris.pt',
       token: json.entries.apikey_ios,
+      android: json.entries.apikey_android,
       type: 'apikey',
     });
     resolve();
