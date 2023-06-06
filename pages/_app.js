@@ -2,6 +2,7 @@ import BrowserConfig from '../services/BrowserConfig';
 import Header from '../components/global/Header';
 import Footer from '../components/global/Footer';
 import { usePostHog } from '../services/Posthog';
+import { Analytics } from '@vercel/analytics/react';
 
 import '../styles/reset.css';
 import '../styles/globals.css';
@@ -25,6 +26,7 @@ export default function JoaoEarth({ Component, pageProps }) {
       <Header />
       <Component {...pageProps} />
       <Footer />
+      <Analytics />
     </>
   );
 }
