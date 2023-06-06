@@ -45,11 +45,10 @@ export default function Infrastructure() {
           <h1>How to design cities</h1>
           <p>The Dutch are very practical when it comes to designing their cities.</p>
           <p>
-            It is a misconception that the Netherlands has great bike usage because it is flat — it is because it has
-            great infrastructure. Cities around the world must learn from the best, starting with these three examples
-            of thoughtful design & engineering, and integration of the various components that make a city.
+            It is a misconception that the Netherlands has great bike usage because it is flat—it is because it has great infrastructure. Cities around the world must learn from the best, starting with these three examples of thoughtful design and
+            engineering, and integration of the various components that make a city.
           </p>
-          <p>Roads are the arteries of the city, and the Netherlands’ have never been healthier.</p>
+          <p>Roads are the arteries of the city, and the Netherlands&apos; have never been healthier.</p>
           <p>
             Take a look at BicycleDutch on his{' '}
             <a href='https://bicycledutch.wordpress.com/' target='_blank' rel='noreferrer'>
@@ -69,18 +68,11 @@ export default function Infrastructure() {
           <YoutubeEmbed embedId='FlApbxLz6pA' />
           <VideoInfo>
             <h2>#1 — Junction design the Dutch way</h2>
-            <p>
-              The Dutch build cycle paths right on their junctions. So they must have wider streets, right? Wrong! This
-              video shows how it is done, no extra space needed.
-            </p>
+            <p>The Dutch build cycle paths right on their junctions. So they must have wider streets, right? Wrong! This video shows how it is done, no extra space needed.</p>
             <p>
               by <strong>Mark Wagenbuur</strong>
             </p>
-            <a
-              href='https://bicycledutch.wordpress.com/2011/04/07/state-of-the-art-bikeway-design-or-is-it/'
-              target='_blank'
-              rel='noreferrer'
-            >
+            <a href='https://bicycledutch.wordpress.com/2011/04/07/state-of-the-art-bikeway-design-or-is-it/' target='_blank' rel='noreferrer'>
               ► Read Full Article
             </a>
           </VideoInfo>
@@ -96,11 +88,7 @@ export default function Infrastructure() {
             <p>
               by <strong>Mark Wagenbuur</strong>
             </p>
-            <a
-              href='https://bicycledutch.wordpress.com/2016/06/21/traffic-lights-in-s-hertogenbosch-an-interview/'
-              target='_blank'
-              rel='noreferrer'
-            >
+            <a href='https://bicycledutch.wordpress.com/2016/06/21/traffic-lights-in-s-hertogenbosch-an-interview/' target='_blank' rel='noreferrer'>
               ► Read Full Article
             </a>
           </VideoInfo>
@@ -116,11 +104,7 @@ export default function Infrastructure() {
             <p>
               by <strong>Mark Wagenbuur</strong>
             </p>
-            <a
-              href='https://bicycledutch.wordpress.com/2014/02/23/junction-design-in-the-netherlands/'
-              target='_blank'
-              rel='noreferrer'
-            >
+            <a href='https://bicycledutch.wordpress.com/2014/02/23/junction-design-in-the-netherlands/' target='_blank' rel='noreferrer'>
               ► Read Full Article
             </a>
           </VideoInfo>
