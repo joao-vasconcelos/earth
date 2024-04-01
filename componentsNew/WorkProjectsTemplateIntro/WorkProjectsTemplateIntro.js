@@ -22,17 +22,15 @@ export default function WorkProjectsTemplateIntro({ projectData }) {
   return (
     <Container className={styles.container}>
       <Section>
-        <div className={styles.innerWrapper}>
-          <h1 className={styles.title}>{workProjectsDataTranslations(`${projectData.id}.title`)}</h1>
-          {projectData.tags.length > 0 && (
-            <div className={styles.tagsList}>
-              {projectData.tags.map((item) => (
-                <WorkProjectsProjectTag key={item} tagId={item} />
-              ))}
-            </div>
-          )}
-          <p className={styles.description}>{workProjectsDataTranslations(`${projectData.id}.description`)}</p>
-        </div>
+        <h1 className={styles.title}>{workProjectsDataTranslations(`${projectData.id}.title`)}</h1>
+        {projectData.tags.length > 0 && (
+          <div className={styles.tagsList}>
+            {projectData.tags.map((item) => (
+              <WorkProjectsProjectTag key={item} tagId={item} />
+            ))}
+          </div>
+        )}
+        <p className={styles.description}>{workProjectsDataTranslations(`${projectData.id}.description`)}</p>
       </Section>
     </Container>
   );

@@ -6,19 +6,11 @@
 }
 
 /* * */
-/* INNER WRAPPER */
-
-.innerWrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-/* * */
 /* HEADING */
 
 .heading {
+  width: 100%;
+  text-align: center;
   color: var(--palette-green);
 }
 

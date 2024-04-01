@@ -1,4 +1,4 @@
-import styles from './Saaft.module.css';
+import styles from '../Saaft.module.css';
 
 export default function Saaft() {
   return (

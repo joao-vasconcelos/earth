@@ -22,37 +22,31 @@ export default function InfrastructureExamples() {
   return (
     <Container>
       <Section>
-        <div className={styles.innerWrapper}>
-          <YoutubeEmbed embedId="FlApbxLz6pA" />
-          <h1 className={styles.title}>{t('example_1.title')}</h1>
-          <p className={styles.description}>{t('example_1.description')}</p>
-          <p className={styles.author}>{t('example_1.author')}</p>
-          <a className={styles.link} href="https://bicycledutch.wordpress.com" target="_blank">
-            {t('example_1.link')}
-          </a>
-        </div>
+        <YoutubeEmbed embedId="FlApbxLz6pA" />
+        <h1 className={styles.title}>{t('example_1.title')}</h1>
+        <p className={styles.description}>{t('example_1.description')}</p>
+        <p className={styles.author}>{t('example_1.author')}</p>
+        <a className={styles.link} href="https://bicycledutch.wordpress.com" target="_blank">
+          {t('example_1.link')}
+        </a>
       </Section>
       <Section>
-        <div className={styles.innerWrapper}>
-          <YoutubeEmbed embedId="-GcocOUVRa4" />
-          <h1 className={styles.title}>{t('example_2.title')}</h1>
-          <p className={styles.description}>{t('example_2.description')}</p>
-          <p className={styles.author}>{t('example_2.author')}</p>
-          <a className={styles.link} href="https://bicycledutch.wordpress.com" target="_blank">
-            {t('example_2.link')}
-          </a>
-        </div>
+        <YoutubeEmbed embedId="-GcocOUVRa4" />
+        <h1 className={styles.title}>{t('example_2.title')}</h1>
+        <p className={styles.description}>{t('example_2.description')}</p>
+        <p className={styles.author}>{t('example_2.author')}</p>
+        <a className={styles.link} href="https://bicycledutch.wordpress.com" target="_blank">
+          {t('example_2.link')}
+        </a>
       </Section>
       <Section>
-        <div className={styles.innerWrapper}>
-          <YoutubeEmbed embedId="XpQMgbDJPok" />
-          <h1 className={styles.title}>{t('example_3.title')}</h1>
-          <p className={styles.description}>{t('example_3.description')}</p>
-          <p className={styles.author}>{t('example_3.author')}</p>
-          <a className={styles.link} href="https://bicycledutch.wordpress.com" target="_blank">
-            {t('example_3.link')}
-          </a>
-        </div>
+        <YoutubeEmbed embedId="XpQMgbDJPok" />
+        <h1 className={styles.title}>{t('example_3.title')}</h1>
+        <p className={styles.description}>{t('example_3.description')}</p>
+        <p className={styles.author}>{t('example_3.author')}</p>
+        <a className={styles.link} href="https://bicycledutch.wordpress.com" target="_blank">
+          {t('example_3.link')}
+        </a>
       </Section>
     </Container>
   );

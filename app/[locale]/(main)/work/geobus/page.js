@@ -1,41 +1,60 @@
-import Columns from '../../../../../components/global/Columns';
-import { Container, Section } from '../../../../../components/global/Layout';
-import ProjectIntro from '../../../../../components/projects/ProjectIntro';
-import ProjectText from '../../../../../components/projects/ProjectText';
-import FullWidthImage from '../../../../../componentsNew/FullWidthImage/FullWidthImage';
-import GeoBusScreenshot1 from '../../geobus/assets/geobus-screenshot-1.png';
-import GeoBusScreenshot2 from '../../geobus/assets/geobus-screenshot-2.png';
+/* * */
 
-export default function ProjectGeoBus() {
+import { useTranslations } from 'next-intl';
+import WorkProjectsData from '@/data/WorkProjects.json';
+import WorkProjectsTemplate from '@/components/WorkProjectsTemplate/WorkProjectsTemplate';
+import WorkProjectsTemplateTextSnippet from '@/components/WorkProjectsTemplateTextSnippet/WorkProjectsTemplateTextSnippet';
+import Container from '@/components/Container/Container';
+import Section from '@/components/Section/Section';
+import Columns from '@/components/Columns/Columns';
+import FullWidthImage from '@/components/FullWidthImage/FullWidthImage';
+import GeoBusScreenshot1 from '@/assets/geobus/geobus-screenshot-1.png';
+import GeoBusScreenshot2 from '@/assets/geobus/geobus-screenshot-2.png';
+
+/* * */
+
+export default function Page() {
+  //
+
+  //
+  // A. Setup variables
+
+  const workProjectsDataTranslations = useTranslations('WorkProjectsData.geobus');
+
+  //
+  // B. Render components
+
   return (
-    <main>
-      <ProjectIntro title="GeoBus" tags={['UI/UX Design', 'App Development']} description="iPhone app to map Lisbon buses in real time. It is a hobby project offered for free with the goal of improving the user experience when riding the bus." accent="" />
-
-      <Section>
-        <Container>
-          <ProjectText>
+    <WorkProjectsTemplate projectData={WorkProjectsData.geobus}>
+      <Container>
+        <Section>
+          <WorkProjectsTemplateTextSnippet>
             <p>
-              <strong>The current situation is not so friendly</strong> - the user is expected to go to the bus stop and patiently wait for the vehicle without any indication of when it might arrive. In some locations, estimations or waiting times are available, but due to poor implementation and
-              traffic unpredictability most of the time they are wrong.
+              {workProjectsDataTranslations.rich('paragraphs.paragraph_1', {
+                strong: (chunks) => <strong>{chunks}</strong>,
+              })}
             </p>
-          </ProjectText>
-        </Container>
-      </Section>
+          </WorkProjectsTemplateTextSnippet>
+        </Section>
+      </Container>
 
-      <Section css={{ paddingTop: 50 }}>
-        <Container>
-          <ProjectText>
+      <Container>
+        <Section>
+          <WorkProjectsTemplateTextSnippet>
             <p>
-              <strong>With a simple interface</strong> it is possible for users to select a route number and visualize all the vehicles currently in operation. With this information, and the knowledge acquired by living in the city, it becomes intuitive to guess how much time it will take for the
-              bus to arrive.
+              {workProjectsDataTranslations.rich('paragraphs.paragraph_2', {
+                strong: (chunks) => <strong>{chunks}</strong>,
+              })}
             </p>
-          </ProjectText>
+          </WorkProjectsTemplateTextSnippet>
           <Columns cols={2} vAlign="top" hAlign="center" css={{ paddingTop: 50 }}>
-            <FullWidthImage withMargin={false} src={GeoBusScreenshot1} alt="SPG Logo" />
-            <FullWidthImage withMargin={false} src={GeoBusScreenshot2} alt="SPG Logo" />
+            <FullWidthImage src={GeoBusScreenshot1} alt="SPG Logo" withShadow withRoundEdges />
+            <FullWidthImage src={GeoBusScreenshot2} alt="SPG Logo" withShadow withRoundEdges />
           </Columns>
-        </Container>
-      </Section>
-    </main>
+        </Section>
+      </Container>
+    </WorkProjectsTemplate>
   );
+
+  //
 }

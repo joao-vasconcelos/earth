@@ -21,26 +21,24 @@ export default function InfrastructureIntro() {
   return (
     <Container className={styles.container}>
       <Section>
-        <div className={styles.innerWrapper}>
-          <h1 className={styles.heading}>{t('heading')}</h1>
-          <p className={styles.paragraph}>{t('paragraph_1')}</p>
-          <p className={styles.paragraph}>{t('paragraph_2')}</p>
-          <p className={styles.paragraph}>{t('paragraph_3')}</p>
-          <p className={styles.paragraph}>
-            {t.rich('paragraph_4', {
-              anchor_1: (chunks) => (
-                <a href="https://bicycledutch.wordpress.com" target="_blank">
-                  {chunks}
-                </a>
-              ),
-              anchor_2: (chunks) => (
-                <a href="https://www.youtube.com/channel/UC67YlPrRvsO117gFDM7UePg" target="_blank">
-                  {chunks}
-                </a>
-              ),
-            })}
-          </p>
-        </div>
+        <h1 className={styles.heading}>{t('heading')}</h1>
+        <p className={styles.paragraph}>{t('paragraph_1')}</p>
+        <p className={styles.paragraph}>{t('paragraph_2')}</p>
+        <p className={styles.paragraph}>{t('paragraph_3')}</p>
+        <p className={styles.paragraph}>
+          {t.rich('paragraph_4', {
+            anchor_1: (chunks) => (
+              <a href="https://bicycledutch.wordpress.com" target="_blank">
+                {chunks}
+              </a>
+            ),
+            anchor_2: (chunks) => (
+              <a href="https://www.youtube.com/channel/UC67YlPrRvsO117gFDM7UePg" target="_blank">
+                {chunks}
+              </a>
+            ),
+          })}
+        </p>
       </Section>
     </Container>
   );

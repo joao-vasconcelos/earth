@@ -21,9 +21,7 @@ export default function GeoBusIntro() {
   return (
     <Container className={styles.container}>
       <Section>
-        <div className={styles.innerWrapper}>
-          <h1 className={styles.heading}>{t('heading')}</h1>
-        </div>
+        <h1 className={styles.heading}>{t('heading')}</h1>
       </Section>
     </Container>
   );

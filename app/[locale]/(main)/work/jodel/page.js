@@ -1,94 +1,122 @@
 /* * */
 
 import Image from 'next/image';
-import Columns from '../../../../../components/global/Columns';
-import JodelDesignation from './assets/jodel-designation.svg';
-import JodelPositioning from './assets/jodel-positioning.svg';
-import JodelLogo from './assets/jodel-logo.png';
-import JodelCertifications from './assets/jodel-certifications.svg';
-import JodelWebsite1 from './assets/jodel-website-1.png';
-import JodelWebsite2 from './assets/jodel-website-2.png';
 
-import { Container, Section } from '../../../../../components/global/Layout';
-import ProjectIntro from '../../../../../components/projects/ProjectIntro';
-import ProjectText from '../../../../../components/projects/ProjectText';
-import FullWidthImage from '../../../../../componentsNew/FullWidthImage/FullWidthImage';
-
+import { useTranslations } from 'next-intl';
 import WorkProjectsData from '@/data/WorkProjects.json';
 import WorkProjectsTemplate from '@/components/WorkProjectsTemplate/WorkProjectsTemplate';
+import WorkProjectsTemplateTextSnippet from '@/components/WorkProjectsTemplateTextSnippet/WorkProjectsTemplateTextSnippet';
+import Container from '@/components/Container/Container';
+import Section from '@/components/Section/Section';
+import Columns from '@/components/Columns/Columns';
+import FullWidthImage from '@/components/FullWidthImage/FullWidthImage';
+import JodelLogo from '@/assets/work/jodel/jodel-logo.png';
+import JodelDesignation from '@/assets/work/jodel/jodel-designation.svg';
+import JodelPositioning from '@/assets/work/jodel/jodel-positioning.svg';
+import JodelCertifications from '@/assets/work/jodel/jodel-certifications.svg';
+import JodelWebsite1 from '@/assets/work/jodel/jodel-website-1.png';
+import JodelWebsite2 from '@/assets/work/jodel/jodel-website-2.png';
 
 /* * */
 
 export default function Page() {
+  //
+
+  //
+  // A. Setup variables
+
+  const workProjectsDataTranslations = useTranslations('WorkProjectsData.jodel');
+
+  //
+  // B. Render components
+
   return (
     <WorkProjectsTemplate projectData={WorkProjectsData.jodel}>
-      <Section>
-        <Container>
-          <ProjectText>
-            <strong>Organize by Function</strong>
+      <Container>
+        <Section>
+          <WorkProjectsTemplateTextSnippet>
             <p>
-              Analyze the company&apos;s activity — productive capacity and market recognition — identifying its distinctive competitive factors. By doing this it was possible to validate a new structural organization that enhanced commercial effiency and the valuation of the business intrisinc
-              assets.
+              {workProjectsDataTranslations.rich('paragraphs.paragraph_1', {
+                strong: (chunks) => <strong>{chunks}</strong>,
+              })}
             </p>
-          </ProjectText>
-        </Container>
-      </Section>
+            <p>
+              {workProjectsDataTranslations.rich('paragraphs.paragraph_2', {
+                strong: (chunks) => <strong>{chunks}</strong>,
+              })}
+            </p>
+          </WorkProjectsTemplateTextSnippet>
+        </Section>
+      </Container>
 
-      <Section>
-        <Container>
-          <ProjectText>
-            <strong>Rebranding</strong>
-            <p>We valued Jodel&apos;s competitive factors by creating a clear and focused discourse highlighting it&apos;s unique ability to answer to the contemporary demands of the national and international markets.</p>
-          </ProjectText>
-          <Columns cols={2} vAlign="bottom" hAlign="left" css={{ marginTop: 80 }}>
+      <Container>
+        <Section>
+          <WorkProjectsTemplateTextSnippet>
+            <p>
+              {workProjectsDataTranslations.rich('paragraphs.paragraph_3', {
+                strong: (chunks) => <strong>{chunks}</strong>,
+              })}
+            </p>
+            <p>
+              {workProjectsDataTranslations.rich('paragraphs.paragraph_4', {
+                strong: (chunks) => <strong>{chunks}</strong>,
+              })}
+            </p>
+          </WorkProjectsTemplateTextSnippet>
+          <Columns cols={3} style={{ marginTop: 50 }}>
             <Image src={JodelDesignation} width={220} alt="SPG Logo" />
-            <ProjectText>
-              <p>Leveling of the graphic elements in the symbol, treatment of the typographic elements of the logo and definition of the chromatic universe of SPG.</p>
-            </ProjectText>
-          </Columns>
-          <Columns cols={2} vAlign="bottom" hAlign="left" css={{ marginTop: 80 }}>
             <Image src={JodelPositioning} width={250} alt="SPG Logo" />
-            <ProjectText>
-              <p>Leveling of the graphic elements in the symbol, treatment of the typographic elements of the logo and definition of the chromatic universe of SPG.</p>
-            </ProjectText>
-          </Columns>
-          <Columns cols={2} vAlign="bottom" hAlign="left" css={{ marginTop: 100 }}>
             <Image src={JodelLogo} width={350} alt="SPG Logo" />
-            <ProjectText>
-              <p>Leveling of the graphic elements in the symbol, treatment of the typographic elements of the logo and definition of the chromatic universe of SPG.</p>
-            </ProjectText>
           </Columns>
-        </Container>
-      </Section>
+        </Section>
+      </Container>
 
-      <Section>
-        <Container>
-          <ProjectText>
-            <strong>Certifications</strong>
-            <p>Integration of quality certifications in the identity, indicating the unequivocal industrial capacity for customers of any size.</p>
-          </ProjectText>
-          <Image src={JodelCertifications} width={150} alt="SPG Logo" style={{ marginTop: 50 }} />
-        </Container>
-      </Section>
+      <Container>
+        <Section>
+          <WorkProjectsTemplateTextSnippet>
+            <p>
+              {workProjectsDataTranslations.rich('paragraphs.paragraph_5', {
+                strong: (chunks) => <strong>{chunks}</strong>,
+              })}
+            </p>
+            <p>
+              {workProjectsDataTranslations.rich('paragraphs.paragraph_6', {
+                strong: (chunks) => <strong>{chunks}</strong>,
+              })}
+            </p>
+          </WorkProjectsTemplateTextSnippet>
+          <Image src={JodelCertifications} width={150} alt="SPG Logo" style={{ marginTop: 25 }} />
+        </Section>
+      </Container>
 
-      <Section css={{ paddingBottom: 50 }}>
-        <Container>
-          <ProjectText>
-            <strong>Website</strong>
-            <p>Built to be the company&apos;s main business tool, it follows UI/UX standards for optimal use on large and small screens.</p>
-          </ProjectText>
-        </Container>
-      </Section>
-      <Section css={{ padding: 0, background: '#cceff6' }}>
-        <Container>
-          <FullWidthImage src={JodelWebsite1} alt={'Website1'} />
-        </Container>
-      </Section>
-      <Section>
-        <Container>
+      <Container>
+        <Section style={{ paddingBottom: 30 }}>
+          <WorkProjectsTemplateTextSnippet>
+            <p>
+              {workProjectsDataTranslations.rich('paragraphs.paragraph_7', {
+                strong: (chunks) => <strong>{chunks}</strong>,
+              })}
+            </p>
+            <p>
+              {workProjectsDataTranslations.rich('paragraphs.paragraph_8', {
+                strong: (chunks) => <strong>{chunks}</strong>,
+              })}
+            </p>
+          </WorkProjectsTemplateTextSnippet>
+        </Section>
+      </Container>
+
+      <div style={{ background: '#cceff6' }}>
+        <FullWidthImage src={JodelWebsite1} alt={'Website1'} />
+      </div>
+
+      <Container>
+        <Section>
           <FullWidthImage src={JodelWebsite2} alt={'Website1'} />
-        </Container>
-      </Section>
+        </Section>
+      </Container>
     </WorkProjectsTemplate>
   );
+
+  //
 }

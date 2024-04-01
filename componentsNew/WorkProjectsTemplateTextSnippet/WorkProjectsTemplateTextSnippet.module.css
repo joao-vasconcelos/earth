@@ -1,0 +1,21 @@
+/* * */
+/* CONTAINER */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  max-width: 450px;
+  color: var(--system-text);
+}
+
+/* * */
+/* PARAGRAPHS */
+
+.container p {
+  font-size: 15px;
+}
+
+.container p strong {
+  font-weight: var(--font-weight-bold);
+}

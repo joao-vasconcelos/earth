@@ -129,19 +129,91 @@
     "WorkProjectsData": {
         "spg": {
             "title": "Sociedade Portuguesa de Ginecologia",
-            "description": "Bringing a clinical community together around the sharing of scientific knowledge."
+            "description": "Bringing a clinical community together around the sharing of scientific knowledge.",
+            "paragraphs": {
+                "paragraph_1": "<strong>Redesign</strong>",
+                "paragraph_2": "Modernize and strengthen the presence of the SPG brand and hierarchize the sections and nuclei around a common entity.",
+                "paragraph_3": "Simplification and enhancement of the identity of each section to better convey ownership by SPG. While the sub-organisms are specialized in specific areas and behave autonomously, they always work within the context of SPG.",
+                "paragraph_4": "<strong>Academia SPG</strong>",
+                "paragraph_5": "Fulfilling the main objective of SPG, I designed and built a dedicated platform for the gynecological community, for sharing scientific content and materials in various formats — surgical videos, papers, podcasts, webinars, among others.",
+                "paragraph_6": "<strong>Search by Scientific Topics</strong>",
+                "paragraph_7": "The entire platform was conceived and programmed with an evolved system for organizing information by topics. This system promotes the organic growth of the platform and allows its users to access clear and accurate results with each new visit.",
+                "paragraph_8": "<strong>Digital Platform</strong>",
+                "paragraph_9": "Built with two specific goals: a new public-facing website for the presentation of SPG, and a limited-access platform for the gynecological community to share scientific content and materials in various formats.",
+                "paragraph_10": "<strong>Social Networks and Newsletter</strong>",
+                "paragraph_11": "Content creation and management of both the digital platform and social networks — LinkedIn, Facebook and Instagram. Monthly newsletter sent to the entire medical community."
+            },
+            "media": {
+                "mockup_1": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                },
+                "mockup_2": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                }
+            }
         },
         "register": {
             "title": "POS Register",
-            "description": "Design and development of a dedicated suite of apps to manage and simplify the operation of a fast-paced cafeteria business."
+            "description": "Design and development of a dedicated suite of apps to manage and simplify the operation of a fast-paced cafeteria business.",
+            "paragraphs": {
+                "paragraph_1": "<strong>Register was built out of frustation</strong> from the lack of good solutions in the portuguese POS market. All studied options were confusing, lacked essential functionality and missed on the practicality of the operation. Were these companies using the software they were building?",
+                "paragraph_2": "All elements were designed to be very obvious and unobstructive. The most important metric for a cafeteria cashier is accuracy, closely followed by speed. Register optimizes for both by offering a clean interface with large buttons that minimizes errors and keeps the line moving.",
+                "paragraph_3": "<strong>Security</strong> was a key aspect considered, here solved by providing each employee with an unique 4 digit code. Only entering the code is enough to unlock the register and associate all sales to the respective worker, allowing for fast staff changes due to unexpected situations.",
+                "paragraph_4": "<strong>Overview</strong> is where allowed employees can check the progress of the day. It is possible to change the date and view each transaction in detail.",
+                "paragraph_5": "<strong>Tech Stack:</strong> The whole system was built in NextJS, and is currently hosted on Vercel. There is also a companion dashboard application allowing the remote management of the whole operation."
+            },
+            "media": {
+                "mockup_1": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                },
+                "mockup_2": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                },
+                "mockup_3": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                },
+                "mockup_4": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                }
+            }
         },
         "geobus": {
             "title": "GeoBus",
-            "description": "iPhone app to map Lisbon buses in real time. It is a hobby project offered for free with the goal of improving the user experience when riding the bus."
+            "description": "iPhone app to map Lisbon buses in real time. It is a hobby project offered for free with the goal of improving the user experience when riding the bus.",
+            "paragraphs": {
+                "paragraph_1": "<strong>The current situation is not so friendly</strong> - the user is expected to go to the bus stop and patiently wait for the vehicle without any indication of when it might arrive. In some locations, estimations or waiting times are available, but due to poor implementation and traffic unpredictability most of the time they are wrong.",
+                "paragraph_2": "<strong>With a simple interface</strong> it is possible for users to select a route number and visualize all the vehicles currently in operation. With this information, and the knowledge acquired by living in the city, it becomes intuitive to guess how much time it will take for the bus to arrive."
+            },
+            "media": {
+                "mockup_1": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                },
+                "mockup_2": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                }
+            }
         },
         "jodel": {
             "title": "Jodel",
-            "description": "Repositioning the largest Portuguese detergent company by focusing on the revaluation of all its know-how and production capacity, preparing it for a greater bet on internationalization."
+            "description": "Repositioning the largest Portuguese detergent company by focusing on the revaluation of all its know-how and production capacity, preparing it for a greater bet on internationalization.",
+            "paragraphs": {
+                "paragraph_1": "<strong>Organize by Function</strong>",
+                "paragraph_2": "Analyze the company's activity to identifying its distinctive competitive factors — productive capacity and market recognition. By doing this it was possible to validate a new structural organization that enhanced commercial effiency and the valuation of the business assets.",
+                "paragraph_3": "<strong>Rebranding</strong>",
+                "paragraph_4": "We valued Jodel's competitive factors by creating a clear and focused discourse highlighting it's unique ability to answer to the contemporary demands of the national and international markets.",
+                "paragraph_5": "<strong>Certifications</strong>",
+                "paragraph_6": "Integration of quality certifications in the identity, indicating the unequivocal industrial capacity for customers of any size.",
+                "paragraph_7": "<strong>Website</strong>",
+                "paragraph_8": "Built to be the company's main business tool, it follows UI/UX standards for optimal use on large and small screens."
+            },
+            "media": {
+                "mockup_1": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                },
+                "mockup_2": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                }
+            }
         },
         "jfld": {
             "title": "Jean-François Le Dû",

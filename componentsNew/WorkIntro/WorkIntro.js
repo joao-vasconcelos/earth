@@ -21,11 +21,9 @@ export default function WorkIntro() {
   return (
     <Container className={styles.container}>
       <Section>
-        <div className={styles.innerWrapper}>
-          <h1 className={styles.heading}>{t('heading')}</h1>
-          <h3 className={styles.subheading}>{t('subheading')}</h3>
-          <p className={styles.paragraph}>{t('paragraph')}</p>
-        </div>
+        <h1 className={styles.heading}>{t('heading')}</h1>
+        <h3 className={styles.subheading}>{t('subheading')}</h3>
+        <p className={styles.paragraph}>{t('paragraph')}</p>
       </Section>
     </Container>
   );
