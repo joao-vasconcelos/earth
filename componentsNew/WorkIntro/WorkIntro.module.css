@@ -1,0 +1,56 @@
+/* * */
+/* CONTAINER */
+
+.container {
+  background-color: var(--palette-orange-alpha);
+}
+
+/* * */
+/* INNER WRAPPER */
+
+.innerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .innerWrapper {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* * */
+/* HEADING */
+
+.heading {
+  color: var(--palette-orange);
+  max-width: 650px;
+}
+
+/* * */
+/* SUBHEADING */
+
+.subheading {
+  color: var(--palette-orange);
+  margin-bottom: 20px;
+}
+
+/* * */
+/* HEADING & SUBHEADING SELECTION */
+
+.heading::selection,
+.subheading::selection {
+  background-color: var(--palette-orange);
+}
+
+/* * */
+/* PARAGRAPH */
+
+.paragraph {
+  max-width: 900px;
+}

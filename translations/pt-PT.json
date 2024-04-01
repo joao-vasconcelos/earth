@@ -1,0 +1,180 @@
+{
+    "MainHeader": {
+        "geobus": "GeoBus",
+        "infrastructure": "Infrastructure",
+        "work": "Work",
+        "me": "About Me"
+    },
+    "MainFooterIntro": {
+        "heading": "Let's work together.",
+        "subheading_1": "I would love to receive your feedback on my projects.",
+        "subheading_2": "If you'd like to help with code, hit me up on Github."
+    },
+    "MainFooterContacts": {
+        "email": {
+            "title": "Email",
+            "message": "Send me an email to <anchor>contact@joao.earth</anchor>",
+            "disclaimer": "I might take a while to answer."
+        },
+        "code": {
+            "title": "Code",
+            "message": "Check out some projects on my <anchor>GitHub page</anchor>",
+            "disclaimer": "Living code is messy code."
+        },
+        "social": {
+            "title": "Social",
+            "message": "You can find me on Discord at <anchor>johnyvasconcelos</anchor>",
+            "disclaimer": "Send me a message."
+        }
+    },
+    "AboutMeIntro": {
+        "heading": "Olá 👋",
+        "subheading": "I believe in the power of design to solve complex social problems.",
+        "profile_pic": {
+            "alt": "Incredibly photogenic picture of me looking straight into the camera."
+        }
+    },
+    "AboutMeDescription": {
+        "punch_line": "I am an Engineer.",
+        "text": "What's so great about design is that it is a process. It forces you to position yourself in the users' shoes and think like them, to live their struggle. Only then is it possible to understand the solution to be built. I think people focus too much on what a tool does and not so much on the problem it solves, the purpose it serves. I build good tools because I focus on this aspect and never forget about it, and decisions come naturally this way. My talent is combining design and technology to build things people like to use.",
+        "linkedin_logo": {
+            "alt": "LinkedIn Logo"
+        }
+    },
+    "GeoBusIntro": {
+        "heading": "Public Transit should be easier."
+    },
+    "GeoBusPresentation": {
+        "title": "GeoBus",
+        "subtitle": "Mapping Lisbon buses in real time.",
+        "app_icon": {
+            "alt": "GeoBus App Icon"
+        }
+    },
+    "GeoBusPresentationBadgeInactive": {
+        "label": "Currently Unavailable"
+    },
+    "GeoBusScreenshots": {
+        "screenshot_1": {
+            "alt": "GeoBus App Screenshot showing a bus on a map."
+        },
+        "screenshot_2": {
+            "alt": "GeoBus App Screenshot showing multiple selectable routes in a sheet."
+        },
+        "screenshot_3": {
+            "alt": "GeoBus App Screenshot showing the details and attributes of a route."
+        }
+    },
+    "InfrastructureIntro": {
+        "heading": "How to design cities",
+        "paragraph_1": "The Dutch are very practical when it comes to designing their cities.",
+        "paragraph_2": "It is a misconception that the Netherlands has great bike usage because it is flat—it is because it has great infrastructure. Cities around the world must learn from the best, starting with these three examples of thoughtful design and engineering, and integration of the various components that make a city.",
+        "paragraph_3": "Roads are the arteries of the city, and the Netherlands' have never been healthier.",
+        "paragraph_4": "Take a look at BicycleDutch on his <anchor_1>blog</anchor_1> and on <anchor_2>YouTube</anchor_2>."
+    },
+    "InfrastructureExamples": {
+        "example_1": {
+            "title": "#1 — Junction design the Dutch way",
+            "description": "The Dutch build cycle paths right on their junctions. So they must have wider streets, right? Wrong! This video shows how it is done, no extra space needed.",
+            "author": "by Mark Wagenbuur",
+            "link": "► Read Full Article"
+        },
+        "example_2": {
+            "title": "#2 — Traffic lights in 's-Hertogenbosch",
+            "description": "A short overview of how traffic signals work in 's-Hertogenbosch.",
+            "author": "by Mark Wagenbuur",
+            "link": "► Read Full Article"
+        },
+        "example_3": {
+            "title": "#3 — Junction design in the Netherlands",
+            "description": "The Dutch design junctions in such a way that you can safely cycle or walk across them.",
+            "author": "by Mark Wagenbuur",
+            "link": "► Read Full Article"
+        }
+    },
+    "WorkIntro": {
+        "heading": "It is very easy to be different, but very difficult to be better.",
+        "subheading": "Jonathan Ive",
+        "paragraph": "Building better tools is what wakes me up in the morning. It all starts by defining the problem to be solved and thinking about it from the user's perspective. Only by focusing hard on this approach is it possible to be confident in one's decisions. The following examples combine design, technology, and a lot of dedication to create intuitive tools that simplify its users' lives."
+    },
+    "WorkProjects": {
+        "no_data": "No projects available right now."
+    },
+    "WorkProjectsProjectTag": {
+        "strategy": {
+            "label": "Strategy",
+            "description": ""
+        },
+        "brand_design": {
+            "label": "Brand Design",
+            "description": ""
+        },
+        "ui_ux": {
+            "label": "UI/UX Design",
+            "description": ""
+        },
+        "platform_development": {
+            "label": "Platform Development",
+            "description": ""
+        },
+        "app_development": {
+            "label": "App Development",
+            "description": ""
+        },
+        "web_development": {
+            "label": "Web Development",
+            "description": ""
+        }
+    },
+    "WorkProjectsData": {
+        "spg": {
+            "title": "Sociedade Portuguesa de Ginecologia",
+            "description": "Bringing a clinical community together around the sharing of scientific knowledge."
+        },
+        "register": {
+            "title": "POS Register",
+            "description": "Design and development of a dedicated suite of apps to manage and simplify the operation of a fast-paced cafeteria business."
+        },
+        "geobus": {
+            "title": "GeoBus",
+            "description": "iPhone app to map Lisbon buses in real time. It is a hobby project offered for free with the goal of improving the user experience when riding the bus."
+        },
+        "jodel": {
+            "title": "Jodel",
+            "description": "Repositioning the largest Portuguese detergent company by focusing on the revaluation of all its know-how and production capacity, preparing it for a greater bet on internationalization."
+        },
+        "jfld": {
+            "title": "Jean-François Le Dû",
+            "description": "The challenge was to transpose a classic and imminently face-to-face activity to the digital medium. Through the development of an online platform and video content, a place where people with common interests could share meaningful experiences was born.",
+            "media": {
+                "website_1": {
+                    "alt": "Screenshot of Jean-François Website Homepage."
+                },
+                "website_2": {
+                    "alt": "Screenshot of Jean-François Website showing his portfolio."
+                }
+            }
+        },
+        "alh": {
+            "title": "Aroeira Lisbon Hotel",
+            "description": "Design and programming of website integrating agile and low-cost closer-to-customer technologies.",
+            "media": {
+                "website_1": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                }
+            }
+        },
+        "lrf": {
+            "title": "Leal Rios Foundation",
+            "description": "Development of a new website that technologically follows the evolution of the Foundation.",
+            "media": {
+                "website_1": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                },
+                "website_2": {
+                    "alt": "Screenshot of Leal Rios Foundation Website in an exhibition detail page."
+                }
+            }
+        }
+    }
+}

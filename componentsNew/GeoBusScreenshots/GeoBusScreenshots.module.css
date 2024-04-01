@@ -1,0 +1,20 @@
+/* * */
+/* INNER WRAPPER */
+
+.innerWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* * */
+/* SCREENSHOT */
+
+.screenshot {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid var(--system-border);
+}

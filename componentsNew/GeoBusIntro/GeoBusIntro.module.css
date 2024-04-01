@@ -1,0 +1,27 @@
+/* * */
+/* CONTAINER */
+
+.container {
+  background-color: var(--palette-green-alpha);
+}
+
+/* * */
+/* INNER WRAPPER */
+
+.innerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* * */
+/* HEADING */
+
+.heading {
+  color: var(--palette-green);
+}
+
+.heading::selection {
+  background-color: var(--palette-green);
+}

@@ -1,0 +1,44 @@
+/* * */
+/* CONTAINER */
+
+.container {
+  background-color: var(--system-background);
+}
+
+/* * */
+/* INNER WRAPPER */
+
+.innerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .innerWrapper {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* * */
+/* HEADING */
+
+.heading {
+  color: var(--palette-blue);
+  margin-bottom: 15px;
+}
+
+.heading::selection {
+  background-color: var(--palette-blue);
+}
+
+/* * */
+/* PARAGRAPH */
+
+.paragraph {
+  max-width: 950px;
+}

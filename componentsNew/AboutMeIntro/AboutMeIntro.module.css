@@ -1,0 +1,71 @@
+/* * */
+/* CONTAINER */
+
+.container {
+  background-color: var(--palette-blue-alpha);
+}
+
+/* * */
+/* INNER WRAPPER */
+
+.innerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+}
+
+@media only screen and (max-width: 900px) {
+  .innerWrapper {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* * */
+/* PROFILE PIC */
+
+.profilePic {
+  width: 250px;
+  height: 250px;
+  border-radius: 999px;
+  border: 7px solid var(--palette-blue);
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* * */
+/* HEADINGS WRAPPER */
+
+.headingsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+/* * */
+/* HEADING */
+
+.heading {
+  font-size: 30px;
+  color: var(--palette-blue);
+}
+
+/* * */
+/* SUBHEADING */
+
+.subheading {
+  max-width: 700px;
+  color: var(--palette-blue);
+}
+
+/* * */
+/* HEADING & SUBHEADING SELECTION */
+
+.heading::selection,
+.subheading::selection {
+  background-color: var(--palette-blue);
+}
