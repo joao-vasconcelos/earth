@@ -43,6 +43,6 @@
   .cols4,
   .cols5 {
     gap: 60px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
