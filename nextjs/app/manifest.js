@@ -6,8 +6,6 @@ export default function manifest() {
     short_name: "João's Earth",
     description: 'João de Vasconcelos',
     start_url: '/',
-    theme_color: '#ffffff',
-    background_color: '#ffffff',
     display: 'standalone',
     icons: [
       {
