@@ -27,11 +27,13 @@ export default function Page() {
 
   return (
     <WorkProjectsTemplate projectData={WorkProjectsData.register}>
-      <Container>
-        <video autoPlay muted poster="https://perennial.joao.earth/earth/work/register/register-animation-1.png">
-          <source src="https://perennial.joao.earth/earth/work/register/register-animation-1.mp4" type="video/mp4" />
-        </video>
-      </Container>
+      <only-desktop>
+        <Container>
+          <video autoPlay muted poster="https://perennial.joao.earth/earth/work/register/register-animation-1.png">
+            <source src="https://perennial.joao.earth/earth/work/register/register-animation-1.mp4" type="video/mp4" />
+          </video>
+        </Container>
+      </only-desktop>
 
       <Container>
         <Section>

@@ -34,3 +34,14 @@
 .cols5 {
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+
+/* * */
+/* MOBILE */
+
+@media only screen and (max-width: 900px) {
+  .cols3,
+  .cols4,
+  .cols5 {
+    grid-template-columns: 1fr;
+  }
+}
