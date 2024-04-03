@@ -1,6 +1,6 @@
 /* * */
 
-import Infrastructure from 'nextjs/componentsNew/Infrastructure/Infrastructure';
+import Infrastructure from '@/components/Infrastructure/Infrastructure';
 
 /* * */
 

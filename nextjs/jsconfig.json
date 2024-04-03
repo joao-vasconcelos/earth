@@ -7,10 +7,9 @@
       "@/data/*": ["data/*"],
       "@/assets/*": ["assets/*"],
       "@/styles/*": ["styles/*"],
-      "@/services/*": ["nextjs/services/*"],
-      "@/components/*": ["nextjs/componentsNew/*"],
-      "@/oldComponents/*": ["nextjs/components/*"],
-      "@/translations/*": ["nextjs/translations/*"]
+      "@/services/*": ["services/*"],
+      "@/components/*": ["components/*"],
+      "@/translations/*": ["translations/*"]
     }
   }
 }

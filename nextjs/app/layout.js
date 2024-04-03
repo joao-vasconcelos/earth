@@ -22,14 +22,14 @@ const openSans = Open_Sans({
 });
 
 export const metadata = {
-  metadataBase: process.env.VERCEL_URL ? new URL(`https://${process.env.VERCEL_URL}`) : new URL(`http://0.0.0.0:${process.env.PORT}`),
+  metadataBase: process.env.VERCEL_URL ? new URL(`https://${process.env.VERCEL_URL}`) : new URL(`http://0.0.0.0:${process.env.PORT || 3000}`),
   title: 'Earth › João',
   description: 'Hey! I`m João de Vasconcelos. Come take a look at my work :)',
 };
 
 /* * */
 
-const PostHogPageView = dynamic(() => import('nextjs/componentsNew/PostHogPageView/PostHogPageView'), {
+const PostHogPageView = dynamic(() => import('@/components/PostHogPageView/PostHogPageView'), {
   ssr: false,
 });
 

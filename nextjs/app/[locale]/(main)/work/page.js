@@ -1,6 +1,6 @@
 /* * */
 
-import Work from 'nextjs/componentsNew/Work/Work';
+import Work from '@/components/Work/Work';
 
 /* * */
 

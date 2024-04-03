@@ -1,6 +1,6 @@
 /* * */
 
-import GeoBus from 'nextjs/componentsNew/GeoBus/GeoBus';
+import GeoBus from '@/components/GeoBus/GeoBus';
 
 /* * */
 

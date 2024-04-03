@@ -2,11 +2,11 @@
 
 import { useTranslations } from 'next-intl';
 import WorkProjectsData from '@/data/WorkProjects.json';
-import WorkProjectsTemplate from 'nextjs/componentsNew/WorkProjectsTemplate/WorkProjectsTemplate';
-import WorkProjectsTemplateTextSnippet from 'nextjs/componentsNew/WorkProjectsTemplateTextSnippet/WorkProjectsTemplateTextSnippet';
-import Container from 'nextjs/componentsNew/Container/Container';
-import Section from 'nextjs/componentsNew/Section/Section';
-import FullWidthImage from 'nextjs/componentsNew/FullWidthImage/FullWidthImage';
+import WorkProjectsTemplate from '@/components/WorkProjectsTemplate/WorkProjectsTemplate';
+import WorkProjectsTemplateTextSnippet from '@/components/WorkProjectsTemplateTextSnippet/WorkProjectsTemplateTextSnippet';
+import Container from '@/components/Container/Container';
+import Section from '@/components/Section/Section';
+import FullWidthImage from '@/components/FullWidthImage/FullWidthImage';
 import RegisterMockup1 from '@/assets/work/register/register-mockup-1.png';
 import RegisterMockup2 from '@/assets/work/register/register-mockup-2.png';
 import RegisterMockup3 from '@/assets/work/register/register-mockup-3.png';

@@ -1,6 +1,6 @@
 /* * */
 
-import AboutMe from 'nextjs/componentsNew/AboutMe/AboutMe';
+import AboutMe from '@/components/AboutMe/AboutMe';
 
 /* * */
 

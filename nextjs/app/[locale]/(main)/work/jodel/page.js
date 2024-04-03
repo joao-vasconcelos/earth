@@ -4,12 +4,12 @@ import Image from 'next/image';
 
 import { useTranslations } from 'next-intl';
 import WorkProjectsData from '@/data/WorkProjects.json';
-import WorkProjectsTemplate from 'nextjs/componentsNew/WorkProjectsTemplate/WorkProjectsTemplate';
-import WorkProjectsTemplateTextSnippet from 'nextjs/componentsNew/WorkProjectsTemplateTextSnippet/WorkProjectsTemplateTextSnippet';
-import Container from 'nextjs/componentsNew/Container/Container';
-import Section from 'nextjs/componentsNew/Section/Section';
-import Columns from 'nextjs/componentsNew/Columns/Columns';
-import FullWidthImage from 'nextjs/componentsNew/FullWidthImage/FullWidthImage';
+import WorkProjectsTemplate from '@/components/WorkProjectsTemplate/WorkProjectsTemplate';
+import WorkProjectsTemplateTextSnippet from '@/components/WorkProjectsTemplateTextSnippet/WorkProjectsTemplateTextSnippet';
+import Container from '@/components/Container/Container';
+import Section from '@/components/Section/Section';
+import Columns from '@/components/Columns/Columns';
+import FullWidthImage from '@/components/FullWidthImage/FullWidthImage';
 import JodelLogo from '@/assets/work/jodel/jodel-logo.png';
 import JodelDesignation from '@/assets/work/jodel/jodel-designation.svg';
 import JodelPositioning from '@/assets/work/jodel/jodel-positioning.svg';

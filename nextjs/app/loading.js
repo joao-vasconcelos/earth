@@ -1,6 +1,6 @@
 /* * */
 
-import Loader from 'nextjs/componentsNew/Loader/Loader';
+import Loader from '@/components/Loader/Loader';
 
 /* * */
 

@@ -1,6 +1,6 @@
 /* * */
 
-import MainWrapper from 'nextjs/componentsNew/MainWrapper/MainWrapper';
+import MainWrapper from '@/components/MainWrapper/MainWrapper';
 
 /* * */
 

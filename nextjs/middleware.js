@@ -1,6 +1,6 @@
 /* * */
 
-import { availableLocales } from 'nextjs/translations/config';
+import { availableLocales } from '@/translations/config';
 import createIntlMiddleware from 'next-intl/middleware';
 
 /* * */

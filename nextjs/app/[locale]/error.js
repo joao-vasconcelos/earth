@@ -2,7 +2,7 @@
 
 /* * */
 
-import AppError from 'nextjs/componentsNew/AppError/AppError';
+import AppError from '@/components/AppError/AppError';
 
 /* * */
 
