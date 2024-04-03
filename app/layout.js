@@ -7,7 +7,8 @@ import '@/styles/widths.css';
 
 /* * */
 
-import { Providers } from './providers';
+import dynamic from 'next/dynamic';
+import Providers from './providers';
 import { Analytics } from '@vercel/analytics/react';
 import { Open_Sans } from 'next/font/google';
 
@@ -21,20 +22,29 @@ const openSans = Open_Sans({
 });
 
 export const metadata = {
-  metadataBase: process.env.VERCEL_URL ? new URL(`https://${process.env.VERCEL_URL}`) : new URL(`http://0.0.0.0:${process.env.PORT || 3000}`),
-  title: 'Earth',
-  description: 'João de Vasconcelos',
+  metadataBase: process.env.VERCEL_URL ? new URL(`https://${process.env.VERCEL_URL}`) : new URL(`http://0.0.0.0:${process.env.PORT}`),
+  title: 'Earth › João',
+  description: 'Hey! I`m João de Vasconcelos. Come take a look at my work :)',
 };
+
+/* * */
+
+const PostHogPageView = dynamic(() => import('@/components/PostHogPageView/PostHogPageView'), {
+  ssr: false,
+});
 
 /* * */
 
 export default function RootLayout({ children }) {
   return (
     <html className={openSans.variable}>
-      <body>
-        <Analytics />
-        <Providers>{children}</Providers>
-      </body>
+      <Analytics />
+      <Providers>
+        <body>
+          <PostHogPageView />
+          {children}
+        </body>
+      </Providers>
     </html>
   );
 }

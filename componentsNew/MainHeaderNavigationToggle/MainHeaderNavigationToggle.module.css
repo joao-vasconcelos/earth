@@ -1,0 +1,12 @@
+/* * */
+/* CONTAINER */
+
+.container {
+  display: flex;
+  justify-self: flex-end;
+  cursor: pointer;
+}
+
+.container g {
+  fill: var(--system-text);
+}

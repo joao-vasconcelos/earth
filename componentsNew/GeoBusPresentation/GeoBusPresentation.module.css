@@ -10,6 +10,12 @@
   width: 100%;
 }
 
+@media only screen and (max-width: 900px) {
+  .innerWrapper {
+    flex-direction: column;
+  }
+}
+
 /* * */
 /* GEOBUS ICON */
 
@@ -29,6 +35,14 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 15px;
+}
+
+@media only screen and (max-width: 900px) {
+  .summaryWrapper {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 /* * */

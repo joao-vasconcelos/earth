@@ -1,0 +1,24 @@
+/* * */
+/* CONTAINER */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    display: none;
+  }
+}
+
+/* * */
+/* NAV LINK */
+
+.navLink {
+  font-size: 18px;
+  font-weight: var(--font-weight-bold);
+  color: var(--system-text);
+}

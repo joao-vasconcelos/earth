@@ -1,6 +1,6 @@
 {
     "name": "@joao-vasconcelos/earth",
-    "version": "2024.04.02-0035",
+    "version": "2024.04.03-0000",
     "private": true,
     "scripts": {
         "dev": "next dev -p 3000",
@@ -19,8 +19,8 @@
         "@tabler/icons-react": "3.1.0"
     },
     "devDependencies": {
-        "@types/node": "20.12.2",
-        "@types/react": "18.2.73",
+        "@types/node": "20.12.3",
+        "@types/react": "18.2.74",
         "@types/react-dom": "18.2.23",
         "eslint": "8.57.0",
         "eslint-config-next": "14.1.4",

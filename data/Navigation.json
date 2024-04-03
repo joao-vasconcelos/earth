@@ -1,0 +1,18 @@
+[
+    {
+        "id": "geobus",
+        "href": "/geobus"
+    },
+    {
+        "id": "infrastructure",
+        "href": "/infrastructure"
+    },
+    {
+        "id": "work",
+        "href": "/work"
+    },
+    {
+        "id": "me",
+        "href": "/me"
+    }
+]

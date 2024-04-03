@@ -1,9 +1,20 @@
 {
-    "MainHeader": {
-        "geobus": "GeoBus",
-        "infrastructure": "Infrastructure",
-        "work": "Work",
-        "me": "About Me"
+    "NavigationData": {
+        "geobus": {
+            "label": "GeoBus"
+        },
+        "infrastructure": {
+            "label": "Infrastructure"
+        },
+        "work": {
+            "label": "Work"
+        },
+        "me": {
+            "label": "About Me"
+        }
+    },
+    "MainHeaderLogo": {
+        "website_title": "joão.earth"
     },
     "MainFooterIntro": {
         "heading": "Let's work together.",
