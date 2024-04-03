@@ -1,0 +1,36 @@
+/* * */
+/* INNER WRAPPER */
+
+.innerWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  .innerWrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* * */
+/* PUNCH LINE */
+
+.punchLine {
+  font-weight: var(--font-weight-bold);
+}
+
+/* * */
+/* TEXT */
+
+.text {
+  max-width: 700px;
+}
+
+/* * */
+/* LINKEDIN */
+
+.linkedin {
+  margin-top: 50px;
+}

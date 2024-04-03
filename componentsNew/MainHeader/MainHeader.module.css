@@ -1,0 +1,24 @@
+/* * */
+/* CONTAINER */
+
+.container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 15px 0;
+  z-index: 9999;
+  background-color: var(--system-light);
+  border-bottom: 1px solid var(--system-border);
+  box-shadow: var(--box-shadow);
+}
+
+/* * */
+/* INNER WRAPPER */
+
+.innerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}

@@ -1,0 +1,263 @@
+{
+    "NavigationData": {
+        "geobus": {
+            "label": "GeoBus"
+        },
+        "infrastructure": {
+            "label": "Infrastructure"
+        },
+        "work": {
+            "label": "Work"
+        },
+        "me": {
+            "label": "About Me"
+        }
+    },
+    "MainHeaderLogo": {
+        "website_title": "joão.earth"
+    },
+    "MainFooterIntro": {
+        "heading": "Let's work together.",
+        "subheading_1": "I would love to receive your feedback on my projects.",
+        "subheading_2": "If you'd like to help with code, hit me up on Github."
+    },
+    "MainFooterContacts": {
+        "email": {
+            "title": "Email",
+            "message": "Send me an email to <anchor>contact@joao.earth</anchor>",
+            "disclaimer": "I might take a while to answer."
+        },
+        "code": {
+            "title": "Code",
+            "message": "Check out some projects on my <anchor>GitHub page</anchor>",
+            "disclaimer": "Living code is messy code."
+        },
+        "social": {
+            "title": "Social",
+            "message": "You can find me on Discord at <anchor>johnyvasconcelos</anchor>",
+            "disclaimer": "Send me a message."
+        }
+    },
+    "AboutMeIntro": {
+        "heading": "Olá 👋",
+        "subheading": "I believe in the power of design to solve complex social problems.",
+        "profile_pic": {
+            "alt": "Incredibly photogenic picture of me looking straight into the camera."
+        }
+    },
+    "AboutMeDescription": {
+        "punch_line": "I am an Engineer.",
+        "text": "What's so great about design is that it is a process. It forces you to position yourself in the users' shoes and think like them, to live their struggle. Only then is it possible to understand the solution to be built. I think people focus too much on what a tool does and not so much on the problem it solves, the purpose it serves. I build good tools because I focus on this aspect and never forget about it, and decisions come naturally this way. My talent is combining design and technology to build things people like to use.",
+        "linkedin_logo": {
+            "alt": "LinkedIn Logo"
+        }
+    },
+    "GeoBusIntro": {
+        "heading": "Public Transit should be easier."
+    },
+    "GeoBusPresentation": {
+        "title": "GeoBus",
+        "subtitle": "Mapping Lisbon buses in real time.",
+        "app_icon": {
+            "alt": "GeoBus App Icon"
+        }
+    },
+    "GeoBusPresentationBadgeInactive": {
+        "label": "Currently Unavailable"
+    },
+    "GeoBusScreenshots": {
+        "screenshot_1": {
+            "alt": "GeoBus App Screenshot showing a bus on a map."
+        },
+        "screenshot_2": {
+            "alt": "GeoBus App Screenshot showing multiple selectable routes in a sheet."
+        },
+        "screenshot_3": {
+            "alt": "GeoBus App Screenshot showing the details and attributes of a route."
+        }
+    },
+    "InfrastructureIntro": {
+        "heading": "How to design cities",
+        "paragraph_1": "The Dutch are very practical when it comes to designing their cities.",
+        "paragraph_2": "It is a misconception that the Netherlands has great bike usage because it is flat—it is because it has great infrastructure. Cities around the world must learn from the best, starting with these three examples of thoughtful design and engineering, and integration of the various components that make a city.",
+        "paragraph_3": "Roads are the arteries of the city, and the Netherlands' have never been healthier.",
+        "paragraph_4": "Take a look at BicycleDutch on his <anchor_1>blog</anchor_1> and on <anchor_2>YouTube</anchor_2>."
+    },
+    "InfrastructureExamples": {
+        "example_1": {
+            "title": "#1 — Junction design the Dutch way",
+            "description": "The Dutch build cycle paths right on their junctions. So they must have wider streets, right? Wrong! This video shows how it is done, no extra space needed.",
+            "author": "by Mark Wagenbuur",
+            "link": "► Read Full Article"
+        },
+        "example_2": {
+            "title": "#2 — Traffic lights in 's-Hertogenbosch",
+            "description": "A short overview of how traffic signals work in 's-Hertogenbosch.",
+            "author": "by Mark Wagenbuur",
+            "link": "► Read Full Article"
+        },
+        "example_3": {
+            "title": "#3 — Junction design in the Netherlands",
+            "description": "The Dutch design junctions in such a way that you can safely cycle or walk across them.",
+            "author": "by Mark Wagenbuur",
+            "link": "► Read Full Article"
+        }
+    },
+    "WorkIntro": {
+        "heading": "It is very easy to be different, but very difficult to be better.",
+        "subheading": "Jonathan Ive",
+        "paragraph": "Building better tools is what wakes me up in the morning. It all starts by defining the problem to be solved and thinking about it from the user's perspective. Only by focusing hard on this approach is it possible to be confident in one's decisions. The following examples combine design, technology, and a lot of dedication to create intuitive tools that simplify its users' lives."
+    },
+    "WorkProjects": {
+        "no_data": "No projects available right now."
+    },
+    "WorkProjectsProjectTag": {
+        "strategy": {
+            "label": "Strategy",
+            "description": ""
+        },
+        "brand_design": {
+            "label": "Brand Design",
+            "description": ""
+        },
+        "ui_ux": {
+            "label": "UI/UX Design",
+            "description": ""
+        },
+        "platform_development": {
+            "label": "Platform Development",
+            "description": ""
+        },
+        "app_development": {
+            "label": "App Development",
+            "description": ""
+        },
+        "web_development": {
+            "label": "Web Development",
+            "description": ""
+        }
+    },
+    "WorkProjectsData": {
+        "spg": {
+            "title": "Sociedade Portuguesa de Ginecologia",
+            "description": "Bringing a clinical community together around the sharing of scientific knowledge.",
+            "paragraphs": {
+                "paragraph_1": "<strong>Redesign</strong>",
+                "paragraph_2": "Modernize and strengthen the presence of the SPG brand and hierarchize the sections and nuclei around a common entity.",
+                "paragraph_3": "Simplification and enhancement of the identity of each section to better convey ownership by SPG. While the sub-organisms are specialized in specific areas and behave autonomously, they always work within the context of SPG.",
+                "paragraph_4": "<strong>Academia SPG</strong>",
+                "paragraph_5": "Fulfilling the main objective of SPG, I designed and built a dedicated platform for the gynecological community, for sharing scientific content and materials in various formats — surgical videos, papers, podcasts, webinars, among others.",
+                "paragraph_6": "<strong>Search by Scientific Topics</strong>",
+                "paragraph_7": "The entire platform was conceived and programmed with an evolved system for organizing information by topics. This system promotes the organic growth of the platform and allows its users to access clear and accurate results with each new visit.",
+                "paragraph_8": "<strong>Digital Platform</strong>",
+                "paragraph_9": "Built with two specific goals: a new public-facing website for the presentation of SPG, and a limited-access platform for the gynecological community to share scientific content and materials in various formats.",
+                "paragraph_10": "<strong>Social Networks and Newsletter</strong>",
+                "paragraph_11": "Content creation and management of both the digital platform and social networks — LinkedIn, Facebook and Instagram. Monthly newsletter sent to the entire medical community."
+            },
+            "media": {
+                "mockup_1": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                },
+                "mockup_2": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                }
+            }
+        },
+        "register": {
+            "title": "POS Register",
+            "description": "Design and development of a dedicated suite of apps to manage and simplify the operation of a fast-paced cafeteria business.",
+            "paragraphs": {
+                "paragraph_1": "<strong>Register was built out of frustation</strong> from the lack of good solutions in the portuguese POS market. All studied options were confusing, lacked essential functionality and missed on the practicality of the operation. Were these companies using the software they were building?",
+                "paragraph_2": "All elements were designed to be very obvious and unobstructive. The most important metric for a cafeteria cashier is accuracy, closely followed by speed. Register optimizes for both by offering a clean interface with large buttons that minimizes errors and keeps the line moving.",
+                "paragraph_3": "<strong>Security</strong> was a key aspect considered, here solved by providing each employee with an unique 4 digit code. Only entering the code is enough to unlock the register and associate all sales to the respective worker, allowing for fast staff changes due to unexpected situations.",
+                "paragraph_4": "<strong>Overview</strong> is where allowed employees can check the progress of the day. It is possible to change the date and view each transaction in detail.",
+                "paragraph_5": "<strong>Tech Stack:</strong> The whole system was built in NextJS, and is currently hosted on Vercel. There is also a companion dashboard application allowing the remote management of the whole operation."
+            },
+            "media": {
+                "mockup_1": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                },
+                "mockup_2": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                },
+                "mockup_3": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                },
+                "mockup_4": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                }
+            }
+        },
+        "geobus": {
+            "title": "GeoBus",
+            "description": "iPhone app to map Lisbon buses in real time. It is a hobby project offered for free with the goal of improving the user experience when riding the bus.",
+            "paragraphs": {
+                "paragraph_1": "<strong>The current situation is not so friendly</strong> - the user is expected to go to the bus stop and patiently wait for the vehicle without any indication of when it might arrive. In some locations, estimations or waiting times are available, but due to poor implementation and traffic unpredictability most of the time they are wrong.",
+                "paragraph_2": "<strong>With a simple interface</strong> it is possible for users to select a route number and visualize all the vehicles currently in operation. With this information, and the knowledge acquired by living in the city, it becomes intuitive to guess how much time it will take for the bus to arrive."
+            },
+            "media": {
+                "mockup_1": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                },
+                "mockup_2": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                }
+            }
+        },
+        "jodel": {
+            "title": "Jodel",
+            "description": "Repositioning the largest Portuguese detergent company by focusing on the revaluation of all its know-how and production capacity, preparing it for a greater bet on internationalization.",
+            "paragraphs": {
+                "paragraph_1": "<strong>Organize by Function</strong>",
+                "paragraph_2": "Analyze the company's activity to identifying its distinctive competitive factors — productive capacity and market recognition. By doing this it was possible to validate a new structural organization that enhanced commercial effiency and the valuation of the business assets.",
+                "paragraph_3": "<strong>Rebranding</strong>",
+                "paragraph_4": "We valued Jodel's competitive factors by creating a clear and focused discourse highlighting it's unique ability to answer to the contemporary demands of the national and international markets.",
+                "paragraph_5": "<strong>Certifications</strong>",
+                "paragraph_6": "Integration of quality certifications in the identity, indicating the unequivocal industrial capacity for customers of any size.",
+                "paragraph_7": "<strong>Website</strong>",
+                "paragraph_8": "Built to be the company's main business tool, it follows UI/UX standards for optimal use on large and small screens."
+            },
+            "media": {
+                "mockup_1": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                },
+                "mockup_2": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                }
+            }
+        },
+        "jfld": {
+            "title": "Jean-François Le Dû",
+            "description": "The challenge was to transpose a classic and imminently face-to-face activity to the digital medium. Through the development of an online platform and video content, a place where people with common interests could share meaningful experiences was born.",
+            "media": {
+                "website_1": {
+                    "alt": "Screenshot of Jean-François Website Homepage."
+                },
+                "website_2": {
+                    "alt": "Screenshot of Jean-François Website showing his portfolio."
+                }
+            }
+        },
+        "alh": {
+            "title": "Aroeira Lisbon Hotel",
+            "description": "Design and programming of website integrating agile and low-cost closer-to-customer technologies.",
+            "media": {
+                "website_1": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                }
+            }
+        },
+        "lrf": {
+            "title": "Leal Rios Foundation",
+            "description": "Development of a new website that technologically follows the evolution of the Foundation.",
+            "media": {
+                "website_1": {
+                    "alt": "Screenshot of Leal Rios Foundation Website Homepage."
+                },
+                "website_2": {
+                    "alt": "Screenshot of Leal Rios Foundation Website in an exhibition detail page."
+                }
+            }
+        }
+    }
+}

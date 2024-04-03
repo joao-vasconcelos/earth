@@ -1,0 +1,33 @@
+/* * */
+/* CONTAINER */
+
+.container {
+  background-color: var(--system-background);
+}
+
+/* * */
+/* TITLE */
+
+.title {
+  font-size: 30px;
+}
+
+/* * */
+/* TAGS LIST */
+
+.tagsList {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  color: var(--system-text);
+}
+
+/* * */
+/* DESCRIPTION */
+
+.description {
+  max-width: 500px;
+  margin-top: 20px;
+}

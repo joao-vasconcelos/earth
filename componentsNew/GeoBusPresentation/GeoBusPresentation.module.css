@@ -1,0 +1,73 @@
+/* * */
+/* INNER WRAPPER */
+
+.innerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 900px) {
+  .innerWrapper {
+    flex-direction: column;
+  }
+}
+
+/* * */
+/* GEOBUS ICON */
+
+.geoBusIcon {
+  width: 180px;
+  height: 180px;
+  border-radius: 25px;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* * */
+/* SUMMARY WRAPPER */
+
+.summaryWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 15px;
+}
+
+@media only screen and (max-width: 900px) {
+  .summaryWrapper {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* * */
+/* TITLE */
+
+.title {
+  font-size: 50px;
+  line-height: 1;
+  font-weight: var(--font-weight-bold);
+}
+
+/* * */
+/* SUBTITLE */
+
+.subtitle {
+  font-size: 20px;
+}
+
+/* * */
+/* BADGES WRAPPER */
+
+.badgesWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+}

@@ -1,0 +1,37 @@
+/* * */
+/* INNER WRAPPER */
+
+.innerWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .innerWrapper {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+/* * */
+/* TITLE */
+
+.title {
+  font-size: 30px;
+}
+
+/* * */
+/* TAGS LIST */
+
+.tagsList {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  color: var(--system-text);
+}

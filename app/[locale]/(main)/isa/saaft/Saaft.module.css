@@ -1,0 +1,76 @@
+/* */
+/* INDEX */
+
+section.intro {
+  background-color: var(--system-background);
+}
+
+section.intro h1 {
+  max-width: 400px;
+}
+
+section.items container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 50px;
+}
+
+section.items container a.work {
+  padding: 25px 35px;
+  color: inherit;
+  background-color: var(--system-background);
+  border-radius: var(--border-radius-large);
+  display: block;
+  transition: all 300ms ease;
+}
+
+section.items container a.work:hover {
+  text-decoration: none;
+  background-color: var(--palette-green-alpha);
+}
+
+section.items container a.work h2 {
+  color: #2f750f;
+  margin-bottom: 15px;
+}
+
+section.items container a.work h3 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+section.items container a.work .credits {
+  margin-top: 15px;
+  font-size: 15px;
+  color: var(--system-muted);
+}
+
+/* */
+/* FLIPPED CLASSROOMS */
+
+section.flippedClassroom {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: start;
+  gap: 30px;
+}
+
+section.flippedClassroom container.player video {
+  width: 100%;
+  border: 1px solid var(--system-border);
+}
+
+section.flippedClassroom container.info p,
+section.flippedClassroom container.info a {
+  display: block;
+  font-size: 15px;
+  font-weight: var(--font-weight);
+  margin: 10px 0;
+}
+
+section.flippedClassroom container.info .title,
+section.flippedClassroom container.info .credits {
+  font-size: 15px;
+  font-weight: var(--font-weight-bold);
+  margin: 5px 0;
+}

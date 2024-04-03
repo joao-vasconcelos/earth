@@ -1,0 +1,14 @@
+/* * */
+/* CONTAINER */
+
+.container {
+  display: flex;
+  text-align: left;
+  font-size: 18px;
+  font-family: var(--font-family-monospace);
+  font-weight: var(--font-weight-bold);
+}
+
+.container:hover {
+  text-decoration: none;
+}

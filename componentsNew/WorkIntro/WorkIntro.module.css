@@ -1,0 +1,37 @@
+/* * */
+/* CONTAINER */
+
+.container {
+  background-color: var(--palette-orange-alpha);
+}
+
+/* * */
+/* HEADING */
+
+.heading {
+  color: var(--palette-orange);
+  max-width: 650px;
+}
+
+/* * */
+/* SUBHEADING */
+
+.subheading {
+  color: var(--palette-orange);
+  margin-bottom: 20px;
+}
+
+/* * */
+/* HEADING & SUBHEADING SELECTION */
+
+.heading::selection,
+.subheading::selection {
+  background-color: var(--palette-orange);
+}
+
+/* * */
+/* PARAGRAPH */
+
+.paragraph {
+  max-width: 900px;
+}

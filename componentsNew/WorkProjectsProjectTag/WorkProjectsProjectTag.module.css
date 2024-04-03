@@ -1,0 +1,17 @@
+/* * */
+/* CONTAINER */
+
+.container {
+  font-size: 8px;
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  padding: 4px 8px;
+  opacity: 0.85;
+  color: inherit;
+  border-width: 1px;
+  border-style: solid;
+  border-color: inherit;
+  border-radius: 999px;
+}

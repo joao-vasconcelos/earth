@@ -1,0 +1,25 @@
+/* * */
+/* CONTAINER */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 4px 15px 4px 12px;
+  transition: var(--transition);
+  border-radius: 999px;
+  color: var(--system-muted);
+  border: 1px solid var(--system-muted);
+  background-color: var(--system-background);
+}
+
+/* * */
+/* LABEL */
+
+.label {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1;
+}

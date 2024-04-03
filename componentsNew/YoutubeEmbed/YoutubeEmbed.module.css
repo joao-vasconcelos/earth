@@ -1,0 +1,19 @@
+/* * */
+/* CONTAINER */
+
+.container {
+  display: flex;
+  width: 100%;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  border-radius: 8px;
+  border: 1px solid var(--system-border);
+  background-color: var(--system-background);
+  box-shadow: var(--box-shadow-large);
+}
+
+.iFrame {
+  height: 100%;
+  width: 100%;
+  border: none;
+}

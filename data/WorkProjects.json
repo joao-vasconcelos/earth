@@ -1,0 +1,65 @@
+{
+    "spg": {
+        "id": "spg",
+        "accent_color": "#cb005a",
+        "accent_text_color": "#FFFFFF",
+        "tags": [
+            "strategy",
+            "brand_design",
+            "ui_ux",
+            "platform_development"
+        ]
+    },
+    "register": {
+        "id": "register",
+        "accent_color": "#e42528",
+        "accent_text_color": "#FFFFFF",
+        "tags": [
+            "ui_ux",
+            "platform_development"
+        ]
+    },
+    "geobus": {
+        "id": "geobus",
+        "accent_color": "#ffa000",
+        "accent_text_color": "#FFFFFF",
+        "tags": [
+            "ui_ux",
+            "app_development"
+        ]
+    },
+    "jodel": {
+        "id": "jodel",
+        "accent_color": "#ff6400",
+        "accent_text_color": "#FFFFFF",
+        "tags": [
+            "strategy",
+            "brand_design",
+            "web_development"
+        ]
+    },
+    "jfld": {
+        "id": "jfld",
+        "accent_color": "#aa00d7",
+        "accent_text_color": "#FFFFFF",
+        "tags": [
+            "web_development"
+        ]
+    },
+    "alh": {
+        "id": "alh",
+        "accent_color": "#0a2341",
+        "accent_text_color": "#FFFFFF",
+        "tags": [
+            "web_development"
+        ]
+    },
+    "lrf": {
+        "id": "lrf",
+        "accent_color": "#474555",
+        "accent_text_color": "#FFFFFF",
+        "tags": [
+            "web_development"
+        ]
+    }
+}

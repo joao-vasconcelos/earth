@@ -1,0 +1,29 @@
+/* * */
+/* IMAGE */
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+/* * */
+/* WITH SHADOW */
+
+.withShadow {
+  box-shadow: var(--box-shadow-large);
+}
+
+/* * */
+/* WITH ROUND EDGES */
+
+.withRoundEdges {
+  border-radius: 10px;
+}
+
+/* * */
+/* WITH FALSE WIDTH */
+
+.withFalseWidth {
+  width: 108%;
+  margin-left: -4%;
+}
