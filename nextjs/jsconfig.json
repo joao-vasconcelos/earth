@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    // Using "baseUrl" allows you to use absolute paths
+    "baseUrl": ".",
+    // Using "paths" allows you to configure module path aliases
+    "paths": {
+      "@/data/*": ["data/*"],
+      "@/assets/*": ["assets/*"],
+      "@/styles/*": ["styles/*"],
+      "@/services/*": ["nextjs/services/*"],
+      "@/components/*": ["nextjs/componentsNew/*"],
+      "@/oldComponents/*": ["nextjs/components/*"],
+      "@/translations/*": ["nextjs/translations/*"]
+    }
+  }
+}
