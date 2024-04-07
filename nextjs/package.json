@@ -1,6 +1,6 @@
 {
     "name": "@joao-vasconcelos/earth",
-    "version": "2024.04.03-0258",
+    "version": "2024.04.07-1732",
     "private": true,
     "scripts": {
         "dev": "next dev -p 3000",
@@ -13,18 +13,18 @@
         "@tabler/icons-react": "3.1.0",
         "@vercel/analytics": "1.2.2",
         "next": "14.1.4",
-        "next-intl": "3.10.0",
-        "posthog-js": "1.116.6",
+        "next-intl": "3.11.1",
+        "posthog-js": "1.118.1",
         "react": "18.2.0",
         "react-dom": "18.2.0",
         "sharp": "0.33.3"
     },
     "devDependencies": {
-        "@types/node": "20.12.3",
+        "@types/node": "20.12.5",
         "@types/react": "18.2.74",
-        "@types/react-dom": "18.2.23",
         "eslint": "8.57.0",
+        "@types/react-dom": "18.2.24",
         "eslint-config-next": "14.1.4",
-        "typescript": "5.4.3"
+        "typescript": "5.4.4"
     }
 }
