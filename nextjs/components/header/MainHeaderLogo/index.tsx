@@ -1,7 +1,7 @@
 /* * */
 
+import { randomColor } from '@/utils/random-color';
 import { useTranslations } from 'next-intl';
-import randomColor from 'services/randomColor';
 
 import styles from './styles.module.css';
 
