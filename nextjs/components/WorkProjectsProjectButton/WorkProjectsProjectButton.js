@@ -1,8 +1,8 @@
 /* * */
 
 import { useTranslations } from 'next-intl';
-import { Link } from '@/translations/navigation';
-import Container from '@/components/Container/Container';
+import Link from 'next/link';
+import { Container } from '@/components/Container';
 import WorkProjectsProjectTag from '@/components/WorkProjectsProjectTag/WorkProjectsProjectTag';
 import styles from './WorkProjectsProjectButton.module.css';
 

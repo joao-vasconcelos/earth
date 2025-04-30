@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import styles from './MainFooterIntro.module.css';
-import Container from '@/components/Container/Container';
+import { Container } from '@/components/Container';
 
 /* * */
 

@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import styles from './MainFooterContacts.module.css';
-import Container from '@/components/Container/Container';
+import { Container } from '@/components/Container';
 import MainFooterContactsIconEmail from '@/components/MainFooterContactsIconEmail/MainFooterContactsIconEmail';
 import MainFooterContactsIconGithub from '@/components/MainFooterContactsIconGithub/MainFooterContactsIconGithub';
 import MainFooterContactsIconDiscord from '@/components/MainFooterContactsIconDiscord/MainFooterContactsIconDiscord';

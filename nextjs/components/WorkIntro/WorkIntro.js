@@ -2,8 +2,8 @@
 
 import { useTranslations } from 'next-intl';
 import styles from './WorkIntro.module.css';
-import Container from '@/components/Container/Container';
-import Section from '@/components/Section/Section';
+import { Container } from '@/components/Container';
+import { Section } from '@/components/Section';
 
 /* * */
 
