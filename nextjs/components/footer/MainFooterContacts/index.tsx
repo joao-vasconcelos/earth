@@ -58,7 +58,7 @@ export function MainFooterContacts() {
 					<p className={styles.contactMessage}>
 						{t.rich('social.message', {
 							anchor: chunks => (
-								<a href="https://discordapp.com/users/johnyvasconcelos" target="_blank">
+								<a href="https://bsky.app/profile/joao.earth" target="_blank">
 									{chunks}
 								</a>
 							),
