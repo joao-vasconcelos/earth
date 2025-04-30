@@ -1,6 +1,6 @@
 /* * */
 
-import MainFooter from '@/components/MainFooter/MainFooter';
+import { MainFooter } from '@/components/footer/MainFooter';
 import { MainHeader } from '@/components/header/MainHeader';
 
 import styles from './styles.module.css';
