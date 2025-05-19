@@ -1,0 +1,22 @@
+{
+  "commit": "",
+  "generated": "2025-05-19T11:09:54.914Z",
+  "metadata": [
+    {
+      "__outstatic": {
+        "commit": "",
+        "hash": "3810918261",
+        "path": "/outstatic/content/posts/hello-world.mdx"
+      },
+      "author": {
+        "name": "João de Vasconcelos",
+        "picture": "https://avatars.githubusercontent.com/u/10943992?v=4"
+      },
+      "collection": "posts",
+      "publishedAt": "2025-05-19T11:09:37.123Z",
+      "slug": "hello-world",
+      "status": "draft",
+      "title": "Hello world"
+    }
+  ]
+}
