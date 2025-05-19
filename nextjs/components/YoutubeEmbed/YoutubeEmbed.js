@@ -5,9 +5,9 @@ import styles from './YoutubeEmbed.module.css';
 /* * */
 
 export default function YoutubeEmbed({ embedId }) {
-  return (
-    <div className={styles.container}>
-      <iframe className={styles.iFrame} width="1920" height="1080" src={`https://www.youtube.com/embed/${embedId}`} allow="picture-in-picture" allowFullScreen title="Youtube Video" />
-    </div>
-  );
+	return (
+		<div className={styles.container}>
+			<iframe allow="picture-in-picture" className={styles.iFrame} height="1080" src={`https://www.youtube.com/embed/${embedId}`} title="Youtube Video" width="1920" allowFullScreen />
+		</div>
+	);
 }

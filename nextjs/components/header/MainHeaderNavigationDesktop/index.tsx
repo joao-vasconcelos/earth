@@ -1,3 +1,5 @@
+'use client';
+
 /* * */
 
 import NavigationData from '@/data/Navigation.json';

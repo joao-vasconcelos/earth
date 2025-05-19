@@ -3,7 +3,7 @@
 import { useEffect } from 'react';
 
 export default function Isa() {
-  useEffect(() => {
-    window.location.assign('/');
-  });
+	useEffect(() => {
+		window.location.assign('/');
+	});
 }

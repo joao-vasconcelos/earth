@@ -4,11 +4,11 @@ import WorkProjectsTemplateIntro from '@/components/WorkProjectsTemplateIntro/Wo
 
 /* * */
 
-export default function WorkProjectsTemplate({ projectData, children }) {
-  return (
-    <main>
-      <WorkProjectsTemplateIntro projectData={projectData} />
-      {children}
-    </main>
-  );
+export default function WorkProjectsTemplate({ children, projectData }) {
+	return (
+		<main>
+			<WorkProjectsTemplateIntro projectData={projectData} />
+			{children}
+		</main>
+	);
 }

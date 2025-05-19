@@ -1,3 +1,5 @@
+'use client';
+
 /* * */
 
 import { randomColor } from '@/utils/random-color';

@@ -6,7 +6,7 @@ import { PostHogPageView } from '@/components/PostHogPageView';
 import { availableFormats } from '@/i18n/config';
 import { Analytics } from '@vercel/analytics/react';
 import { NextIntlClientProvider } from 'next-intl';
-import { Open_Sans } from 'next/font/google';
+import { Work_Sans } from 'next/font/google';
 
 /* * */
 
@@ -17,11 +17,11 @@ import '@/styles/widths.css';
 
 /* * */
 
-const openSans = Open_Sans({
+const openSans = Work_Sans({
 	display: 'swap',
 	subsets: ['latin'],
 	variable: '--font-openSans',
-	weight: ['400', '700'],
+	weight: ['400', '500', '600', '700'],
 });
 
 export const metadata = {
