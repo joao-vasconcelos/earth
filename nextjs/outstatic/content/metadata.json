@@ -1,10 +1,10 @@
 {
   "commit": "",
-  "generated": "2025-05-19T11:09:54.914Z",
+  "generated": "Mon, 19 May 2025 12:24:37 GMT",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "",
+        "commit": "9d45317d8702e033b82db832c932f3510946ba36",
         "hash": "3810918261",
         "path": "/outstatic/content/posts/hello-world.mdx"
       },
