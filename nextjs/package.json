@@ -1,6 +1,6 @@
 {
 	"name": "@joao-vasconcelos/earth",
-	"version": "2024.04.07-1732",
+	"version": "2025.05.19-1112",
 	"private": true,
 	"scripts": {
 		"build": "next build",
@@ -14,7 +14,7 @@
 		"@vercel/analytics": "1.5.0",
 		"next": "15.3.2",
 		"next-intl": "4.1.0",
-		"outstatic": "^2.0.5",
+		"outstatic": "2.0.5",
 		"posthog-js": "1.242.3",
 		"react": "19.1.0",
 		"react-dom": "19.1.0",
