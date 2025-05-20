@@ -1,11 +1,11 @@
 {
-  "commit": "583df382c2bf9b37418ef7527165e6f0e9adf848",
-  "generated": "2025-05-19T12:25:19.701Z",
+  "commit": "662a82067cefbfb4cb97a70c4bf91207191cf5eb",
+  "generated": "2025-05-20T19:34:17.671Z",
   "metadata": [
     {
       "__outstatic": {
-        "commit": "583df382c2bf9b37418ef7527165e6f0e9adf848",
-        "hash": "355973381",
+        "commit": "662a82067cefbfb4cb97a70c4bf91207191cf5eb",
+        "hash": "1497022477",
         "path": "/outstatic/content/posts/hello-world.mdx"
       },
       "author": {
@@ -13,6 +13,7 @@
         "picture": "https://avatars.githubusercontent.com/u/10943992?v=4"
       },
       "collection": "posts",
+      "coverImage": "https://virtualize.sh/blog/content/images/size/w1140/2025/05/majortrial.jpg",
       "publishedAt": "2025-05-19T11:09:37.123Z",
       "slug": "hello-world",
       "status": "published",
