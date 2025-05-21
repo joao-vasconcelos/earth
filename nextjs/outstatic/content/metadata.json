@@ -1,6 +1,6 @@
 {
-  "commit": "c52192f5b3e443960edb12bc0829ec0603bfc01e",
-  "generated": "2025-05-21T22:57:13.501Z",
+  "commit": "6f163d0b006dc41a049c52fc7eeb9356a8d8c285",
+  "generated": "2025-05-21T23:00:08.499Z",
   "metadata": [
     {
       "__outstatic": {
@@ -21,8 +21,8 @@
     },
     {
       "__outstatic": {
-        "commit": "c52192f5b3e443960edb12bc0829ec0603bfc01e",
-        "hash": "1034090454",
+        "commit": "6f163d0b006dc41a049c52fc7eeb9356a8d8c285",
+        "hash": "2684144781",
         "path": "/outstatic/content/posts/infrastructure.mdx"
       },
       "author": {
@@ -30,7 +30,7 @@
         "picture": "https://avatars.githubusercontent.com/u/10943992?v=4"
       },
       "collection": "posts",
-      "publishedAt": "2025-05-19T11:09:37.123Z",
+      "publishedAt": "2020-04-27T01:00:00.000Z",
       "slug": "infrastructure",
       "status": "published",
       "title": "How to design cities"
