@@ -1,18 +1,18 @@
 [
-    {
-        "id": "geobus",
-        "href": "/geobus"
-    },
-    {
-        "id": "infrastructure",
-        "href": "/infrastructure"
-    },
-    {
-        "id": "work",
-        "href": "/work"
-    },
-    {
-        "id": "me",
-        "href": "/me"
-    }
+	{
+		"href": "/geobus",
+		"id": "geobus"
+	},
+	{
+		"href": "/blog/infrastructure",
+		"id": "infrastructure"
+	},
+	{
+		"href": "/work",
+		"id": "work"
+	},
+	{
+		"href": "/me",
+		"id": "me"
+	}
 ]

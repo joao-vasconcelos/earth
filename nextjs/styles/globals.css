@@ -53,15 +53,20 @@ h6::selection {
 /* * */
 /* HEADINGS (MAIN TITLES) */
 
-h1,
+h1 {
+	font-size: 30px;
+}
+
 h2 {
-	font-size: 40px;
+	font-size: 24px;
 }
 
 @media only screen and (width <= 900px) {
-	h1,
+	h1 {
+		font-size: 30px;
+	}
 	h2 {
-		font-size: 35px;
+		font-size: 24px;
 	}
 }
 
