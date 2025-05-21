@@ -1,6 +1,6 @@
 {
-  "commit": "af8c6e958ec7d23f74bc181023f290e5a73f1638",
-  "generated": "2025-05-21T23:30:06.672Z",
+  "commit": "7011b9175eb128f94c4f59ee58f36bda5687f6cb",
+  "generated": "2025-05-21T23:33:30.074Z",
   "metadata": [
     {
       "__outstatic": {
@@ -21,8 +21,8 @@
     },
     {
       "__outstatic": {
-        "commit": "af8c6e958ec7d23f74bc181023f290e5a73f1638",
-        "hash": "774987157",
+        "commit": "7011b9175eb128f94c4f59ee58f36bda5687f6cb",
+        "hash": "3817811688",
         "path": "/outstatic/content/posts/hello-world.mdx"
       },
       "author": {
