@@ -15,7 +15,9 @@ interface Props {
 export function Container({ children, className = '', style = {} }: Props) {
 	return (
 		<div className={className} style={style}>
-			<div className={styles.innerWrapper}>{children}</div>
+			<div className={styles.innerWrapper}>
+				{children}
+			</div>
 		</div>
 	);
 }

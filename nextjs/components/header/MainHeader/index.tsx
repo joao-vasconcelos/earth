@@ -11,14 +11,12 @@ import styles from './styles.module.css';
 
 export function MainHeader() {
 	return (
-		<>
-			<Container className={styles.container}>
-				<div className={styles.innerWrapper}>
-					<MainHeaderLogo />
-					<MainHeaderNavigationDesktop />
-					<MainHeaderNavigationMobile />
-				</div>
-			</Container>
-		</>
+		<Container className={styles.container}>
+			<div className={styles.innerWrapper}>
+				<MainHeaderLogo />
+				<MainHeaderNavigationDesktop />
+				<MainHeaderNavigationMobile />
+			</div>
+		</Container>
 	);
 }

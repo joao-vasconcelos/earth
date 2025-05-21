@@ -1,14 +1,14 @@
 /* * */
-/* CONTAINER */
+/* LOGO */
 
-.container {
-  display: flex;
-  text-align: left;
-  font-size: 18px;
-  font-family: var(--font-family-monospace);
-  font-weight: var(--font-weight-bold);
+.logo {
+	display: flex;
+	font-family: var(--font-family-monospace);
+	font-size: 18px;
+	font-weight: var(--font-weight-bold);
+	text-align: left;
 }
 
-.container:hover {
-  text-decoration: none;
+.logo:hover {
+	text-decoration: none;
 }

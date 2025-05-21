@@ -9,7 +9,7 @@ const nextConfig: NextConfig = {
 	reactStrictMode: true,
 	async redirects() {
 		return [
-			{ destination: '/geobus', permanent: false, source: '/' },
+			{ destination: '/blog', permanent: false, source: '/' },
 		];
 	},
 };

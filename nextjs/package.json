@@ -13,19 +13,28 @@
 	"dependencies": {
 		"@tabler/icons-react": "3.33.0",
 		"@vercel/analytics": "1.5.0",
+		"luxon": "3.6.1",
 		"next": "15.3.2",
 		"next-intl": "4.1.0",
 		"outstatic": "2.0.5",
-		"posthog-js": "1.242.3",
+		"posthog-js": "1.245.1",
 		"react": "19.1.0",
 		"react-dom": "19.1.0",
-		"sharp": "0.34.1"
+		"rehype-stringify": "10.0.1",
+		"remark-gfm": "4.0.1",
+		"remark-mdx": "3.1.0",
+		"remark-parse": "11.0.0",
+		"remark-rehype": "11.1.2",
+		"sharp": "0.34.2",
+		"unified": "11.0.5",
+		"unist-util-visit": "5.0.0"
 	},
 	"devDependencies": {
 		"@carrismetropolitana/eslint": "20250418.42.41",
-		"@types/node": "22.15.19",
-		"@types/react": "19.1.4",
+		"@types/node": "22.15.21",
+		"@types/react": "19.1.5",
 		"@types/react-dom": "19.1.5",
+		"@types/unist": "3.0.3",
 		"typescript": "5.8.3"
 	}
 }

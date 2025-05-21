@@ -1,20 +1,45 @@
 /* * */
 
 import { Container } from '@/components/Container';
-import { MainFooterContacts } from '@/components/footer/MainFooterContacts';
+import { Section } from '@/components/Section';
+import { IconBrandBluesky, IconBrandGithub, IconMail } from '@tabler/icons-react';
+import Link from 'next/link';
 
 import styles from './styles.module.css';
 
 /* * */
 
+const CONTACTS = [
+	{ _id: 'github', href: 'https://github.com/joao-vasconcelos', icon: <IconBrandGithub />, title: 'Github' },
+	{ _id: 'bluesky', href: 'https://bsky.app/profile/joao.earth', icon: <IconBrandBluesky />, title: 'Bluesky' },
+	{ _id: 'email', href: 'mailto:contact@joao.earth', icon: <IconMail />, title: 'contact@joao.earth' },
+];
+
+/* * */
+
 export function MainFooter() {
 	return (
-		<footer className={styles.container}>
-			<Container>
-				<div className={styles.columns}>
-					<MainFooterContacts />
+		<Container>
+			<Section>
+
+				<div className={styles.contactsList}>
+					{CONTACTS.map(item => (
+						<Link
+							key={item._id}
+							className={styles.contact}
+							href={item.href}
+							target="_blank"
+						>
+							{item.icon} {item.title}
+						</Link>
+					))}
 				</div>
-			</Container>
-		</footer>
+
+				<Link className={styles.disclaimer} href="/blog/carris-api">
+					If you just came here to look for Lisbon's Carris API, please read this post to learn more ›
+				</Link>
+
+			</Section>
+		</Container>
 	);
 }

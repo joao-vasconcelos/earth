@@ -2,17 +2,17 @@
 /* INNER WRAPPER */
 
 .innerWrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding: 0 50px;
-  margin: auto;
-  width: 100%;
-  max-width: 1200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	max-width: var(--max-width-lg);
+	padding: 0 50px;
+	margin: auto;
 }
 
-@media only screen and (max-width: 900px) {
-  .innerWrapper {
-    padding: 0 25px;
-  }
+@media only screen and (width <= 900px) {
+	.innerWrapper {
+		padding: 0 25px;
+	}
 }

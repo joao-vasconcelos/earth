@@ -11,13 +11,13 @@
 .innerWrapper {
   display: flex;
   flex-direction: row;
+  gap: 50px;
   align-items: center;
   justify-content: flex-start;
-  gap: 50px;
   width: 100%;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (width <= 900px) {
   .innerWrapper {
     flex-direction: column;
     justify-content: center;
@@ -31,9 +31,9 @@
 .profilePic {
   width: 250px;
   height: 250px;
-  border-radius: 999px;
   border: 7px solid var(--palette-blue);
-  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.2);
+  border-radius: var(--border-radius-pill);
+  box-shadow: 0 2px 15px 0 rgb(0 0 0 / 20%);
 }
 
 /* * */
@@ -42,13 +42,13 @@
 .headingsWrapper {
   display: flex;
   flex-direction: column;
+  gap: 20px;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 20px;
   width: 100%;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (width <= 900px) {
   .headingsWrapper {
     align-items: center;
     justify-content: center;

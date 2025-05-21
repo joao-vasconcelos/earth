@@ -1,9 +1,9 @@
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: var(--font-family);
-  font-weight: var(--font-weight);
+	padding: 0;
+	margin: 0;
+	font-family: var(--font-family);
+	font-weight: var(--font-weight);
 }
 
 p,
@@ -13,9 +13,9 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
+	margin: 0;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }

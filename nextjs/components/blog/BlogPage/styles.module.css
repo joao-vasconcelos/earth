@@ -1,0 +1,24 @@
+/* * */
+/* CONTAINER */
+
+.container {
+	background-color: var(--palette-background-100);
+}
+
+/* * */
+/* INTRO */
+
+.intro {
+	max-width: var(--max-width-sm);
+	margin-bottom: 30px;
+	color: var(--palette-text-200);
+}
+
+/* * */
+/* POSTS LIST */
+
+.postsList {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}

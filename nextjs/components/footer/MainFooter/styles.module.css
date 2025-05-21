@@ -1,26 +1,35 @@
 /* * */
-/* CONTAINER */
+/* CONTACTS LIST */
 
-.container {
+.contactsList {
 	display: flex;
 	flex-direction: column;
-	gap: 30px;
-	padding: 40px 0px;
-	background-color: var(--system-background);
+	gap: 15px;
+	align-items: flex-start;
+	justify-content: flex-start;
 }
-
 
 /* * */
-/* COLUMNS */
+/* CONTACT */
 
-.columns {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	gap: 40px;
+.contact {
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	align-items: center;
+	justify-content: flex-start;
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--palette-text-200);
 }
 
-@media only screen and (max-width: 900px) {
-	.columns {
-		grid-template-columns: 1fr;
-	}
+/* * */
+/* DISCLAIMER */
+
+.disclaimer {
+	max-width: var(--max-width-xs);
+	margin-top: 20px;
+	font-size: 14px;
+	font-weight: 500;
+	color: var(--palette-text-200);
 }
