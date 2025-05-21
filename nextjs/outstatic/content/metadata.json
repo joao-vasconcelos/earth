@@ -1,6 +1,6 @@
 {
-  "commit": "6f163d0b006dc41a049c52fc7eeb9356a8d8c285",
-  "generated": "2025-05-21T23:00:08.499Z",
+  "commit": "17c4ea5efc66631f9f9a10e8a57700ce1b676678",
+  "generated": "2025-05-21T23:09:12.682Z",
   "metadata": [
     {
       "__outstatic": {
@@ -21,8 +21,8 @@
     },
     {
       "__outstatic": {
-        "commit": "6f163d0b006dc41a049c52fc7eeb9356a8d8c285",
-        "hash": "2684144781",
+        "commit": "17c4ea5efc66631f9f9a10e8a57700ce1b676678",
+        "hash": "2960576734",
         "path": "/outstatic/content/posts/infrastructure.mdx"
       },
       "author": {
@@ -30,6 +30,7 @@
         "picture": "https://avatars.githubusercontent.com/u/10943992?v=4"
       },
       "collection": "posts",
+      "coverImage": "/api/outstatic/media/joao-vasconcelos/earth/production/nextjs/nextjs/public/outstatic/media/img_0885-ExNT.jpg",
       "publishedAt": "2020-04-27T01:00:00.000Z",
       "slug": "infrastructure",
       "status": "published",
