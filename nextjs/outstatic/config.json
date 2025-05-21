@@ -1,4 +1,4 @@
 {
-  "publicMediaPath": "outstatic/media/",
-  "repoMediaPath": "nextjs/public/outstatic/media/"
+	"publicMediaPath": "outstatic/media/",
+	"repoMediaPath": "public/outstatic/media/"
 }
