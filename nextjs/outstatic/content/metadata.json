@@ -1,6 +1,6 @@
 {
-  "commit": "5a6fb594f4e4b7ebdfde2fe376482278918d955b",
-  "generated": "2025-05-21T22:50:55.309Z",
+  "commit": "c52192f5b3e443960edb12bc0829ec0603bfc01e",
+  "generated": "2025-05-21T22:57:13.501Z",
   "metadata": [
     {
       "__outstatic": {
@@ -21,9 +21,9 @@
     },
     {
       "__outstatic": {
-        "commit": "5a6fb594f4e4b7ebdfde2fe376482278918d955b",
-        "hash": "2055544555",
-        "path": "/outstatic/content/posts/hello-world-2.mdx"
+        "commit": "c52192f5b3e443960edb12bc0829ec0603bfc01e",
+        "hash": "1034090454",
+        "path": "/outstatic/content/posts/infrastructure.mdx"
       },
       "author": {
         "name": "João de Vasconcelos",
@@ -31,7 +31,7 @@
       },
       "collection": "posts",
       "publishedAt": "2025-05-19T11:09:37.123Z",
-      "slug": "hello-world-2",
+      "slug": "infrastructure",
       "status": "published",
       "title": "How to design cities"
     }
