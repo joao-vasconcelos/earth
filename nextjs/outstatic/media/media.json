@@ -1,18 +1,7 @@
 {
-  "commit": "016c38c006594015fc4ad9f2a674a67a039e8533",
-  "generated": "2025-05-21T23:09:48.958Z",
+  "commit": "ce2fe54ca18c0df38f8df05fbfa175b622dd0ade",
+  "generated": "2025-05-21T23:10:00.299Z",
   "media": [
-    {
-      "__outstatic": {
-        "commit": "",
-        "hash": "2447257960",
-        "path": "nextjs/nextjs/public/outstatic/media/img_0885-ExNT.jpg"
-      },
-      "alt": "",
-      "filename": "img_0885-ExNT.jpg",
-      "publishedAt": "2025-05-21T23:08:59.860Z",
-      "type": "image"
-    },
     {
       "__outstatic": {
         "commit": "016c38c006594015fc4ad9f2a674a67a039e8533",
