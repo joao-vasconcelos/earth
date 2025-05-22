@@ -29,7 +29,7 @@ export async function BlogPage() {
 
 	return (
 		<Container className={styles.container}>
-			<Section>
+			<Section paddingTop>
 
 				<p className={styles.intro}>
 					Welcome to my blog — here you'll find explorations of interesting projects I've been doing. Please feel free to contact me about any topic!

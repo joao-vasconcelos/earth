@@ -23,7 +23,7 @@ export function AboutMeIntro() {
 
 	return (
 		<Container className={styles.container}>
-			<Section>
+			<Section paddingBottom paddingTop>
 				<div className={styles.innerWrapper}>
 					<Image alt={t('profile_pic.alt')} className={styles.profilePic} src={ProfilePic} priority />
 					<div className={styles.headingsWrapper}>

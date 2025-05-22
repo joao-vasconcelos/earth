@@ -2,35 +2,35 @@
 /* INNER WRAPPER */
 
 .innerWrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
 }
 
 @media only screen and (width <= 900px) {
-  .innerWrapper {
-    flex-direction: column;
-    text-align: center;
-  }
+	.innerWrapper {
+		flex-direction: column;
+		text-align: center;
+	}
 }
 
 /* * */
 /* PUNCH LINE */
 
 .punchLine {
-  font-weight: var(--font-weight-bold);
+	font-weight: var(--font-weight-bold);
 }
 
 /* * */
 /* TEXT */
 
 .text {
-  max-width: var(--max-width-md);
+	max-width: var(--max-width-md);
 }
 
 /* * */
 /* LINKEDIN */
 
 .linkedin {
-  margin-top: 50px;
+	margin-top: 50px;
 }

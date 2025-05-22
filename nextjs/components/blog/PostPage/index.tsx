@@ -46,7 +46,7 @@ export async function PostPage({ slug }: Props) {
 
 	return (
 		<Container className={styles.container}>
-			<Section>
+			<Section paddingTop>
 
 				<div className={styles.headerWrapper}>
 					<h1 className={styles.postTitle}>{postData.title}</h1>

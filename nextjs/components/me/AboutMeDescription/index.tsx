@@ -25,7 +25,7 @@ export function AboutMeDescription() {
 
 	return (
 		<Container>
-			<Section>
+			<Section paddingTop>
 				<div className={styles.innerWrapper}>
 					<p className={styles.punchLine}>{t('punch_line')}</p>
 					<p className={styles.text}>{t('text')}</p>

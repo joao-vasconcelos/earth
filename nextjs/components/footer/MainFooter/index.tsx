@@ -20,7 +20,7 @@ const CONTACTS = [
 export function MainFooter() {
 	return (
 		<Container>
-			<Section>
+			<Section paddingBottom paddingTop>
 
 				<div className={styles.contactsList}>
 					{CONTACTS.map(item => (
@@ -36,7 +36,7 @@ export function MainFooter() {
 				</div>
 
 				<Link className={styles.disclaimer} href="/blog/carris-api">
-					If you just came here to look for Lisbon's Carris API, please read this post to learn more ›
+					If you're just looking for Lisbon's Carris API, please read this post to learn more ›
 				</Link>
 
 			</Section>

@@ -90,8 +90,8 @@
 		"website_title": "joão.earth"
 	},
 	"NavigationData": {
-		"geobus": {
-			"label": "GeoBus"
+		"blog": {
+			"label": "Blog"
 		},
 		"infrastructure": {
 			"label": "Infrastructure"
