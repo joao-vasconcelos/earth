@@ -32,7 +32,7 @@ export async function BlogPage() {
 			<Section paddingTop>
 
 				<p className={styles.intro}>
-					Welcome to my blog — here you'll find explorations of interesting projects I've been doing. Please feel free to contact me about any topic!
+					Welcome to my website — here you'll find explorations of projects I've been doing. Normalmente em inglês, mas às vezes em português.
 				</p>
 
 				<div className={styles.postsList}>

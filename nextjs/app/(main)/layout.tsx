@@ -1,8 +1,6 @@
 /* * */
 
-import { Providers } from '@/app/providers';
 import { MainWrapper } from '@/components/MainWrapper';
-import { PostHogPageView } from '@/components/PostHogPageView';
 import { ThemeContextProvider } from '@/contexts/Theme.context';
 import { availableFormats } from '@/i18n/config';
 import { Analytics } from '@vercel/analytics/react';
@@ -31,16 +29,14 @@ export default function RootLayout({ children }) {
 		<ThemeContextProvider>
 			<Analytics />
 			<html className={workSans.variable} data-theme="planet" lang="en">
-				<Providers>
-					<body>
-						<NextIntlClientProvider formats={availableFormats}>
-							<PostHogPageView />
-							<MainWrapper>
-								{children}
-							</MainWrapper>
-						</NextIntlClientProvider>
-					</body>
-				</Providers>
+				<body>
+					<NextIntlClientProvider formats={availableFormats}>
+						{/* <PostHogPageView /> */}
+						<MainWrapper>
+							{children}
+						</MainWrapper>
+					</NextIntlClientProvider>
+				</body>
 			</html>
 		</ThemeContextProvider>
 	);
