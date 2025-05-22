@@ -13,6 +13,7 @@ import styles from './styles.module.css';
 
 async function getData(slug: string) {
 	const post = getDocumentBySlug('posts', slug, ['title', 'publishedAt', 'slug', 'author', 'content', 'coverImage']);
+	console.log('post', slug, post);
 	if (!post) return null;
 	const content = await markdownToHtml(post.content || '');
 	return { ...post, content };
@@ -37,10 +38,15 @@ export async function PostPage({ slug }: Props) {
 	//
 	// A. Transform data
 
-	const publishedAtString = DateTime.fromISO(postData?.publishedAt).toFormat('LLL yyyy');
+	// const publishedAtString = DateTime.fromISO(postData?.publishedAt || '').toFormat('LLL yyyy');
 
 	//
 	// B. Render components
+
+	if (!postData) {
+		// notFound();
+		return <div>Post not found</div>;
+	}
 
 	return (
 		<Container className={styles.container}>
@@ -48,7 +54,7 @@ export async function PostPage({ slug }: Props) {
 
 				<div className={styles.headerWrapper}>
 					<h1 className={styles.postTitle}>{postData?.title}</h1>
-					<p className={styles.publishedAt}>{publishedAtString}</p>
+					<p className={styles.publishedAt}>{DateTime.fromISO(postData.publishedAt).toFormat('LLL yyyy')}</p>
 				</div>
 
 				<div className={styles.postContent} dangerouslySetInnerHTML={{ __html: postData?.content || '' }} />
