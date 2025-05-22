@@ -1,6 +1,6 @@
 {
-  "commit": "7011b9175eb128f94c4f59ee58f36bda5687f6cb",
-  "generated": "2025-05-21T23:33:30.074Z",
+  "commit": "afd35268f52c29776cb8b79a32242472929c0a17",
+  "generated": "2025-05-22T00:11:18.498Z",
   "metadata": [
     {
       "__outstatic": {
@@ -21,9 +21,9 @@
     },
     {
       "__outstatic": {
-        "commit": "7011b9175eb128f94c4f59ee58f36bda5687f6cb",
-        "hash": "3817811688",
-        "path": "/outstatic/content/posts/hello-world.mdx"
+        "commit": "afd35268f52c29776cb8b79a32242472929c0a17",
+        "hash": "1886896930",
+        "path": "/outstatic/content/posts/carris-api.mdx"
       },
       "author": {
         "name": "João de Vasconcelos",
@@ -32,7 +32,7 @@
       "collection": "posts",
       "coverImage": "https://virtualize.sh/blog/content/images/size/w1140/2025/05/majortrial.jpg",
       "publishedAt": "2025-05-19T11:09:37.123Z",
-      "slug": "hello-world",
+      "slug": "carris-api",
       "status": "published",
       "title": "APIs for Carris Metropolitana and Carris (municipal)"
     }
