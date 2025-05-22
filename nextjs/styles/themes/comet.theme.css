@@ -2,24 +2,24 @@
 /* COMET */
 
 :root {
-	--theme-comet-accent: rgb(200 50 0);
-	--theme-comet-text-100: rgb(240 125 125);
-	--theme-comet-text-200: rgb(190 85 85);
-	--theme-comet-background-100: rgb(85 15 15);
-	--theme-comet-background-200: rgb(70 0 0);
-	--theme-comet-border-100: rgb(255 255 255 / 20%);
-	--theme-comet-border-200: rgb(255 255 255 / 20%);
+	--theme-comet-accent: rgb(255 110 45);
+	--theme-comet-text-100: rgb(220 70 0);
+	--theme-comet-text-200: rgb(250 120 70);
+	--theme-comet-background-100: rgb(255 255 255);
+	--theme-comet-background-200: rgb(255 245 240);
+	--theme-comet-border-100: rgb(255 110 45 / 25%);
+	--theme-comet-border-200: rgb(255 110 45 / 25%);
 	--theme-comet-shadow-100: rgb(0 0 0 / 0%);
 	--theme-comet-shadow-200: rgb(0 0 0 / 0%);
 }
 
 @media (prefers-color-scheme: dark) {
 	:root {
-		--theme-comet-accent: rgb(200 50 0);
-		--theme-comet-text-100: rgb(240 125 125);
-		--theme-comet-text-200: rgb(190 85 85);
-		--theme-comet-background-100: rgb(85 15 15);
-		--theme-comet-background-200: rgb(70 0 0);
+		--theme-comet-accent: rgb(255 95 20);
+		--theme-comet-text-100: rgb(255 200 180);
+		--theme-comet-text-200: rgb(240 90 60);
+		--theme-comet-background-100: rgb(100 30 0);
+		--theme-comet-background-200: rgb(75 20 0);
 		--theme-comet-border-100: rgb(255 255 255 / 20%);
 		--theme-comet-border-200: rgb(255 255 255 / 20%);
 		--theme-comet-shadow-100: rgb(0 0 0 / 0%);
