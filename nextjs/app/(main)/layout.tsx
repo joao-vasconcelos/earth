@@ -3,7 +3,8 @@
 import { MainWrapper } from '@/components/MainWrapper';
 import { ThemeContextProvider } from '@/contexts/Theme.context';
 import { availableFormats } from '@/i18n/config';
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from '@vercel/analytics/next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { NextIntlClientProvider } from 'next-intl';
 import { Work_Sans } from 'next/font/google';
 
@@ -27,7 +28,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<ThemeContextProvider>
-			<Analytics />
 			<html className={workSans.variable} data-theme="planet" lang="en">
 				<body>
 					<NextIntlClientProvider formats={availableFormats}>
@@ -38,6 +38,8 @@ export default function RootLayout({ children }) {
 					</NextIntlClientProvider>
 				</body>
 			</html>
+			<Analytics />
+			<SpeedInsights />
 		</ThemeContextProvider>
 	);
 }

@@ -5,6 +5,7 @@
 	"scripts": {
 		"build": "next build",
 		"bump": "node bump-version.js",
+		"clean": "sh cleanup.sh",
 		"dev": "next dev -p 3000",
 		"lint": "next lint",
 		"lint:fix": "next lint --fix",
@@ -13,6 +14,7 @@
 	"dependencies": {
 		"@tabler/icons-react": "3.33.0",
 		"@vercel/analytics": "1.5.0",
+		"@vercel/speed-insights": "1.2.0",
 		"luxon": "3.6.1",
 		"next": "15.3.2",
 		"next-intl": "4.1.0",
