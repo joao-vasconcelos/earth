@@ -3,8 +3,8 @@
 
 :root {
 	--theme-comet-accent: rgb(255 110 45);
-	--theme-comet-text-100: rgb(220 70 0);
-	--theme-comet-text-200: rgb(250 120 70);
+	--theme-comet-text-100: rgb(90 30 0);
+	--theme-comet-text-200: rgb(150 75 45);
 	--theme-comet-background-100: rgb(255 255 255);
 	--theme-comet-background-200: rgb(255 245 240);
 	--theme-comet-border-100: rgb(255 110 45 / 25%);
