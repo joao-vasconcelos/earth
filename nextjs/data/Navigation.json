@@ -8,10 +8,6 @@
 		"id": "infrastructure"
 	},
 	{
-		"href": "/work",
-		"id": "work"
-	},
-	{
 		"href": "/me",
 		"id": "me"
 	}
