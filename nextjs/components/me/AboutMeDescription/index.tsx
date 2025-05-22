@@ -27,8 +27,8 @@ export function AboutMeDescription() {
 		<Container>
 			<Section paddingTop>
 				<div className={styles.innerWrapper}>
-					<p className={styles.punchLine}>{t('punch_line')}</p>
-					<p className={styles.text}>{t('text')}</p>
+					<p><strong>{t('punch_line')}</strong></p>
+					<p>{t('text')}</p>
 					<a className={styles.linkedin} href="https://www.linkedin.com/in/johnyvasconcelos/" rel="noreferrer" target="_blank">
 						<ThemeSwitch
 							dark={<Image alt={t('linkedin_logo.alt')} src={LinkedinLogoDark} />}

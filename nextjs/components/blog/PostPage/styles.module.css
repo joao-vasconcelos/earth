@@ -2,7 +2,7 @@
 /* CONTAINER */
 
 .container {
-	background-color: var(--palette-background-100);
+	background-color: var(--theme-background-100);
 }
 
 /* * */
@@ -27,7 +27,7 @@
 .publishedAt {
 	font-size: 14px;
 	font-weight: 500;
-	color: var(--palette-accent);
+	color: var(--theme-accent);
 	text-transform: uppercase;
 }
 
@@ -47,29 +47,10 @@
 	max-width: var(--max-width-md);
 }
 
-.postContent p,
-.postContent li {
-	font-family: var(--font-pt-serif);
-	font-size: 20px;
-	font-weight: 400;
-	line-height: 1.7;
-	color: var(--palette-text-100);
-}
-
-.postContent a {
-	font-family: var(--font-work-sans);
-	font-size: 20px;
-	font-weight: 400 !important;
-}
-
-.postContent strong {
-	font-weight: 600;
-}
-
 .postContent img {
 	max-width: var(--max-width-md);
 	border-radius: var(--border-radius-md);
-	box-shadow: 0 0 10px 0 var(--palette-shadow-100);
+	box-shadow: 0 0 10px 0 var(--theme-shadow-100);
 }
 
 .postContent iframe {
@@ -81,26 +62,17 @@
 	margin: 0;
 	margin-bottom: 20px;
 	overflow: hidden;
-	background-color: var(--palette-background-200);
+	background-color: var(--theme-background-200);
 	border: none;
 	border-radius: var(--border-radius-md);
 	box-shadow: var(--box-shadow-large);
-}
-
-.postContent hr {
-	width: 100%;
-	height: 0;
-	margin: 30px 0;
-	border: none;
-	border-bottom: 2px dotted var(--palette-border-100);
-	border-radius: var(--border-radius-pill);
 }
 
 .postContent table {
 	width: 100%;
 	padding: 0;
 	border-spacing: 0;
-	background-color: var(--palette-background-200);
+	background-color: var(--theme-background-200);
 	border-radius: var(--border-radius-md);
 	box-shadow: var(--box-shadow-large);
 }
@@ -109,17 +81,17 @@
 	padding: 12px;
 	font-size: 14px;
 	font-weight: 600;
-	color: var(--palette-text-200);
+	color: var(--theme-text-200);
 	text-align: left;
 	text-transform: uppercase;
-	border-bottom: 1px solid var(--palette-background-100);
+	border-bottom: 1px solid var(--theme-background-100);
 }
 
 .postContent table td {
 	padding: 12px;
 	font-size: 16px;
 	font-weight: 400;
-	color: var(--palette-text-100);
+	color: var(--theme-text-100);
 	text-align: left;
 }
 
@@ -139,6 +111,6 @@
 }
 
 .postContent li::marker {
-	color: var(--palette-accent);
+	color: var(--theme-accent);
 	content: '‣';
 }

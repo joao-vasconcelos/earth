@@ -1,24 +1,22 @@
 /* * */
 
-import { MainHeaderNavigationToggleIconBars } from '@/components/header/MainHeaderNavigationToggleIconBars';
-import { MainHeaderNavigationToggleIconX } from '@/components/header/MainHeaderNavigationToggleIconX';
+import { IconMenu2, IconX } from '@tabler/icons-react';
 
 import styles from './styles.module.css';
 
 /* * */
 
 interface Props {
-	className?: string
 	isOpen?: boolean
 	onClick: () => void
 }
 
 /* * */
 
-export function MainHeaderNavigationToggle({ className = '', isOpen = false, onClick }: Props) {
+export function MainHeaderNavigationToggle({ isOpen = false, onClick }: Props) {
 	return (
-		<div className={`${styles.container} ${className}`} onClick={onClick}>
-			{isOpen ? <MainHeaderNavigationToggleIconX /> : <MainHeaderNavigationToggleIconBars />}
+		<div className={styles.container} onClick={onClick}>
+			{isOpen ? <IconX /> : <IconMenu2 />}
 		</div>
 	);
 }

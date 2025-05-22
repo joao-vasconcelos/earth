@@ -4,8 +4,8 @@
 .logo {
 	display: flex;
 	font-family: var(--font-family-monospace);
-	font-size: 18px;
-	font-weight: var(--font-weight-bold);
+	font-size: var(--font-size-md);
+	font-weight: var(--font-weight-lg);
 	text-align: left;
 }
 

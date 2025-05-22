@@ -2,7 +2,7 @@
 /* CONTAINER */
 
 .container {
-  background-color: var(--palette-green-alpha);
+  background-color: var(--theme-green-alpha);
 }
 
 /* * */
@@ -10,10 +10,10 @@
 
 .heading {
   width: 100%;
+  color: var(--theme-green);
   text-align: center;
-  color: var(--palette-green);
 }
 
 .heading::selection {
-  background-color: var(--palette-green);
+  background-color: var(--theme-green);
 }

@@ -16,27 +16,27 @@ section.items container {
 }
 
 section.items container a.work {
+  display: block;
   padding: 25px 35px;
   color: inherit;
   background-color: var(--system-background);
   border-radius: var(--border-radius-large);
-  display: block;
   transition: all 300ms ease;
 }
 
 section.items container a.work:hover {
   text-decoration: none;
-  background-color: var(--palette-green-alpha);
+  background-color: var(--theme-green-alpha);
 }
 
 section.items container a.work h2 {
-  color: #2f750f;
   margin-bottom: 15px;
+  color: #2f750f;
 }
 
 section.items container a.work h3 {
-  font-size: 25px;
   margin-bottom: 20px;
+  font-size: 25px;
 }
 
 section.items container a.work .credits {
@@ -51,8 +51,8 @@ section.items container a.work .credits {
 section.flippedClassroom {
   display: grid;
   grid-template-columns: 1fr;
-  justify-content: start;
   gap: 30px;
+  justify-content: start;
 }
 
 section.flippedClassroom container.player video {
@@ -63,14 +63,14 @@ section.flippedClassroom container.player video {
 section.flippedClassroom container.info p,
 section.flippedClassroom container.info a {
   display: block;
+  margin: 10px 0;
   font-size: 15px;
   font-weight: var(--font-weight);
-  margin: 10px 0;
 }
 
 section.flippedClassroom container.info .title,
 section.flippedClassroom container.info .credits {
+  margin: 5px 0;
   font-size: 15px;
   font-weight: var(--font-weight-bold);
-  margin: 5px 0;
 }

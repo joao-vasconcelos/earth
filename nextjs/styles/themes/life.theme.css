@@ -1,0 +1,43 @@
+/* * */
+/* LIFE */
+
+:root {
+	--theme-life-accent: rgb(30 130 60);
+	--theme-life-text-100: rgb(30 60 45);
+	--theme-life-text-200: rgb(90 130 100);
+	--theme-life-background-100: rgb(255 255 255);
+	--theme-life-background-200: rgb(235 245 235);
+	--theme-life-border-100:  rgb(40 155 65 / 25%);
+	--theme-life-border-200:  rgb(40 155 65 / 15%);
+	--theme-life-shadow-100: rgb(0 0 0 / 0%);
+	--theme-life-shadow-200: rgb(0 0 0 / 0%);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--theme-life-accent: rgb(70 200 150);
+		--theme-life-text-100: rgb(190 205 200);
+		--theme-life-text-200: rgb(80 150 120);
+		--theme-life-background-100: rgb(10 70 50);
+		--theme-life-background-200: rgb(5 60 40);
+		--theme-life-border-100: rgb(255 255 255 / 25%);
+		--theme-life-border-200: rgb(255 255 255 / 15%);
+		--theme-life-shadow-100: rgb(0 0 0 / 0%);
+		--theme-life-shadow-200: rgb(0 0 0 / 0%);
+  }
+}
+
+
+/* * */
+
+:root[data-theme="life"] {
+	--theme-accent:  var(--theme-life-accent);
+	--theme-text-100: var(--theme-life-text-100);
+	--theme-text-200: var(--theme-life-text-200);
+	--theme-background-100: var(--theme-life-background-100);
+	--theme-background-200: var(--theme-life-background-200);
+	--theme-border-100: var(--theme-life-border-100);
+	--theme-border-200: var(--theme-life-border-200);
+	--theme-shadow-100: var(--theme-life-shadow-100);
+	--theme-shadow-200: var(--theme-life-shadow-200);
+}

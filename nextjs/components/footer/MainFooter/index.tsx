@@ -1,6 +1,7 @@
 /* * */
 
 import { Container } from '@/components/Container';
+import { ThemeSwitcher } from '@/components/footer/ThemeSwitcher';
 import { Section } from '@/components/Section';
 import { IconBrandBluesky, IconBrandGithub, IconMail } from '@tabler/icons-react';
 import Link from 'next/link';
@@ -38,6 +39,8 @@ export function MainFooter() {
 				<Link className={styles.disclaimer} href="/blog/carris-api">
 					If you're just looking for Lisbon's Carris API, please read this post to learn more ›
 				</Link>
+
+				<ThemeSwitcher />
 
 			</Section>
 		</Container>

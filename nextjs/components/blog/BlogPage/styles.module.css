@@ -2,7 +2,7 @@
 /* CONTAINER */
 
 .container {
-	background-color: var(--palette-background-100);
+	background-color: var(--theme-background-100);
 }
 
 /* * */
@@ -11,7 +11,7 @@
 .intro {
 	max-width: var(--max-width-sm);
 	margin-bottom: 30px;
-	color: var(--palette-text-200);
+	color: var(--theme-text-200);
 }
 
 /* * */

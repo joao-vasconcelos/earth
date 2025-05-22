@@ -1,0 +1,43 @@
+/* * */
+/* COMET */
+
+:root {
+	--theme-comet-accent: rgb(200 50 0);
+	--theme-comet-text-100: rgb(240 125 125);
+	--theme-comet-text-200: rgb(190 85 85);
+	--theme-comet-background-100: rgb(85 15 15);
+	--theme-comet-background-200: rgb(70 0 0);
+	--theme-comet-border-100: rgb(255 255 255 / 20%);
+	--theme-comet-border-200: rgb(255 255 255 / 20%);
+	--theme-comet-shadow-100: rgb(0 0 0 / 0%);
+	--theme-comet-shadow-200: rgb(0 0 0 / 0%);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--theme-comet-accent: rgb(200 50 0);
+		--theme-comet-text-100: rgb(240 125 125);
+		--theme-comet-text-200: rgb(190 85 85);
+		--theme-comet-background-100: rgb(85 15 15);
+		--theme-comet-background-200: rgb(70 0 0);
+		--theme-comet-border-100: rgb(255 255 255 / 20%);
+		--theme-comet-border-200: rgb(255 255 255 / 20%);
+		--theme-comet-shadow-100: rgb(0 0 0 / 0%);
+		--theme-comet-shadow-200: rgb(0 0 0 / 0%);
+  }
+}
+
+
+/* * */
+
+:root[data-theme="comet"] {
+	--theme-accent:  var(--theme-comet-accent);
+	--theme-text-100: var(--theme-comet-text-100);
+	--theme-text-200: var(--theme-comet-text-200);
+	--theme-background-100: var(--theme-comet-background-100);
+	--theme-background-200: var(--theme-comet-background-200);
+	--theme-border-100: var(--theme-comet-border-100);
+	--theme-border-200: var(--theme-comet-border-200);
+	--theme-shadow-100: var(--theme-comet-shadow-100);
+	--theme-shadow-200: var(--theme-comet-shadow-200);
+}

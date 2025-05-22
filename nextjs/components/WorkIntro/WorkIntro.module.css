@@ -2,23 +2,23 @@
 /* CONTAINER */
 
 .container {
-  background-color: var(--palette-orange-alpha);
+  background-color: var(--theme-orange-alpha);
 }
 
 /* * */
 /* HEADING */
 
 .heading {
-  color: var(--palette-orange);
   max-width: 650px;
+  color: var(--theme-orange);
 }
 
 /* * */
 /* SUBHEADING */
 
 .subheading {
-  color: var(--palette-orange);
   margin-bottom: 20px;
+  color: var(--theme-orange);
 }
 
 /* * */
@@ -26,7 +26,7 @@
 
 .heading::selection,
 .subheading::selection {
-  background-color: var(--palette-orange);
+  background-color: var(--theme-orange);
 }
 
 /* * */

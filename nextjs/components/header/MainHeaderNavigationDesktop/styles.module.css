@@ -6,6 +6,7 @@
 	flex-direction: row;
 	gap: 40px;
 	align-items: center;
+	padding: 15px 0;
 }
 
 @media only screen and (width <= 900px) {
@@ -18,7 +19,7 @@
 /* NAV LINK */
 
 .navLink {
-	font-size: 18px;
-	font-weight: var(--font-weight-bold);
-	color: var(--palette-text-200);
+	font-size: var(--font-size-md);
+	font-weight: var(--font-weight-lg);
+	color: var(--theme-text-200);
 }

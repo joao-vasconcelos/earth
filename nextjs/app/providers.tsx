@@ -17,5 +17,9 @@ if (typeof window !== 'undefined' && process.env.NEXT_PUBLIC_POSTHOG_KEY) {
 /* * */
 
 export function Providers({ children }) {
-	return <PostHogProvider client={posthog}>{children}</PostHogProvider>;
+	return (
+		<PostHogProvider client={posthog}>
+			{children}
+		</PostHogProvider>
+	);
 }

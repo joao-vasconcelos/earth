@@ -6,10 +6,9 @@
 	top: 0;
 	z-index: 9999;
 	width: 100%;
-	padding: 15px 0;
-	background-color: var(--palette-background-200);
-	border-bottom: 1px solid var(--palette-border-200);
-	box-shadow: 0 1px 10px 0 var(--palette-shadow-100);
+	background-color: var(--theme-background-200);
+	border-bottom: 1px solid var(--theme-border-200);
+	box-shadow: 0 1px 10px 0 var(--theme-shadow-100);
 }
 
 /* * */

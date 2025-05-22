@@ -37,11 +37,15 @@ export function MainHeaderNavigationMobile() {
 	// D. Render components
 
 	return (
-		<div className={styles.container}>
-			<MainHeaderNavigationToggle isOpen={isOpen} onClick={handleToggle} />
+		<>
+
+			<div className={styles.container}>
+				<MainHeaderNavigationToggle isOpen={isOpen} onClick={handleToggle} />
+			</div>
+
 			{isOpen && (
 				<div className={styles.navWrapper}>
-					<MainHeaderNavigationToggle className={styles.toggleWhenOpen} isOpen={isOpen} onClick={handleToggle} />
+					<MainHeaderNavigationToggle isOpen={isOpen} onClick={handleToggle} />
 					{allNavigationLinksDataFormatted.map(item => (
 						<Link key={item.id} className={styles.navLink} href={item.href} onClick={handleToggle}>
 							{item.label}
@@ -49,7 +53,8 @@ export function MainHeaderNavigationMobile() {
 					))}
 				</div>
 			)}
-		</div>
+
+		</>
 	);
 
 	//

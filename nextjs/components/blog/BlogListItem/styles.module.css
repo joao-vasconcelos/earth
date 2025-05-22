@@ -9,8 +9,8 @@
 	width: 100%;
 	padding-bottom: 30px;
 	margin-bottom: 30px;
-	color: var(--palette-text-100);
-	border-bottom: 1px solid var(--palette-border-100);
+	color: var(--theme-text-100);
+	border-bottom: 1px solid var(--theme-border-100);
 }
 
 .container:hover {
@@ -29,7 +29,7 @@
 .publishedAt {
 	font-size: 14px;
 	font-weight: 500;
-	color: var(--palette-accent);
+	color: var(--theme-accent);
 	text-transform: uppercase;
 }
 
@@ -40,7 +40,7 @@
 	width: 100%;
 	font-size: 22px;
 	font-weight: 600;
-	color: var(--palette-text-100);
+	color: var(--theme-text-100);
 }
 
 .container:hover .title {

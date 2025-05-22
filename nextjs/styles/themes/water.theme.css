@@ -1,0 +1,43 @@
+/* * */
+/* WATER */
+
+:root {
+	--theme-water-accent: rgb(35 60 180);
+	--theme-water-text-100: rgb(50 60 80);
+	--theme-water-text-200: rgb(100 120 150);
+	--theme-water-background-100: rgb(255 255 255);
+	--theme-water-background-200: rgb(240 240 245);
+	--theme-water-border-100: rgb(35 59 180 / 25%);
+	--theme-water-border-200: rgb(35 59 180 / 10%);
+	--theme-water-shadow-100: rgb(0 0 0 / 0%);
+	--theme-water-shadow-200: rgb(0 0 0 / 0%);
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--theme-water-accent: rgb(80 120 230);
+		--theme-water-text-100: rgb(255 255 255 / 75%);
+		--theme-water-text-200: rgb(90 115 155);
+		--theme-water-background-100: rgb(30 40 65);
+		--theme-water-background-200: rgb(20 30 50);
+		--theme-water-border-100: rgb(255 255 255 / 10%);
+		--theme-water-border-200: rgb(255 255 255 / 10%);
+		--theme-water-shadow-100: rgb(0 0 0 / 5%);
+		--theme-water-shadow-200: rgb(0 0 0 / 5%);
+  }
+}
+
+
+/* * */
+
+:root[data-theme="water"] {
+	--theme-accent:  var(--theme-water-accent);
+	--theme-text-100: var(--theme-water-text-100);
+	--theme-text-200: var(--theme-water-text-200);
+	--theme-background-100: var(--theme-water-background-100);
+	--theme-background-200: var(--theme-water-background-200);
+	--theme-border-100: var(--theme-water-border-100);
+	--theme-border-200: var(--theme-water-border-200);
+	--theme-shadow-100: var(--theme-water-shadow-100);
+	--theme-shadow-200: var(--theme-water-shadow-200);
+}

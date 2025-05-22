@@ -1,0 +1,196 @@
+/* * */
+/* VARIABLES */
+
+:root {
+
+	/* * */
+
+	--max-width-xs: 400px;
+	--max-width-sm: 600px;
+	--max-width-md: 800px;
+	--max-width-lg: 1200px;
+
+	/* * */
+
+	--border-radius-sm: 5px;
+	--border-radius-md: 8px;
+	--border-radius-pill: 999px;
+
+	/* * */
+
+	--box-shadow-md: 0 1px 2px 0 rgb(0 0 0 / 5%);
+	--box-shadow-lg: 0 3px 25px 0 rgb(0 0 0 / 5%);
+
+	/* * */
+
+	--font-family-default: var(--font-work-sans), sans-serif;
+	--font-family-monospace: 'Menlo', monospace;
+
+	/* * */
+
+	--font-weight-md: 500;
+	--font-weight-lg: 600;
+	--font-weight-xl: 700;
+
+	/* * */
+
+	--font-size-xs: 12px;
+	--font-size-sm: 24px;
+	--font-size-md: 18px;
+	--font-size-lg: 24px;
+	--font-size-xl: 30px;
+
+	/* * */
+
+	--transition: all 300ms ease;
+
+	/* * */
+
+	/* --theme-blue: rgb(0 150 255);
+	--theme-blue-alpha: rgb(0 35 80);
+	--theme-green: rgb(0 175 60);
+	--theme-green-alpha: rgb(35 50 35);
+	--theme-yellow: rgb(0 91 170);
+	--theme-yellow-alpha: rgb(255 232 0 / 5%);
+	--theme-orange: rgb(255 95 20);
+	--theme-orange-alpha: rgb(45 30 15);
+	--system-light: rgb(30 30 30);
+	--system-dark: rgb(210 210 225 / 100%);
+	--system-background: rgb(20 20 20);
+	--system-border: rgb(50 60 60);
+	--system-text: rgb(210 210 225 / 100%);
+	--system-muted: rgb(100 105 115);
+	--system-link: rgb(15 125 225); */
+
+}
+
+/* * */
+/* TOGGLES */
+
+@media (prefers-color-scheme: dark) {
+	theme-light {
+		display: none;
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	theme-dark {
+		display: none;
+	}
+}
+
+@media only screen and (width <= 900px) {
+	only-desktop {
+		display: none;
+	}
+}
+
+@media only screen and (width > 900px) {
+	only-mobile {
+		display: none;
+	}
+}
+
+/* * */
+/* EVERYTHING */
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	transition: var(--transition);
+}
+
+/* * */
+/* BODY */
+
+body {
+	margin-top: 50px;
+	font-family: var(--font-family-default);
+	font-weight: var(--font-weight-md);
+	line-height: 1.6;
+	background-color: var(--theme-background-100);
+}
+
+/* * */
+/* HEADINGS */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.2;
+	color: var(--theme-text-100);
+}
+
+h1 {
+	font-size: var(--font-size-xl);
+	font-weight: var(--font-weight-lg);
+}
+
+h2 {
+	font-size: var(--font-size-lg);
+	font-weight: var(--font-weight-lg);
+}
+
+h3 {
+	font-size: var(--font-size-lg);
+	font-weight: var(--font-weight-lg);
+}
+
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection {
+	color: var(--theme-background-100);
+	background-color: var(--theme-text-100);
+}
+
+/* * */
+/* PARAGRAPHS */
+
+p {
+	font-size: var(--font-size-md);
+	font-weight: var(--font-weight-md);
+	color: var(--theme-text-100);
+}
+
+p::selection {
+	color: var(--theme-background-100);
+	background-color: var(--theme-text-100);
+}
+
+/* * */
+/* ANCHORS */
+
+a {
+	font-size: var(--font-size-md);
+	font-weight: var(--font-weight-lg);
+	color: var(--theme-accent);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a::selection {
+	color: var(--theme-background-100);
+	background-color: var(--theme-accent);
+}
+
+/* * */
+/* HORIZONTAL RULE */
+
+hr {
+	width: 100%;
+	height: 0;
+	margin: 30px 0;
+	border: none;
+	border-bottom: 2px dotted var(--theme-border-100);
+	border-radius: var(--border-radius-pill);
+}
