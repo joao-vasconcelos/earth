@@ -1,6 +1,6 @@
 {
-  "commit": "afd35268f52c29776cb8b79a32242472929c0a17",
-  "generated": "2025-05-22T00:11:18.498Z",
+  "commit": "3abe8490d4da5fdb4bb984cb11862f7a770e46cb",
+  "generated": "2025-05-22T00:11:23.793Z",
   "metadata": [
     {
       "__outstatic": {
@@ -21,8 +21,8 @@
     },
     {
       "__outstatic": {
-        "commit": "afd35268f52c29776cb8b79a32242472929c0a17",
-        "hash": "1886896930",
+        "commit": "3abe8490d4da5fdb4bb984cb11862f7a770e46cb",
+        "hash": "113241791",
         "path": "/outstatic/content/posts/carris-api.mdx"
       },
       "author": {
@@ -31,7 +31,7 @@
       },
       "collection": "posts",
       "coverImage": "https://virtualize.sh/blog/content/images/size/w1140/2025/05/majortrial.jpg",
-      "publishedAt": "2025-05-19T11:09:37.123Z",
+      "publishedAt": "2025-05-01T00:00:00.000Z",
       "slug": "carris-api",
       "status": "published",
       "title": "APIs for Carris Metropolitana and Carris (municipal)"
