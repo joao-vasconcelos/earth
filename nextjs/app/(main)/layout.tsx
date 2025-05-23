@@ -31,7 +31,6 @@ export default function RootLayout({ children }) {
 			<html className={workSans.variable} data-theme="planet" lang="en">
 				<body>
 					<NextIntlClientProvider formats={availableFormats}>
-						{/* <PostHogPageView /> */}
 						<MainWrapper>
 							{children}
 						</MainWrapper>

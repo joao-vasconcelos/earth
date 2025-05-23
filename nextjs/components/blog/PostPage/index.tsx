@@ -45,7 +45,7 @@ export async function PostPage({ slug }: Props) {
 	// B. Render components
 
 	return (
-		<Container className={styles.container}>
+		<Container>
 			<Section paddingTop>
 
 				<div className={styles.headerWrapper}>

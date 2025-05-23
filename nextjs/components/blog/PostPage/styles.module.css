@@ -1,11 +1,4 @@
 /* * */
-/* CONTAINER */
-
-.container {
-	background-color: var(--theme-background-100);
-}
-
-/* * */
 /* POST META */
 
 .headerWrapper {
@@ -20,8 +13,6 @@
 
 .postTitle {
 	max-width: var(--max-width-sm);
-
-	/* font-size: 30px; */
 }
 
 .publishedAt {

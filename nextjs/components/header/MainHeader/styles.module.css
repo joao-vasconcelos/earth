@@ -8,7 +8,6 @@
 	width: 100%;
 	background-color: var(--theme-background-200);
 	border-bottom: 1px solid var(--theme-border-200);
-	box-shadow: 0 1px 10px 0 var(--theme-shadow-100);
 }
 
 /* * */

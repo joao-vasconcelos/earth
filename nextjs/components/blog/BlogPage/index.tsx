@@ -28,7 +28,7 @@ export async function BlogPage() {
 	// B. Render components
 
 	return (
-		<Container className={styles.container}>
+		<Container>
 			<Section paddingTop>
 
 				<p className={styles.intro}>
