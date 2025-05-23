@@ -2,7 +2,8 @@
 
 /* * */
 
-import { createContext, type PropsWithChildren, useContext, useEffect, useMemo, useState } from 'react';
+import { useLocalStorage } from '@mantine/hooks';
+import { createContext, type PropsWithChildren, useContext, useEffect, useMemo } from 'react';
 
 /* * */
 
@@ -26,6 +27,10 @@ export const AVAILABLE_THEMES = [
 
 /* * */
 
+const LOCALE_STORAGE_KEY = 'theme';
+
+/* * */
+
 export type ThemeType = (typeof AVAILABLE_THEMES)[number]['_id'];
 
 interface ThemeContextState {
@@ -33,7 +38,7 @@ interface ThemeContextState {
 		activateTheme: (theme: ThemeType) => void
 	}
 	data: {
-		active_theme: ThemeType | undefined
+		active_theme: ThemeType
 	}
 }
 
@@ -57,17 +62,10 @@ export const ThemeContextProvider = ({ children }: PropsWithChildren) => {
 	//
 	// A. Setup variables
 
-	const [activeTheme, setActiveTheme] = useState<ThemeType>();
+	const [activeTheme, setActiveTheme] = useLocalStorage<ThemeType>({ defaultValue: AVAILABLE_THEMES[2]._id, key: LOCALE_STORAGE_KEY });
 
 	//
 	// B. Handle actions
-
-	useEffect(() => {
-		if (!activeTheme) { // Set random theme on first load
-			const randomTheme = AVAILABLE_THEMES[Math.floor(Math.random() * AVAILABLE_THEMES.length)]._id;
-			setActiveTheme(randomTheme);
-		}
-	}, [activeTheme]);
 
 	useEffect(() => {
 		if (typeof window === 'undefined' || !window.document || !activeTheme) return;
