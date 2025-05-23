@@ -21,7 +21,7 @@
 		--theme-planet-background-100: rgb(25 25 30);
 		--theme-planet-background-200: rgb(0 0 0);
 		--theme-planet-border-100: rgb(255 255 255 / 25%);
-		--theme-planet-border-200: rgb(255 255 255 / 25%);
+		--theme-planet-border-200: rgb(255 255 255 / 15%);
 		--theme-planet-shadow-100: rgb(0 0 0 / 5%);
 		--theme-planet-shadow-200: rgb(0 0 0 / 5%);
   }
