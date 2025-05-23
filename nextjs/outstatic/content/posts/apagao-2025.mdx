@@ -11,7 +11,20 @@ coverImage: ""
 
 Todos os autocarros da Carris Metropolitana estão equipados com um computador de bordo que publica informações em tempo real para os sistemas da TML. Com uma cadência de \~20 segundos, cada veículo envia *eventos* que contêm informações essenciais para monitorizar toda a operação — posição GPS, linha e viagem em execução, medições dos sensores de contagem de passageiros, quilometragem, eco-condução, entre outros. Estes dados podem ser explorados através do [site da CMetropolitana](https://carrismetropolitana.pt/vehicles) ou do [API aberto](https://api.carrismetropolitana.pt/).
 
-Manter estes sistemas a funcionar bem é uma operação complexa que exige coordenação, capacidade técnica e muita manutenção. Quando todos os sistemas estão em funcionamento normal, que é a maior parte do tempo, 
+Manter estes sistemas a funcionar bem é uma operação complexa que exige coordenação, capacidade técnica e muita manutenção. Quando todos os sistemas estão em funcionamento normal, que é a [maior parte do tempo](https://status.carrismetropolitana.pt/), o delay entre um evento ser gerado no veículo e ficar disponível no API é geralmente menor que 3 segundos.
+
+A rede da CMetropolitana abrange os [18 municípios](https://docs.carrismetropolitana.pt/covered-area) da área metropolitana de Lisboa, e sendo responsável pelo transporte urbano de 15 destes municípios, ficamos com uma cobertura muito densa dos movimentos dos autocarros na maior parte da região.
+
+O [apagão](https://pt.wikipedia.org/wiki/Apag%C3%A3o_na_Pen%C3%ADnsula_Ib%C3%A9rica_em_2025) teve início às 11h33 do dia 28 de abril de 2025, uma segunda-feira, dia útil de período escolar. Ou seja, um dia completo com máxima oferta de transporte. Isto foi *"excelente"* porque todos os veículos estavam na rua em operação, a enviar as suas posições em tempo real, mesmo durante o período sem energia.
+
+Para os eventos gerados nos veículos chegarem ao API em tempo real é necessário que exista cobertura de rede móvel no local onde o veículo está naquele momento. Parece algo trivial, mas durante o apagão conseguimos perceber, através destas posições GPS, o comportamento da enorme e complexa infraestrutura de telecomunicações que permeia toda a região de Lisboa.
+
+Chegámos a várias conclusões:
+
+- No geral, e tendo em conta o inesperado, a [maior parte](https://www.oni.pt/en/service-information/) dos serviços online manteve-se a funcionar sem restrições.
+- Redundância geográfica é real — os nossos sistemas não seriam nunca afetados pois estão alojados em datacenters na Alemanha.
+- Nem todas as antenas são iguais
+- Existem diferentes prioridades no acesso à rede, em função do serviço contratado e da tipologia de utilização.
 
 1. Intro
 2. Sistema
