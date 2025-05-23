@@ -2,6 +2,7 @@
 
 /* * */
 
+import { cleanLocalStorage } from '@/utils/clean-local-storage';
 import { useLocalStorage } from '@mantine/hooks';
 import { createContext, type PropsWithChildren, useContext, useEffect, useMemo } from 'react';
 
@@ -69,6 +70,7 @@ export const ThemeContextProvider = ({ children }: PropsWithChildren) => {
 
 	useEffect(() => {
 		if (typeof window === 'undefined' || !window.document || !activeTheme) return;
+		cleanLocalStorage();
 		window.document.documentElement.setAttribute('data-theme', activeTheme);
 	}, [activeTheme]);
 
