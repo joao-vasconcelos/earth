@@ -1,24 +1,7 @@
 {
-  "commit": "6936fd85f2478fdc6c22daffd5265d1f6ada0868",
-  "generated": "2025-05-23T15:14:11.151Z",
+  "commit": "e527b6140e535b188d47f2e7055566b0f256c3c3",
+  "generated": "2025-05-23T15:18:55.142Z",
   "metadata": [
-    {
-      "__outstatic": {
-        "commit": "3b00ef82f41a3af19dc38ea3c035ea96d64fae13",
-        "hash": "833525805",
-        "path": "/outstatic/content/posts/apagao-2025.mdx"
-      },
-      "author": {
-        "name": "João de Vasconcelos",
-        "picture": "https://avatars.githubusercontent.com/u/10943992?v=4"
-      },
-      "collection": "posts",
-      "coverImage": "",
-      "publishedAt": "2025-05-22T23:41:01.149Z",
-      "slug": "apagao-2025",
-      "status": "draft",
-      "title": "Resiliência das comunicações durante o apagão de 2025"
-    },
     {
       "__outstatic": {
         "commit": "fd04a7ab9e82269f28727da7a10b0de1e5b52889",
@@ -54,6 +37,23 @@
       "slug": "carris-api",
       "status": "published",
       "title": "APIs da Carris Metropolitana e Carris (municipal)"
+    },
+    {
+      "__outstatic": {
+        "commit": "e527b6140e535b188d47f2e7055566b0f256c3c3",
+        "hash": "3573522635",
+        "path": "/outstatic/content/posts/apagao-2025.mdx"
+      },
+      "author": {
+        "name": "João de Vasconcelos",
+        "picture": "https://avatars.githubusercontent.com/u/10943992?v=4"
+      },
+      "collection": "posts",
+      "coverImage": "",
+      "publishedAt": "2025-05-22T23:41:01.149Z",
+      "slug": "apagao-2025",
+      "status": "published",
+      "title": "Resiliência das comunicações durante o apagão de 2025"
     }
   ]
 }
