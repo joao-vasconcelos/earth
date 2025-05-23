@@ -1,6 +1,6 @@
 {
-  "commit": "71f0b22ac314a89163451a6a729f4a3d537e9e4f",
-  "generated": "2025-05-23T15:50:35.670Z",
+  "commit": "663af23f833c73a92de6dbd54365f6dedce6b9e7",
+  "generated": "2025-05-23T15:59:45.867Z",
   "metadata": [
     {
       "__outstatic": {
@@ -40,8 +40,8 @@
     },
     {
       "__outstatic": {
-        "commit": "71f0b22ac314a89163451a6a729f4a3d537e9e4f",
-        "hash": "3535973274",
+        "commit": "663af23f833c73a92de6dbd54365f6dedce6b9e7",
+        "hash": "964105192",
         "path": "/outstatic/content/posts/apagao-2025.mdx"
       },
       "author": {
