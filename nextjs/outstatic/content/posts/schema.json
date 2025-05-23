@@ -9,7 +9,7 @@
       "title": "Cover Image"
     },
     "isListed": {
-      "description": "If checked, the post will be listed in the website.",
+      "description": "Show this post in the front page.",
       "required": false,
       "fieldType": "Boolean",
       "dataType": "boolean",
