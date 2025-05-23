@@ -151,15 +151,17 @@ h6::selection {
 }
 
 /* * */
-/* PARAGRAPHS */
+/* PARAGRAPHS & LIST ITEMS */
 
-p {
+p,
+li {
 	font-size: var(--font-size-md);
 	font-weight: var(--font-weight-md);
 	color: var(--theme-text-100);
 }
 
-p::selection {
+p::selection,
+li::selection {
 	color: var(--theme-background-100);
 	background-color: var(--theme-text-100);
 }
