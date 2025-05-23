@@ -7,6 +7,13 @@
       "fieldType": "Image",
       "dataType": "image",
       "title": "Cover Image"
+    },
+    "isListed": {
+      "description": "",
+      "required": false,
+      "fieldType": "Boolean",
+      "dataType": "boolean",
+      "title": "Is Listed"
     }
   }
 }
