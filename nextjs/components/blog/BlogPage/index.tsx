@@ -10,8 +10,9 @@ import styles from './styles.module.css';
 /* * */
 
 async function getData() {
-	const posts = getDocuments('posts', ['slug', 'title']);
-	return posts;
+	const allPublishedPosts = getDocuments('posts', ['slug', 'title', 'isListed']);
+	const allListedPosts = allPublishedPosts.filter(item => item.isListed);
+	return allListedPosts;
 }
 
 /* * */
